@@ -1,55 +1,76 @@
-# SymphonyRecomp Ultimate — Android
+# 📱 SymphonyRecomp Ultimate — Community Android & Handheld Port
 
-**Castlevania: Symphony of the Night (Ultimate v1.4)**, statically recompiled from PlayStation MIPS machine code into C# and running natively on Android handhelds. Not an emulator — no BIOS required, native 60 FPS performance, and true 16:9 widescreen.
+<p align="center">
+  <a href="https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/releases/latest">
+    <img src="https://img.shields.io/github/v/release/dmillerzx/SymphonyRecomp-Ultimate-Android?label=Latest%20Android%20APK&amp;color=brightgreen&amp;style=for-the-badge" alt="Latest Android APK">
+  </a>
+  <a href="https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/releases">
+    <img src="https://img.shields.io/badge/Platform-Android%20arm64--v8a-blue?style=for-the-badge&amp;logo=android" alt="Platform: Android arm64-v8a">
+  </a>
+  <img src="https://img.shields.io/badge/Graphics-OpenGL%20ES%201080p%2060FPS-red?style=for-the-badge&amp;logo=opengl" alt="OpenGL ES 1080p 60FPS">
+  <img src="https://img.shields.io/badge/Updates-Obtainium%20Ready-purple?style=for-the-badge" alt="Obtainium Ready">
+  <a href="https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/issues">
+    <img src="https://img.shields.io/github/issues/dmillerzx/SymphonyRecomp-Ultimate-Android?style=for-the-badge&amp;color=orange" alt="GitHub Issues">
+  </a>
+</p>
 
-This repository (`dmillerzx/SymphonyRecomp-Ultimate-Android`) is an independent downstream fork maintained by **dmillerzx** (developed with AI assistance and verified on real Retroid Pocket 5 hardware) specifically for the **SOTN Ultimate v1.4** ROM hack.
+> [!NOTE]
+> **Native Android-Only Fork**: This repository is a community-driven fork maintained by [dmillerzx](https://github.com/dmillerzx) (built with AI assistance and verified on real hardware) dedicated **exclusively to native Android (`arm64-v8a` / `x86_64`) handheld releases** of **Castlevania: Symphony of the Night (Ultimate v1.4)** — verified on the **Retroid Pocket 5** (Qualcomm Snapdragon 865, Adreno 650, Android 13).
+>
+> * **Android Releases Only**: We do **not** publish Windows, Linux, or macOS releases from this repository. Upstream desktop work lives at **BlackLabelHQ** and the upstream Android port lives at [sergiomanzur/SymphonyRecomp](https://github.com/sergiomanzur/SymphonyRecomp) / [sergiomanzur/RecompOne](https://github.com/sergiomanzur/RecompOne).
+> * **SOTN Ultimate v1.4 Credit**: All Ultimate gameplay enhancements, Saturn content, PSP dub/script, and ROM hack patches belong to **[renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)** (*Castlevania: SotN Ultimate*).
+> * **Issue Reporting**: Please do **not** open issues for this fork on `BlackLabelHQ`, `sergiomanzur`, `renanbianchi/sotn-ultimate`, or the SOTN Decomp project. Report issues specific to this build on [dmillerzx/SymphonyRecomp-Ultimate-Android](https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/issues).
+> * **No Game Assets**: This repository and its releases contain **no game data**. You supply your own legally obtained **North American (USA) PlayStation release** (`Castlevania: Symphony of the Night (USA)`) `.bin`/`.cue` disc dump on first launch.
+
+<p align="center">
+  <img src="docs/assets/icon.png" width="128" height="128" alt="SymphonyRecomp Ultimate Android Icon" /><br>
+  <b>Native Android Handheld Port (arm64-v8a / OpenGL ES)</b><br>
+  <i>Verified at 1080p 60 FPS on Retroid Pocket 5 (Snapdragon 865 / Adreno 650)</i>
+</p>
+
+| Castle Entrance Drawbridge (1080p 16:9 on RP5) | Castle Gatehouse (1080p 16:9 on RP5) |
+| :---: | :---: |
+| ![SymphonyRecomp Ultimate drawbridge widescreen on Retroid Pocket 5](docs/assets/android-drawbridge.png) | ![SymphonyRecomp Ultimate gatehouse widescreen on Retroid Pocket 5](docs/assets/android-gatehouse.png) |
 
 ---
 
-## Credits & Upstream Notice
+### What Makes This Android Fork Different
 
-This project stands on the shoulders of three separate community efforts:
-
-- **SOTN Ultimate v1.4 Hack (`renanbianchi`)**: All gameplay enhancements, Saturn areas/Maria, PSP dub/script, balance changes, and ROM hack patches belong to **[renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)** (*Castlevania: SotN Ultimate*).
-- **Upstream Android Port & Runtime (`sergiomanzur`)**: Built on [sergiomanzur/SymphonyRecomp](https://github.com/sergiomanzur/SymphonyRecomp) and [sergiomanzur/RecompOne](https://github.com/sergiomanzur/RecompOne).
-- **Desktop Recompilation (`BlackLabelHQ`)**: Built on the original `SymphonyRecomp` static recompilation architecture and mod ecosystem.
-- **Original Game**: *Castlevania: Symphony of the Night* by Konami / KCET.
-
-Please **do not** report bugs from this build to `BlackLabelHQ`, `sergiomanzur`, the SOTN Decomp project, or the SOTN Ultimate hack authors. Bugs and issues specific to this Ultimate Android recomp belong here on [dmillerzx/SymphonyRecomp-Ultimate-Android](https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/issues).
-
----
-
-## Download
-
-**[Get the latest APK from Releases ->](https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/releases/latest)**
-
-Current release: **v0.12** (`versionCode 14`) — Android 5.0 (API 21)+, `arm64-v8a` / `x86_64`.
-
-The APK contains **no game data**. On first launch, supply your own legally obtained **North American (USA) PlayStation release** (`Castlevania: Symphony of the Night (USA)`) `.bin`/`.cue` disc dump — **no pre-patched ISO is required** (this is the primary supported input). A **SOTN Ultimate v1.4** patched `.bin`/`.cue` image is also supported if you want Ultimate-exclusive Saturn/PSP disc assets (extra area data, voice dubs, and music tracks).
+| Feature | Android Handheld Implementation |
+| :--- | :--- |
+| **Ultimate v1.4 Static Recompilation** | Built against Ultimate v1.4 overlays (`main`, `dra`, `sel`, `st0`, `no3`, and stage overlays via `config_ultimate/`) with verified hooks for `CamCol`, `SetNextRoomToLoad`, `RenderTilemap`, `InitFade`, `SetFadeWidth`, `SetFadeMode`, `AllocPrimitives`, `DoGravityJump`, and `Skip Prologue` |
+| **True 16:9 Widescreen & Edge Clamping** | Uses `WindowManager.MaximumWindowMetrics` / `Display.GetRealMetrics` for exact `1.778` (`1920x1080`) aspect detection, full `RenderTilemapWide` column expansion, and background edge clamping |
+| **FMV & Double-Buffer Fix** | Clamps cross-buffer `offY` (`(dispY & 0xFF) - (src.Y & 0xFF)`) in `GlCore.PresentDisplay` to eliminate vertical-stripe artifacts during FMVs and menu transitions |
+| **60 FPS Handheld Tuning** | Compiles Release with `PublishTrimmed=false` / `AndroidLinkMode=None`, removes per-flush `GlDiag` logcat spam and `glReadPixels` GPU stalls, defaults to `RenderScale = 2`, and widens `WaitVBlanks` sleep margin (`4.0ms`) |
+| **Adaptive App Icon** | Full-bleed pixel-art adaptive launcher icon (`mipmap-anydpi-v26/icon.xml`) with zero white launcher border |
+| **Vanilla USA Disc Support** | Primary input is a standard vanilla **North American (USA) PS1 `.bin`/`.cue`** dump (`SLUS_000.67`) — no pre-patched Ultimate ISO required (Ultimate v1.4 `.bin`/`.cue` is also accepted) |
 
 ---
 
-## What's Specific to This Ultimate Android Port
+### 🎮 Android Quick Start & Hardware Compatibility
 
-- **Ultimate v1.4 Recompiled Overlays & Symbol Remapping**:
-  - Generated Ultimate v1.4 overlays (`main`, `dra`, `sel`, `st0`, `no3`, and stage overlays) using `config_ultimate/` funcmaps.
-  - Remapped widescreen, fade, camera, tilemap, and QOL hooks (`CamCol`, `SetNextRoomToLoad`, `RenderTilemap`, `InitFade`, `SetFadeWidth`, `SetFadeMode`, `AllocPrimitives`, `DoGravityJump`, `Skip Prologue`) to their verified Ultimate v1.4 addresses.
-- **True 16:9 Widescreen & FMV Fixes**:
-  - Full-screen `16:9` (`1.778`) `DeviceAspect` detection using `MaximumWindowMetrics` / `GetRealMetrics` (no system-bar aspect distortion).
-  - Edge-to-edge tilemap rendering with background edge clamping.
-  - Cross-buffer `offY` fix in `GlCore.PresentDisplay` to eliminate vertical-stripe artifacts during FMVs and menu transitions.
-- **60 FPS Handheld Performance**:
-  - Release builds compiled with `PublishTrimmed=false` / `AndroidLinkMode=None` for full JIT stability without trimming crashes.
-  - Removed per-flush diagnostic `logcat` spam and `glReadPixels` GPU stalls.
-  - Tuned Android defaults (`RenderScale = 2`, `4.0ms` VBlank sleep margin) for locked 60 FPS on Snapdragon 865 / Adreno 650 handhelds (configurable in-game up to `4x`).
-- **Adaptive App Icon**: Full-bleed pixel-art adaptive launcher icon (`mipmap-anydpi-v26/icon.xml`).
-- **Full Android Feature Set**: Physical controller support (PlayStation / Xbox / Nintendo layouts), touch overlay, 5 save-state slots, `.mcr`/`.mcd`/`.sav` memory card import/export, QOL toggles, cheats/inventory editor, and on-device C# mod compilation.
+1. **Download**: Grab `com.blacklabelhq.sotn-Signed.apk` from [GitHub Releases](https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/releases/latest).
+2. **Disc Import (In-App Picker)**: On first launch, use the in-app Android file picker to select your legally obtained **North American (USA)** `Castlevania: Symphony of the Night (USA)` `.cue` and `.bin` files from anywhere on internal storage or MicroSD. The app copies and indexes them into app-private storage once and never asks again.
+3. **Recommended Handheld Settings**:
+   - **Render scale**: `2x` (default for locked 60 FPS on Snapdragon 865 / Adreno 650; adjustable up to `4x` in the in-game Display menu).
+   - **Aspect ratio**: `Auto (Device)` for full-screen `16:9` widescreen.
+4. **Obtainium Auto-Updates**: Add `https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android` in Obtainium with APK filter `com\.blacklabelhq\.sotn-Signed\.apk$` to receive automatic updates.
+
+---
+
+## Features
+
+- **Native Performance**: Statically recompiled PS1 MIPS to C#/.NET — no emulator and no BIOS file required.
+- **Physical Controllers & Touch Controls**: Full handheld/Bluetooth/USB controller support with PlayStation / Xbox / Nintendo button layouts, plus a customizable PSX touch overlay (D-pad or virtual stick, opacity, and hide toggle).
+- **Save States & Memory Cards**: 5 save-state slots plus `.mcr`/`.mcd`/`.sav` (and DexDrive/VGS) memory card import/export.
+- **Quality of Life**: Skip Prologue, Easy Spell Inputs, Gravity Boots jump fix, Extra Invincibility Frames, Infinite Wing Smash, Colorblind palettes, and Anti-Freeze toggles.
+- **Cheats, Stats & On-Device Mods**: Built-in item/relic/spell editor and on-device Roslyn C# mod compilation.
 
 ---
 
 ## Building from Source
 
-Building from source requires a **SOTN Ultimate v1.4** (or compatible USA) disc image for recompilation and the .NET 10 Android workload (`net10.0-android`):
+Building from source requires a compatible **SOTN Ultimate v1.4** disc image for recompilation and the **.NET 10 Android workload (`net10.0-android`)**:
 
 ```powershell
 git clone --recursive https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android.git
