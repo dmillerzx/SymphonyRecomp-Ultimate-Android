@@ -38,7 +38,8 @@
 
 | Feature | Android Handheld Implementation |
 | :--- | :--- |
-| **Ultimate v1.4 Static Recompilation** | Built against Ultimate v1.4 overlays (`main`, `dra`, `sel`, `st0`, `no3`, and stage overlays via `config_ultimate/`) with verified hooks for `CamCol`, `SetNextRoomToLoad`, `RenderTilemap`, `InitFade`, `SetFadeWidth`, `SetFadeMode`, `AllocPrimitives`, `DoGravityJump`, and `Skip Prologue` |
+| **Ultimate v1.4 Static Recompilation** | Built against Ultimate v1.4 overlays (`main`, `dra`, `sel`, `st0`, `no3`, and stage overlays via `config_ultimate/` + `*Aliases.cs`) with verified hooks for `CamCol`, `SetNextRoomToLoad`, `RenderTilemap`, `InitFade`, `SetFadeWidth`, `SetFadeMode`, and `AllocPrimitives` |
+| **QOL & Castle Entrance (`NO3`) Fixes** | Fixed `Skip Prologue` on Ultimate v1.4, gated `Tetra Spirit`/`Hellfire` behind `UseEasySpellInput`, fixed `DoGravityJump` early return, unhooked mis-mapped `RemoveFlashes` from `CreateHPNumMove`, and resolved the `NO3` stack-leak crash |
 | **True 16:9 Widescreen & Edge Clamping** | Uses `WindowManager.MaximumWindowMetrics` / `Display.GetRealMetrics` for exact `1.778` (`1920x1080`) aspect detection, full `RenderTilemapWide` column expansion, and background edge clamping |
 | **FMV & Double-Buffer Fix** | Clamps cross-buffer `offY` (`(dispY & 0xFF) - (src.Y & 0xFF)`) in `GlCore.PresentDisplay` to eliminate vertical-stripe artifacts during FMVs and menu transitions |
 | **60 FPS Handheld Tuning** | Compiles Release with `PublishTrimmed=false` / `AndroidLinkMode=None`, removes per-flush `GlDiag` logcat spam and `glReadPixels` GPU stalls, defaults to `RenderScale = 2`, and widens `WaitVBlanks` sleep margin (`4.0ms`) |
