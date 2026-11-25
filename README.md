@@ -80,3 +80,12 @@ dotnet build RecompOne.SoTN.Android.csproj -c Release
 ```
 
 > **Note (`net10.0-android` Release)**: Always run `dotnet clean -c Release` before `dotnet build -c Release` so Android JNI typemaps stay in sync.
+
+---
+
+## Credits
+
+- **Castlevania: SotN Ultimate v1.4**: **[renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)** — Saturn areas, Saturn & PSP Maria, PSP dub/script, Castle Entrance rework, and ROM hack patches.
+- **Upstream Android Port & Runtime**: **[sergiomanzur/SymphonyRecomp](https://github.com/sergiomanzur/SymphonyRecomp)** & **[sergiomanzur/RecompOne](https://github.com/sergiomanzur/RecompOne)** — PS1-to-.NET static recompilation runtime and Android host.
+- **Desktop Recompilation & Mods**: **BlackLabelHQ** — original `SymphonyRecomp` architecture, widescreen patches, QOL, and mod system.
+- **SOTN Decomp & Original Game**: The **SOTN Decomp** community and **Konami / KCET**.
