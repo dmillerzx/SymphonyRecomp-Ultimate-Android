@@ -10,7 +10,7 @@ This repository (`dmillerzx/SymphonyRecomp-Ultimate-Android`) is an independent 
 
 This project stands on the shoulders of three separate community efforts:
 
-- **SOTN Ultimate v1.4 Hack**: All gameplay enhancements, balance changes, extra content, and ROM hack patches belong to the **Castlevania: Symphony of the Night Ultimate** creators and contributors.
+- **SOTN Ultimate v1.4 Hack (`renanbianchi`)**: All gameplay enhancements, Saturn areas/Maria, PSP dub/script, balance changes, and ROM hack patches belong to **[renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)** (*Castlevania: SotN Ultimate*).
 - **Upstream Android Port & Runtime (`sergiomanzur`)**: Built on [sergiomanzur/SymphonyRecomp](https://github.com/sergiomanzur/SymphonyRecomp) and [sergiomanzur/RecompOne](https://github.com/sergiomanzur/RecompOne).
 - **Desktop Recompilation (`BlackLabelHQ`)**: Built on the original `SymphonyRecomp` static recompilation architecture and mod ecosystem.
 - **Original Game**: *Castlevania: Symphony of the Night* by Konami / KCET.
@@ -25,7 +25,7 @@ Please **do not** report bugs from this build to `BlackLabelHQ`, `sergiomanzur`,
 
 Current release: **v0.12** (`versionCode 14`) — Android 5.0 (API 21)+, `arm64-v8a` / `x86_64`.
 
-The APK contains **no game data**. You only need to supply your own legally obtained **North American (USA) PlayStation release** (`Castlevania: Symphony of the Night (USA)`) `.bin`/`.cue` disc dump on first launch — **no pre-patched Ultimate ISO is required** (the Ultimate v1.4 gameplay code is already statically recompiled into the app, while the vanilla USA disc supplies the original audio, FMVs, and assets).
+The APK contains **no game data**. On first launch, supply your own legally obtained **North American (USA) PlayStation release** (`Castlevania: Symphony of the Night (USA)`) `.bin`/`.cue` disc dump — **no pre-patched ISO is required** (this is the primary supported input). A **SOTN Ultimate v1.4** patched `.bin`/`.cue` image is also supported if you want Ultimate-exclusive Saturn/PSP disc assets (extra area data, voice dubs, and music tracks).
 
 ---
 
