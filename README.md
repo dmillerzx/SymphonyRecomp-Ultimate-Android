@@ -25,7 +25,7 @@ Please **do not** report bugs from this build to `BlackLabelHQ`, `sergiomanzur`,
 
 Current release: **v0.12** (`versionCode 14`) — Android 5.0 (API 21)+, `arm64-v8a` / `x86_64`.
 
-The APK contains **no game data**. You must supply your own legally obtained **Castlevania: Symphony of the Night (Ultimate v1.4)** `.bin`/`.cue` disc dump on first launch.
+The APK contains **no game data**. You only need to supply your own legally obtained **North American (USA) PlayStation release** (`Castlevania: Symphony of the Night (USA)`) `.bin`/`.cue` disc dump on first launch — **no pre-patched Ultimate ISO is required** (the Ultimate v1.4 gameplay code is already statically recompiled into the app, while the vanilla USA disc supplies the original audio, FMVs, and assets).
 
 ---
 
@@ -49,7 +49,7 @@ The APK contains **no game data**. You must supply your own legally obtained **C
 
 ## Building from Source
 
-Building from source requires your own **SOTN Ultimate v1.4** disc image and the .NET 10 Android workload (`net10.0-android`):
+Building from source requires a **SOTN Ultimate v1.4** (or compatible USA) disc image for recompilation and the .NET 10 Android workload (`net10.0-android`):
 
 ```powershell
 git clone --recursive https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android.git
