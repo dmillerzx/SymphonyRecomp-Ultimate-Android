@@ -1,0 +1,19 @@
+{
+  "game": {
+    "id": "SLUS-00067",
+    "name": "SoTN",
+    "output": "../scratch/no3_out"
+  },
+  "cue": "../disc/Castlevania Symphony of the Night (Ultimate v1.4).cue",
+  "funcMap": "funcmaps/main.json",
+  "linearSweep": false,
+  "overlays": [
+    {
+      "name": "no3",
+      "funcMap": "funcmaps/no3.json",
+      "base": "0x80180000",
+      "file": "ST/NO3/NO3.BIN",
+      "linearSweep": true
+    }
+  ]
+}

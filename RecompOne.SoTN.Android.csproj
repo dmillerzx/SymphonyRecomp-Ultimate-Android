@@ -8,14 +8,20 @@
     <ApplicationId>com.blacklabelhq.sotn</ApplicationId>
     <!-- ApplicationVersion is the integer versionCode Android compares on update, so it only
          ever goes up. ApplicationDisplayVersion is what players see. -->
-    <ApplicationVersion>13</ApplicationVersion>
-    <ApplicationDisplayVersion>0.11</ApplicationDisplayVersion>
+    <ApplicationVersion>14</ApplicationVersion>
+    <ApplicationDisplayVersion>0.12</ApplicationDisplayVersion>
     <AndroidPackageFormat>apk</AndroidPackageFormat>
     <AndroidGenerateAppBundle>false</AndroidGenerateAppBundle>
     <UseFlagsAttributeForFlags>true</UseFlagsAttributeForFlags>
     <RunAOTCompilation>false</RunAOTCompilation>
     <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <PublishTrimmed Condition="'$(Configuration)' == 'Release'">false</PublishTrimmed>
+    <AndroidLinkMode Condition="'$(Configuration)' == 'Release'">None</AndroidLinkMode>
     <RuntimeIdentifiers>android-arm64;android-x64</RuntimeIdentifiers>
+    <NoWarn>$(NoWarn);CS0162;CS0164;CS0219;CS8600;CS8601;CS8602;CS8603;CS8604;CS8618;CS8625</NoWarn>
+    <RunAnalyzers>false</RunAnalyzers>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
     <!-- Exclude desktop Program.cs and the RecompOne submodule folder.
          extras/** holds mod source, which is compiled at runtime by Roslyn and must never be
          compiled into the app: the default **/*.cs glob would otherwise pull it in, where
@@ -52,7 +58,7 @@
 
   <!-- Android App Icons -->
   <ItemGroup>
-    <AndroidResource Include="Android\Resources\**\*.png" />
+    <AndroidResource Include="Android\Resources\**\*" />
   </ItemGroup>
 
   <!-- Assets to copy to the device at runtime -->

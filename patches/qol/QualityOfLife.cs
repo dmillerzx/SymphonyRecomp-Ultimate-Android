@@ -130,8 +130,7 @@ internal class QualityOfLife
                 m.WriteU16(0x80138fda, 0x10); // Soul Steal Timer = 10 fr
                 m.WriteU16(0x80097494, 0x80); // Button Tapped = Sq
             }
-        }
-        {
+
             // ↓↓ + L2 makes Tetra Spirit go
             if (m.ReadU16(0x80097490) == 0x4001)
             {
@@ -139,8 +138,7 @@ internal class QualityOfLife
                 m.WriteU16(0x80138fd2, 0x10); // Soul Steal Timer = 10 fr
                 m.WriteU16(0x80097494, 0x80); // Button Tapped = Sq
             }
-        }
-        {
+
             // → | ← + L2 makes Hellfire go
             if (m.ReadU16(0x80097490) == 0x2001 || m.ReadU16(0x80097490) == 0x8001)
             {

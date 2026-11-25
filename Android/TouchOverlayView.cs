@@ -19,6 +19,7 @@ namespace RecompOne.SoTN.Android
         public Action<bool>? OnVisibilityToggled;
         public float TouchOpacity = 0.7f;
         public bool TouchVisible = true;
+        public bool TouchIconsVisible = false;
         public TouchControlMode ControlMode = TouchControlMode.DPad;
 
         private readonly Paint _fillPaint = new Paint(PaintFlags.AntiAlias);
@@ -211,20 +212,23 @@ namespace RecompOne.SoTN.Android
                 float px = e.GetX(i);
                 float py = e.GetY(i);
 
-                if (l.Menu.Contains(px, py))
+                if (TouchIconsVisible)
                 {
-                    pMenu = true;
-                    hitAnything = true;
-                    if (isDownAction) menuTriggered = true;
-                    continue;
-                }
+                    if (l.Menu.Contains(px, py))
+                    {
+                        pMenu = true;
+                        hitAnything = true;
+                        if (isDownAction) menuTriggered = true;
+                        continue;
+                    }
 
-                if (l.Toggle.Contains(px, py))
-                {
-                    pToggle = true;
-                    hitAnything = true;
-                    if (isDownAction) toggleTriggered = true;
-                    continue;
+                    if (l.Toggle.Contains(px, py))
+                    {
+                        pToggle = true;
+                        hitAnything = true;
+                        if (isDownAction) toggleTriggered = true;
+                        continue;
+                    }
                 }
 
                 // Everything below is a game control, so it is inert while hidden.
@@ -444,11 +448,14 @@ namespace RecompOne.SoTN.Android
             }
 
             // Menu and the hide/show toggle stay on screen even when the controls are
-            // hidden, otherwise there would be no way to bring them back.
+            // hidden, provided TouchIconsVisible is enabled.
             // Plain text rather than emoji: colour-emoji glyphs fall back to tofu boxes
             // on some devices' default Paint typeface.
-            DrawAccented(canvas, l.Menu, "⚙ MENU", Color.Yellow, _pMenu, 12f, density, alphaHigh);
-            DrawAccented(canvas, l.Toggle, TouchVisible ? "HIDE" : "SHOW", Color.Cyan, _pToggle, 12f, density, alphaHigh);
+            if (TouchIconsVisible)
+            {
+                DrawAccented(canvas, l.Menu, "⚙ MENU", Color.Yellow, _pMenu, 12f, density, alphaHigh);
+                DrawAccented(canvas, l.Toggle, TouchVisible ? "HIDE" : "SHOW", Color.Cyan, _pToggle, 12f, density, alphaHigh);
+            }
         }
 
         private void DrawAccented(Canvas canvas, RectF rect, string label, Color accent, bool pressed,

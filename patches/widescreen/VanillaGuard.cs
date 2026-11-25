@@ -40,6 +40,11 @@ public static partial class WidescreenPatch
     static bool WideExt(System.Action<CpuContext, IMemory> impl, CpuContext c, IMemory m, params string[] needs)
     {
         if (!Extended || !StageHas(m, needs)) return true;
+        if (impl == BackgroundPineTreesWide || impl == ForegroundTreeWide || impl == FoliageMakerWide || impl == DistantTreeMakerWide)
+        {
+            uint table = m.ReadU32(IntroPineSets);
+            if (table < 0x80180000u || table > 0x801F0000u) return true;
+        }
         impl(c, m);
         return false;
     }

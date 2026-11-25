@@ -29,12 +29,15 @@ namespace RecompOne.SoTN.Android
         static readonly Option<bool> TouchVisibleOption =
             Options.Bool("android.touch.visible", DefaultTouchVisible);
 
+        static readonly Option<bool> TouchIconsVisibleOption =
+            Options.Bool("android.touch.icons_visible", DefaultTouchIconsVisible);
+
         static readonly Option<float> TouchOpacityOption =
             Options.Float("android.touch.opacity", DefaultTouchOpacity)
                 .Normalized(static v => Math.Clamp(v, 0.1f, 1f));
 
         static readonly Option<int> OrientationOption =
-            Options.Int("android.orientation", 0)
+            Options.Int("android.orientation", 1)
                 .Normalized(static v => Math.Clamp(v, 0, 2));
 
         static readonly Option<int> AspectOption =
@@ -42,7 +45,7 @@ namespace RecompOne.SoTN.Android
                 .Normalized(static v => Math.Clamp(v, 0, 3));
 
         static readonly Option<int> PadLayoutOption =
-            Options.Int("android.pad_layout", 0)
+            Options.Int("android.pad_layout", 1)
                 .Normalized(static v => Math.Clamp(v, 0, 2));
 
         static readonly Option<int> TouchControlModeOption =
@@ -54,13 +57,20 @@ namespace RecompOne.SoTN.Android
 
         public const string KeyModsPath = "android.mods_path";
 
-        public const bool DefaultTouchVisible = true;
+        public const bool DefaultTouchVisible = false;
+        public const bool DefaultTouchIconsVisible = false;
         public const float DefaultTouchOpacity = 0.7f;
 
         public static bool TouchVisible
         {
             get => TouchVisibleOption.Value;
             set { TouchVisibleOption.Value = value; Save(); }
+        }
+
+        public static bool TouchIconsVisible
+        {
+            get => TouchIconsVisibleOption.Value;
+            set { TouchIconsVisibleOption.Value = value; Save(); }
         }
 
         public static float TouchOpacity
@@ -234,7 +244,7 @@ namespace RecompOne.SoTN.Android
             TouchControlModeOption.Reset();
             ModsPathOption.Reset();
 
-            DisplayOptions.RenderScale.Value = 4;
+            DisplayOptions.RenderScale.Value = 2;
             DisplayOptions.VSync.Value = false;
 
             // The quality of life toggles live in the same file, so a reset should clear

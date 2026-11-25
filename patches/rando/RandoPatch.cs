@@ -12662,10 +12662,13 @@ public static partial class RandoPatch
 
         if (m.ReadU32(0x800974a0) == 0x1F)
         {
-            StartingStageIdInMemory = m.ReadU16(0x801AF594);
-            if (StartingStageIdInMemory != 0x1F)
+            if (CUR_PRESET != (byte)PresetId.None && CUR_PRESET != (byte)PresetId.Integrated)
             {
-                m.WriteU16(0x800974a0, StartingStageIdInMemory);
+                StartingStageIdInMemory = m.ReadU16(0x801AF594);
+                if (StartingStageIdInMemory != 0x1F)
+                {
+                    m.WriteU16(0x800974a0, StartingStageIdInMemory);
+                }
             }
             if(CUR_PRESET == (byte)PresetId.Integrated && Randomizer.SkipPrologue == true)
             {

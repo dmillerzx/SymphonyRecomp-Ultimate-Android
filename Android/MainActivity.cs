@@ -21,8 +21,9 @@ namespace RecompOne.SoTN.Android
 {
     [Activity(Label = "SymphonyRecomp", Icon = "@mipmap/icon", MainLauncher = true, 
               Theme = "@android:style/Theme.NoTitleBar.Fullscreen", 
+              LaunchMode = LaunchMode.SingleTask,
               ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize | ConfigChanges.SmallestScreenSize | ConfigChanges.ScreenLayout | ConfigChanges.KeyboardHidden,
-              ScreenOrientation = ScreenOrientation.Sensor)]
+              ScreenOrientation = ScreenOrientation.SensorLandscape)]
     public class MainActivity : SilkActivity
     {
         public enum ScreenOrientationMode
@@ -32,7 +33,7 @@ namespace RecompOne.SoTN.Android
             LockPortrait = 2
         }
 
-        public static ScreenOrientationMode CurrentOrientationMode = ScreenOrientationMode.AutoRotate;
+        public static ScreenOrientationMode CurrentOrientationMode = ScreenOrientationMode.LockLandscape;
 
         // Backed by AndroidSettings so they survive a restart; the setters persist.
         private float _touchOpacity
@@ -47,9 +48,16 @@ namespace RecompOne.SoTN.Android
             set => AndroidSettings.TouchVisible = value;
         }
 
+        private bool _touchIconsVisible
+        {
+            get => AndroidSettings.TouchIconsVisible;
+            set => AndroidSettings.TouchIconsVisible = value;
+        }
+
         protected override void OnCreate(Bundle? savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
+            base.OnCreate(savedInstanceState);
+            ApplyFullScreenImmersive();
             
             Console.WriteLine("[Android] MainActivity OnCreate started.");
             
@@ -62,13 +70,30 @@ namespace RecompOne.SoTN.Android
             // the level is drawn every time the player rotates.
             try
             {
-                var dm = Resources?.DisplayMetrics;
-                if (dm != null && dm.WidthPixels > 0 && dm.HeightPixels > 0)
+                if (global::Android.OS.Build.VERSION.SdkInt >= global::Android.OS.BuildVersionCodes.R)
                 {
-                    float lo = Math.Min(dm.WidthPixels, dm.HeightPixels);
-                    float hi = Math.Max(dm.WidthPixels, dm.HeightPixels);
-                    AndroidSettings.DeviceAspect = hi / lo;
-                    Console.WriteLine($"[Android] Device aspect: {AndroidSettings.DeviceAspect:0.###}");
+                    var bounds = WindowManager?.MaximumWindowMetrics?.Bounds;
+                    if (bounds != null && bounds.Width() > 0 && bounds.Height() > 0)
+                    {
+                        float lo = Math.Min(bounds.Width(), bounds.Height());
+                        float hi = Math.Max(bounds.Width(), bounds.Height());
+                        AndroidSettings.DeviceAspect = hi / lo;
+                        Console.WriteLine($"[Android] Device aspect: {AndroidSettings.DeviceAspect:0.###}");
+                    }
+                }
+                else
+                {
+                    var dm = new global::Android.Util.DisplayMetrics();
+#pragma warning disable CA1422
+                    WindowManager?.DefaultDisplay?.GetRealMetrics(dm);
+#pragma warning restore CA1422
+                    if (dm.WidthPixels > 0 && dm.HeightPixels > 0)
+                    {
+                        float lo = Math.Min(dm.WidthPixels, dm.HeightPixels);
+                        float hi = Math.Max(dm.WidthPixels, dm.HeightPixels);
+                        AndroidSettings.DeviceAspect = hi / lo;
+                        Console.WriteLine($"[Android] Device aspect: {AndroidSettings.DeviceAspect:0.###}");
+                    }
                 }
             }
             catch { }
@@ -110,6 +135,7 @@ namespace RecompOne.SoTN.Android
             };
 
             SetupTouchControls();
+            HostWindow.OnMenuRequested = () => RunOnUiThread(ShowMenuDialog);
             ShowSplashScreen();
         }
 
@@ -202,6 +228,54 @@ namespace RecompOne.SoTN.Android
 
         // --- TOUCH OVERLAY CREATION (PSX LAYOUT) ---
 
+        
+        public override void OnWindowFocusChanged(bool hasFocus)
+        {
+            base.OnWindowFocusChanged(hasFocus);
+            if (hasFocus)
+            {
+                ApplyFullScreenImmersive();
+            }
+        }
+
+        private void ApplyFullScreenImmersive()
+        {
+            try
+            {
+                Window?.AddFlags(WindowManagerFlags.Fullscreen | WindowManagerFlags.KeepScreenOn);
+                if (Build.VERSION.SdkInt >= BuildVersionCodes.R)
+                {
+                    Window?.SetDecorFitsSystemWindows(false);
+                    var controller = Window?.InsetsController;
+                    if (controller != null)
+                    {
+                        controller.Hide(WindowInsets.Type.StatusBars() | WindowInsets.Type.NavigationBars());
+                        controller.SystemBarsBehavior = (int)WindowInsetsControllerBehavior.ShowTransientBarsBySwipe;
+                    }
+                }
+                else
+                {
+#pragma warning disable CS0618
+                    var uiOptions = (StatusBarVisibility)(
+                        SystemUiFlags.ImmersiveSticky |
+                        SystemUiFlags.LayoutStable |
+                        SystemUiFlags.LayoutHideNavigation |
+                        SystemUiFlags.LayoutFullscreen |
+                        SystemUiFlags.HideNavigation |
+                        SystemUiFlags.Fullscreen);
+                    if (Window?.DecorView != null)
+                    {
+                        Window.DecorView.SystemUiVisibility = uiOptions;
+                    }
+#pragma warning restore CS0618
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"[Android] ApplyFullScreenImmersive failed: {ex.Message}");
+            }
+        }
+
         protected override void OnPause()
         {
             base.OnPause();
@@ -214,7 +288,8 @@ namespace RecompOne.SoTN.Android
 
         protected override void OnResume()
         {
-            base.OnResume();
+            base.OnResume();
+            ApplyFullScreenImmersive();
             Console.WriteLine("[Android] MainActivity OnResume - resuming audio.");
             Audio.Resume();
         }
@@ -239,6 +314,7 @@ namespace RecompOne.SoTN.Android
                     {
                         TouchOpacity = _touchOpacity,
                         TouchVisible = _touchVisible,
+                        TouchIconsVisible = _touchIconsVisible,
                         ControlMode = (TouchControlMode)AndroidSettings.TouchControlMode,
                         OnMenuClicked = ShowMenuDialog,
                         // Keep the settings dialog's label in step with the on-screen toggle.
@@ -866,10 +942,15 @@ namespace RecompOne.SoTN.Android
                     ShowTouchControlsMenu();
                 })
                 .Section("Overlay")
-                .Toggle("Show buttons", _touchVisible, on =>
+                .Toggle("Show game controls", _touchVisible, on =>
                 {
                     _touchVisible = on;
                     if (_touchView != null) { _touchView.TouchVisible = on; _touchView.Invalidate(); }
+                })
+                .Toggle("Show on-screen menu icons", _touchIconsVisible, on =>
+                {
+                    _touchIconsVisible = on;
+                    if (_touchView != null) { _touchView.TouchIconsVisible = on; _touchView.Invalidate(); }
                 })
                 .Item("Opacity", $"{(int)(_touchOpacity * 100)}%", () =>
                     new MenuSheet(this, "Opacity")
@@ -1033,8 +1114,8 @@ namespace RecompOne.SoTN.Android
 
         private string FriendlyModsDir(string dir)
         {
-            if (dir.StartsWith(FilesDir?.Path ?? " ", StringComparison.OrdinalIgnoreCase)) return "App storage";
-            string ext = GetExternalFilesDir(null)?.AbsolutePath ?? " ";
+            if (dir.StartsWith(FilesDir?.Path ?? "[none]", StringComparison.OrdinalIgnoreCase)) return "App storage";
+            string ext = GetExternalFilesDir(null)?.AbsolutePath ?? "[none]";
             if (dir.StartsWith(ext, StringComparison.OrdinalIgnoreCase)) return "Shared app folder";
             return System.IO.Path.GetFileName(dir.TrimEnd('/')) is { Length: > 0 } n ? n : dir;
         }

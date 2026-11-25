@@ -1,0 +1,28 @@
+{
+  "game": {
+    "id": "SLUS-00067",
+    "name": "SoTN",
+    "output": "../scratch/sel_test_out"
+  },
+  "cue": "../disc/Castlevania Symphony of the Night (Ultimate v1.4).cue",
+  "funcMap": "funcmaps/main.json",
+  "linearSweep": false,
+  "overlays": [
+    {
+      "name": "sel",
+      "funcMap": "funcmaps/sel.json",
+      "base": "0x80180000",
+      "file": "ST/SEL/SEL.BIN",
+      "linearSweep": true
+    }
+  ],
+  "hooks": [
+    {
+      "comment": "Skip Prologue Support (Ultimate v1.4)",
+      "overlay": "sel",
+      "function": "func_801B4C80",
+      "mode": "post",
+      "target": "Recompiled.RandoPatch.SkipPrologue"
+    }
+  ]
+}

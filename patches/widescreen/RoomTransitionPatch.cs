@@ -59,7 +59,7 @@ public static partial class WidescreenPatch
         var snap = c.Snapshot();
         c.A0 = (uint)x;
         c.A1 = (uint)y;
-        SoTN_dra.SetNextRoomToLoad(c, m);
+        SoTN_dra.func_800EE690(c, m);
         int v0 = (int)c.V0;
         c.Restore(snap);
         return v0;
@@ -84,18 +84,23 @@ public static partial class WidescreenPatch
         bool staleBounds = _roomX != int.MinValue && (tmX != _roomX || tmW != _roomW);
         int handoffX = S16(m, PlPosXHi);
 
-        if (_roomJustLoaded && staleBounds && !OriginalAspect)
+        if (_roomJustLoaded && !OriginalAspect)
         {
             _roomJustLoaded = false;
-            int scrNow = S16(m, TilemapScrollXHi);
-            int scrHi = Math.Max(tmX, tmW - 256);
-            if (scrNow < tmX || scrNow > scrHi)
+            _roomX = tmX;
+            _roomW = tmW;
+            if (staleBounds)
             {
-                int rebased = Math.Clamp(scrNow, tmX, scrHi);
-                int keptPlX = S16(m, PlPosXHi);
-                W16(m, TilemapScrollXHi, rebased);
-                px = keptPlX + rebased;
-                m.WriteU32(PlayerXWorld, (uint)px);
+                int scrNow = S16(m, TilemapScrollXHi);
+                int scrHi = Math.Max(tmX, tmW - 256);
+                if (scrNow < tmX || scrNow > scrHi)
+                {
+                    int rebased = Math.Clamp(scrNow, tmX, scrHi);
+                    int keptPlX = S16(m, PlPosXHi);
+                    W16(m, TilemapScrollXHi, rebased);
+                    px = keptPlX + rebased;
+                    m.WriteU32(PlayerXWorld, (uint)px);
+                }
             }
         }
 

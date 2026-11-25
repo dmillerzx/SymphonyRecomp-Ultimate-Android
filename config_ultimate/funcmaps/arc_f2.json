@@ -1,0 +1,45 @@
+{
+  "functions": [
+    {
+      "address": "0x8016DC28",
+      "name": "func_8016DC28",
+      "size": 84
+    },
+    {
+      "address": "0x8016DC7C",
+      "name": "func_8016DC7C",
+      "size": 168
+    },
+    {
+      "address": "0x8016DD24",
+      "name": "func_8016DD24",
+      "size": 72
+    },
+    {
+      "address": "0x8016DD6C",
+      "name": "func_8016DD6C",
+      "size": 376
+    },
+    {
+      "address": "0x8016DEE4",
+      "name": "func_8016DEE4",
+      "size": 496
+    },
+    {
+      "address": "0x8016E0D4",
+      "name": "func_8016E0D4",
+      "size": 332
+    },
+    {
+      "address": "0x8016E220",
+      "name": "func_8016E220",
+      "size": 380
+    },
+    {
+      "address": "0x8016E39C",
+      "name": "func_8016E39C",
+      "size": 220
+    }
+  ],
+  "labels": []
+}

@@ -8,7 +8,11 @@ public static class WidescreenOptions
 {
     public static readonly Option<float> Aspect = Options.Float("widescreen.aspect", 16f / 9f)
         .Normalized(static v => Math.Clamp(v, 1f, 3f));
+#if ANDROID
+    public static readonly Option<bool> OriginalAspect = Options.Bool("widescreen.original_aspect", false);
+#else
     public static readonly Option<bool> OriginalAspect = Options.Bool("widescreen.original_aspect", true);
+#endif
     public static readonly Option<bool> Letterbox = Options.Bool("widescreen.letterbox", false);
     public static readonly Option<bool> Unstretch = Options.Bool("widescreen.unstretch", true);
 }
