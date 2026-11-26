@@ -551,6 +551,11 @@ public static class RoomFills
         if (_files.TryGetValue(name, out var path))
             return File.OpenRead(path);
 
+        // On Android the assets are unpacked next to the executable rather than embedded
+        // in the app assembly; look there before failing.
+        var local = Path.Combine("assets", "extension", name);
+        if (File.Exists(local)) return File.OpenRead(local);
+
         var asm = Assembly.GetExecutingAssembly();
         string suffix = ".extension." + name;
         var res = Array.Find(asm.GetManifestResourceNames(),
@@ -575,6 +580,7 @@ public static class RoomFills
                 AllowTrailingCommas = true,
             });
 
+            Console.WriteLine($"[RoomFills] loaded {doc?.Fills?.Count ?? 0} fill(s)");
             foreach (var fill in doc?.Fills ?? [])
             {
                 fill.TileData = ParseTiles(fill.Tiles);
