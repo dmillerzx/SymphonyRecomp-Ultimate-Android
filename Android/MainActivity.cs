@@ -57,6 +57,7 @@ namespace RecompOne.SoTN.Android
         protected override void OnCreate(Bundle? savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            InstallLogTee();
             ApplyFullScreenImmersive();
             
             Console.WriteLine("[Android] MainActivity OnCreate started.");
@@ -206,7 +207,84 @@ namespace RecompOne.SoTN.Android
             catch (Exception ex)
             {
                 Console.Error.WriteLine($"[Android] Game execution crashed: {ex.ToString()}");
+                ShowFatalErrorDialog("SymphonyRecomp failed to start", ex);
             }
+        }
+
+        private string? _logFilePath;
+
+        private void InstallLogTee()
+        {
+            try
+            {
+                string? external = null;
+                try { external = GetExternalFilesDir(null)?.AbsolutePath; } catch { }
+                string dir = !string.IsNullOrWhiteSpace(external) ? external : (FilesDir?.Path ?? "");
+                if (string.IsNullOrWhiteSpace(dir)) return;
+                Directory.CreateDirectory(dir);
+                _logFilePath = System.IO.Path.Combine(dir, "sotn.log");
+
+                var fileWriter = TextWriter.Synchronized(new StreamWriter(_logFilePath, append: false, new System.Text.UTF8Encoding(false))
+                {
+                    AutoFlush = true
+                });
+                Console.SetOut(new TeeTextWriter(Console.Out, fileWriter));
+                Console.SetError(new TeeTextWriter(Console.Error, fileWriter));
+
+                AppDomain.CurrentDomain.UnhandledException += (_, e) =>
+                {
+                    Console.Error.WriteLine($"[Android] UnhandledException (terminating={e.IsTerminating}): {e.ExceptionObject}");
+                };
+                System.Threading.Tasks.TaskScheduler.UnobservedTaskException += (_, e) =>
+                {
+                    Console.Error.WriteLine($"[Android] UnobservedTaskException: {e.Exception}");
+                };
+                global::Android.Runtime.AndroidEnvironment.UnhandledExceptionRaiser += (_, e) =>
+                {
+                    Console.Error.WriteLine($"[Android] AndroidUnhandledException: {e.Exception}");
+                };
+            }
+            catch { }
+        }
+
+        private void ShowFatalErrorDialog(string title, Exception ex)
+        {
+            try
+            {
+                var gate = new System.Threading.ManualResetEventSlim(false);
+                RunOnUiThread(() =>
+                {
+                    try
+                    {
+                        DismissSplashScreen();
+                        string logHint = string.IsNullOrWhiteSpace(_logFilePath) ? "" : $"\n\nLog saved to:\n{_logFilePath}";
+                        new AlertDialog.Builder(this)
+                            .SetTitle(title)
+                            .SetMessage($"{ex.GetType().Name}: {ex.Message}{logHint}")
+                            .SetCancelable(false)
+                            .SetPositiveButton("Close", (_, _) => { gate.Set(); Finish(); })
+                            .Show();
+                    }
+                    catch
+                    {
+                        gate.Set();
+                    }
+                });
+                gate.Wait();
+            }
+            catch { }
+        }
+
+        private sealed class TeeTextWriter : TextWriter
+        {
+            private readonly TextWriter _a;
+            private readonly TextWriter _b;
+            public TeeTextWriter(TextWriter a, TextWriter b) { _a = a; _b = b; }
+            public override System.Text.Encoding Encoding => _a.Encoding;
+            public override void Write(char value) { try { _a.Write(value); } catch { } try { _b.Write(value); } catch { } }
+            public override void Write(string? value) { try { _a.Write(value); } catch { } try { _b.Write(value); } catch { } }
+            public override void WriteLine(string? value) { try { _a.WriteLine(value); } catch { } try { _b.WriteLine(value); } catch { } }
+            public override void Flush() { try { _a.Flush(); } catch { } try { _b.Flush(); } catch { } }
         }
 
         // --- RETROID POCKET, BLUETOOTH & WIRED CONTROLLER INPUT HANDLING ---
