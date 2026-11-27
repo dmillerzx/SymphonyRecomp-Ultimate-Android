@@ -63,6 +63,11 @@ namespace RecompOne.SoTN.Android
         {
             yield return TargetDir(context);
 
+            string? external = null;
+            try { external = context.GetExternalFilesDir(null)?.AbsolutePath; } catch { }
+            if (!string.IsNullOrWhiteSpace(external) && File.Exists(Path.Combine(external, ".isolated_test")))
+                yield break;
+
             string files = context.FilesDir?.Path ?? "";
             if (files.Length > 0) yield return Path.Combine(files, "disc");
 
@@ -155,10 +160,27 @@ namespace RecompOne.SoTN.Android
 
             try
             {
-                if (fs.FindFile(UsExecutable) != null) return null;
+                if (fs.FindFile(UsExecutable) != null)
+                {
+                    if (fs.Locate("DRA.BIN", out int draLba, out _))
+                    {
+                        var sector = fs.ReadSector(draLba);
+                        if (sector.Length >= 4)
+                        {
+                            uint entry = System.Buffers.Binary.BinaryPrimitives.ReadUInt32LittleEndian(sector.AsSpan(0, 4));
+                            if (entry != 0x800E3008u)
+                            {
+                                return entry == 0x800E3988u
+                                    ? "Unpatched vanilla USA disc detected. This build requires Castlevania: Symphony of the Night (Ultimate v1.5) (.bin/.cue)."
+                                    : $"Incompatible DRA.BIN entry (0x{entry:X8}). This build requires Castlevania: Symphony of the Night (Ultimate v1.5) (.bin/.cue).";
+                            }
+                        }
+                    }
+                    return null;
+                }
                 foreach (var (file, message) in KnownRegions)
                     if (fs.FindFile(file) != null) return message;
-                return "That disc is readable but does not look like Castlevania: Symphony of the Night (USA).";
+                return "That disc is readable but does not look like Castlevania: Symphony of the Night (Ultimate v1.5).";
             }
             catch
             {
@@ -177,7 +199,7 @@ namespace RecompOne.SoTN.Android
                 try { cues = Directory.GetFiles(dir, "*.cue"); } catch { continue; }
 
                 foreach (var cue in cues)
-                    if (LooksComplete(cue)) return cue;
+                    if (LooksComplete(cue) && Validate(cue) == null) return cue;
             }
             return null;
         }

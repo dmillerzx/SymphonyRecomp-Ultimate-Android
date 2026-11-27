@@ -7,11 +7,16 @@ namespace Recompiled;
 //some richter fixes, not sure if all of them are properly handled
 public static partial class WidescreenPatch
 {
-    public static bool RicStepSlideWide(CpuContext c, IMemory m) => WideExt(RicStepSlideEdge, c, m);
-    public static bool RicCheckInputWide(CpuContext c, IMemory m) => WideExt(RicCheckInputEdge, c, m);
-    public static bool RicEntitySubwpnCrossWide(CpuContext c, IMemory m) => WideExt(RicEntitySubwpnCrossEdge, c, m);
-    public static bool RicEntitySubwpnReboundStoneWide(CpuContext c, IMemory m) => WideExt(RicEntitySubwpnReboundStoneEdge, c, m);
-    public static bool RicEntitySubwpnAguneaWide(CpuContext c, IMemory m) => WideExt(RicEntitySubwpnAguneaEdge, c, m);
+    // The hand-decompiled Ric*Edge bodies below target Vanilla USA RIC.BIN addresses
+    // (e.g. jump table at 0x80156B04). On SOTN Ultimate v1.5, RIC.BIN is shifted, so
+    // jumping into Vanilla table/data addresses corrupts state (e.g. Prologue Cross blackout).
+    static bool IsVanillaRic(IMemory m) => m.ReadU32(0x80156B04u) == 0x80169740u;
+
+    public static bool RicStepSlideWide(CpuContext c, IMemory m) => !IsVanillaRic(m) || WideExt(RicStepSlideEdge, c, m);
+    public static bool RicCheckInputWide(CpuContext c, IMemory m) => !IsVanillaRic(m) || WideExt(RicCheckInputEdge, c, m);
+    public static bool RicEntitySubwpnCrossWide(CpuContext c, IMemory m) => !IsVanillaRic(m) || WideExt(RicEntitySubwpnCrossEdge, c, m);
+    public static bool RicEntitySubwpnReboundStoneWide(CpuContext c, IMemory m) => !IsVanillaRic(m) || WideExt(RicEntitySubwpnReboundStoneEdge, c, m);
+    public static bool RicEntitySubwpnAguneaWide(CpuContext c, IMemory m) => !IsVanillaRic(m) || WideExt(RicEntitySubwpnAguneaEdge, c, m);
 
     static void RicStepSlideEdge(CpuContext c, IMemory m)
     {

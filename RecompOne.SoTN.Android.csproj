@@ -6,10 +6,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationId>com.blacklabelhq.sotn</ApplicationId>
+    <ApplicationId Condition="'$(TestSuffix)' != ''">com.blacklabelhq.sotn$(TestSuffix)</ApplicationId>
     <!-- ApplicationVersion is the integer versionCode Android compares on update, so it only
          ever goes up. ApplicationDisplayVersion is what players see. -->
-    <ApplicationVersion>17</ApplicationVersion>
-    <ApplicationDisplayVersion>0.14</ApplicationDisplayVersion>
+    <ApplicationVersion>18</ApplicationVersion>
+    <ApplicationDisplayVersion>0.14.1</ApplicationDisplayVersion>
     <AndroidPackageFormat>apk</AndroidPackageFormat>
     <AndroidGenerateAppBundle>false</AndroidGenerateAppBundle>
     <UseFlagsAttributeForFlags>true</UseFlagsAttributeForFlags>

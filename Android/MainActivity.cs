@@ -1581,6 +1581,8 @@ namespace RecompOne.SoTN.Android
 
                 if (DiscImporter.LooksComplete(Settings.System.DiscPath ?? "")) return true;
 
+                if (Intent?.GetBooleanExtra("isolated_test", false) == true) return false;
+
                 if (DiscImporter.FindExisting(this) is { } found)
                 {
                     Settings.System.DiscPath = found;
@@ -1627,8 +1629,8 @@ namespace RecompOne.SoTN.Android
 
             var body = new TextView(this)
             {
-                Text = error ?? "This app contains no game data. To play, provide your own copy of "
-                     + "Castlevania: Symphony of the Night (USA), dumped from disc.\n\n"
+                Text = error ?? "This app contains no game data. To play, provide your own pre-patched copy of "
+                     + "Castlevania: Symphony of the Night (Ultimate v1.5).\n\n"
                      + "Select the .cue file and both .bin tracks together. They are copied into "
                      + "the app once, so this is only asked for on the first run.",
                 TextSize = 13.5f,
