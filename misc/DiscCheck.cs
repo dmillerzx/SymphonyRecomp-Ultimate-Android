@@ -56,7 +56,24 @@ public static class DiscCheck
 
         try
         {
-            if (fs.FindFile(UsExecutable) != null) return null;
+            if (fs.FindFile(UsExecutable) != null)
+            {
+                if (fs.Locate("DRA.BIN", out int draLba, out _))
+                {
+                    var sector = fs.ReadSector(draLba);
+                    if (sector.Length >= 4)
+                    {
+                        uint entry = System.Buffers.Binary.BinaryPrimitives.ReadUInt32LittleEndian(sector.AsSpan(0, 4));
+                        if (entry != 0x800E2E04u)
+                        {
+                            return entry == 0x800E3988u
+                                ? "Unpatched vanilla USA disc detected. This build requires Castlevania: Symphony of the Night (Ultimate v1.4) (.bin/.cue)."
+                                : $"Incompatible DRA.BIN entry (0x{entry:X8}). This build requires Castlevania: Symphony of the Night (Ultimate v1.4) (.bin/.cue).";
+                        }
+                    }
+                }
+                return null;
+            }
 
             foreach (var (file, message) in KnownRegions)
                 if (fs.FindFile(file) != null) return message;

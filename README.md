@@ -20,7 +20,7 @@
 > * **Android Releases Only**: We do **not** publish Windows, Linux, or macOS releases from this repository. Upstream desktop work lives at **BlackLabelHQ** and the upstream Android port lives at [sergiomanzur/SymphonyRecomp](https://github.com/sergiomanzur/SymphonyRecomp) / [sergiomanzur/RecompOne](https://github.com/sergiomanzur/RecompOne).
 > * **SOTN Ultimate v1.4 Credit**: All Ultimate gameplay enhancements, Saturn content, PSP dub/script, and ROM hack patches belong to **[renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)** (*Castlevania: SotN Ultimate*).
 > * **Issue Reporting**: Please do **not** open issues for this fork on `BlackLabelHQ`, `sergiomanzur`, `renanbianchi/sotn-ultimate`, or the SOTN Decomp project. Report issues specific to this build on [dmillerzx/SymphonyRecomp-Ultimate-Android](https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/issues).
-> * **No Game Assets**: This repository and its releases contain **no game data**. You supply your own legally obtained **North American (USA) PlayStation release** (`Castlevania: Symphony of the Night (USA)`) `.bin`/`.cue` disc dump on first launch.
+> * **No Game Assets**: This repository and its releases contain **no game data**. You supply your own legally obtained **Castlevania: Symphony of the Night (Ultimate v1.4)** `.bin`/`.cue` disc dump (patched from a legal North American `SLUS_000.67` dump via [renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)) on first launch.
 
 <p align="center">
   <img src="docs/assets/icon.png" width="128" height="128" alt="SymphonyRecomp Ultimate Android Icon" /><br>
@@ -44,14 +44,14 @@
 | **FMV, Room Fills & GLES Fixes** | Clamps cross-buffer `offY` in `GlCore.PresentDisplay`, embeds `room_fills.json` with unpacked asset fallback, reattaches GLES `_presentTex` to `_presentFbo`, and strips `noperspective` for Adreno stability |
 | **60 FPS Handheld Tuning** | Compiles Release with `PublishTrimmed=false` / `AndroidLinkMode=None`, removes per-flush `GlDiag` logcat spam and `glReadPixels` GPU stalls, defaults to `RenderScale = 2`, and widens `WaitVBlanks` sleep margin (`4.0ms`) |
 | **Adaptive App Icon** | Full-bleed pixel-art adaptive launcher icon (`mipmap-anydpi-v26/icon.xml`) with zero white launcher border |
-| **Vanilla USA Disc Support** | Primary input is a standard vanilla **North American (USA) PS1 `.bin`/`.cue`** dump (`SLUS_000.67`) — no pre-patched Ultimate ISO required (Ultimate v1.4 `.bin`/`.cue` is also accepted) |
+| **Ultimate v1.4 Disc Validation** | Validates `SLUS_000.67` and `DRA.BIN` entry point (`0x800E2E04`) on import/launch, clearly rejecting unpatched vanilla USA discs instead of silently exiting |
 
 ---
 
 ### 🎮 Android Quick Start & Hardware Compatibility
 
 1. **Download**: Grab `com.blacklabelhq.sotn-Signed.apk` from [GitHub Releases](https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/releases/latest).
-2. **Disc Import (In-App Picker)**: On first launch, use the in-app Android file picker to select your legally obtained **North American (USA)** `Castlevania: Symphony of the Night (USA)` `.cue` and `.bin` files from anywhere on internal storage or MicroSD. The app copies and indexes them into app-private storage once and never asks again.
+2. **Disc Import (In-App Picker)**: On first launch, use the in-app Android file picker to select your legally obtained **Castlevania: Symphony of the Night (Ultimate v1.4)** `.cue` and `.bin` files (built from a legal USA `SLUS_000.67` dump with the [Ultimate v1.4](https://github.com/renanbianchi/sotn-ultimate) patch) from anywhere on internal storage or MicroSD. The app copies and indexes them into app-private storage once and never asks again.
 3. **Recommended Handheld Settings**:
    - **Render scale**: `2x` (default for locked 60 FPS on Snapdragon 865 / Adreno 650; adjustable up to `4x` in the in-game Display menu).
    - **Aspect ratio**: `Auto (Device)` for full-screen `16:9` widescreen.
