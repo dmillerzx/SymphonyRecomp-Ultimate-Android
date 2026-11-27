@@ -350,7 +350,7 @@ public static partial class WidescreenPatch
         var snap = c.Snapshot();
         c.A0 = PrimGt4;
         c.A1 = (uint)count;
-        SoTN_dra.func_800EBB04(c, m);
+        SoTN_dra.AllocPrimitives(c, m);
         int index = (int)c.V0;
         c.Restore(snap);
         return index;

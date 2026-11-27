@@ -59,7 +59,7 @@ public static partial class WidescreenPatch
         var snap = c.Snapshot();
         c.A0 = (uint)x;
         c.A1 = (uint)y;
-        SoTN_dra.func_800EE690(c, m);
+        SoTN_dra.SetNextRoomToLoad(c, m);
         int v0 = (int)c.V0;
         c.Restore(snap);
         return v0;

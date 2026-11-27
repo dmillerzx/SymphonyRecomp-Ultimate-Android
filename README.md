@@ -15,12 +15,12 @@
 </p>
 
 > [!NOTE]
-> **Native Android-Only Fork**: This repository is a community-driven fork maintained by [dmillerzx](https://github.com/dmillerzx) (built with AI assistance and verified on real hardware) dedicated **exclusively to native Android (`arm64-v8a` / `x86_64`) handheld releases** of **Castlevania: Symphony of the Night (Ultimate v1.4)** — verified on the **Retroid Pocket 5** (Qualcomm Snapdragon 865, Adreno 650, Android 13).
+> **Native Android-Only Fork**: This repository is a community-driven fork maintained by [dmillerzx](https://github.com/dmillerzx) (built with AI assistance and verified on real hardware) dedicated **exclusively to native Android (`arm64-v8a` / `x86_64`) handheld releases** of **Castlevania: Symphony of the Night (Ultimate v1.5)** — verified on the **Retroid Pocket 5** (Qualcomm Snapdragon 865, Adreno 650, Android 13).
 >
 > * **Android Releases Only**: We do **not** publish Windows, Linux, or macOS releases from this repository. Upstream desktop work lives at **BlackLabelHQ** and the upstream Android port lives at [sergiomanzur/SymphonyRecomp](https://github.com/sergiomanzur/SymphonyRecomp) / [sergiomanzur/RecompOne](https://github.com/sergiomanzur/RecompOne).
-> * **SOTN Ultimate v1.4 Credit**: All Ultimate gameplay enhancements, Saturn content, PSP dub/script, and ROM hack patches belong to **[renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)** (*Castlevania: SotN Ultimate*).
+> * **SOTN Ultimate v1.5 Credit**: All Ultimate gameplay enhancements, Saturn content, PSP dub/script, and ROM hack patches belong to **[renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)** (*Castlevania: SotN Ultimate*).
 > * **Issue Reporting**: Please do **not** open issues for this fork on `BlackLabelHQ`, `sergiomanzur`, `renanbianchi/sotn-ultimate`, or the SOTN Decomp project. Report issues specific to this build on [dmillerzx/SymphonyRecomp-Ultimate-Android](https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/issues).
-> * **No Game Assets**: This repository and its releases contain **no game data**. You supply your own legally obtained **Castlevania: Symphony of the Night (Ultimate v1.4)** `.bin`/`.cue` disc dump (patched from a legal North American `SLUS_000.67` dump via [renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)) on first launch.
+> * **No Game Assets (Pre-Patched Ultimate v1.5 Disc Required)**: This repository and its releases contain **no game data**. Because *SotN Ultimate* combines PS1 USA, Saturn JP, and PSP assets at build time, you must supply your own **pre-patched Castlevania: Symphony of the Night (Ultimate v1.5)** `.bin`/`.cue` disc image built using [renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate) (unpatched vanilla USA dumps are not compatible with this Ultimate recompilation build).
 
 <p align="center">
   <img src="docs/assets/icon.png" width="128" height="128" alt="SymphonyRecomp Ultimate Android Icon" /><br>
@@ -38,20 +38,20 @@
 
 | Feature | Android Handheld Implementation |
 | :--- | :--- |
-| **Ultimate v1.4 Static Recompilation** | Built against Ultimate v1.4 overlays (`main`, `dra`, `sel`, `st0`, `no3`, and stage overlays via `config_ultimate/` + `*Aliases.cs`) with verified hooks for `CamCol`, `SetNextRoomToLoad`, `RenderTilemap`, `InitFade`, `SetFadeWidth`, `SetFadeMode`, and `AllocPrimitives` |
-| **QOL & Castle Entrance (`NO3`) Fixes** | Fixed `Skip Prologue` on Ultimate v1.4, gated `Tetra Spirit`/`Hellfire` behind `UseEasySpellInput`, fixed `DoGravityJump` early return, unhooked mis-mapped `RemoveFlashes` from `CreateHPNumMove`, and resolved the `NO3` stack-leak crash |
+| **Ultimate v1.5 Static Recompilation** | Built against Ultimate v1.5 overlays (`main`, `dra`, `sel`, `st0`, `no3`, `te1`–`te4`, and stage overlays via `config_ultimate/` + `*Aliases.cs`) with verified hooks for `CamCol`, `SetNextRoomToLoad`, `RenderTilemap`, `InitFade`, `SetFadeWidth`, `SetFadeMode`, and `AllocPrimitives` |
+| **QOL & Castle Entrance (`NO3`) Fixes** | Fixed `Skip Prologue` on Ultimate v1.5, gated `Tetra Spirit`/`Hellfire` behind `UseEasySpellInput`, fixed `DoGravityJump` early return, unhooked mis-mapped `RemoveFlashes` from `CreateHPNumMove`, and resolved the `NO3` stack-leak crash |
 | **True 16:9 Widescreen & Edge Clamping** | Uses `WindowManager.MaximumWindowMetrics` / `Display.GetRealMetrics` for exact `1.778` (`1920x1080`) aspect detection, full `RenderTilemapWide` column expansion, and background edge clamping |
 | **FMV, Room Fills & GLES Fixes** | Clamps cross-buffer `offY` in `GlCore.PresentDisplay`, embeds `room_fills.json` with unpacked asset fallback, reattaches GLES `_presentTex` to `_presentFbo`, and strips `noperspective` for Adreno stability |
 | **60 FPS Handheld Tuning** | Compiles Release with `PublishTrimmed=false` / `AndroidLinkMode=None`, removes per-flush `GlDiag` logcat spam and `glReadPixels` GPU stalls, defaults to `RenderScale = 2`, and widens `WaitVBlanks` sleep margin (`4.0ms`) |
 | **Adaptive App Icon** | Full-bleed pixel-art adaptive launcher icon (`mipmap-anydpi-v26/icon.xml`) with zero white launcher border |
-| **Ultimate v1.4 Disc Validation** | Validates `SLUS_000.67` and `DRA.BIN` entry point (`0x800E2E04`) on import/launch, clearly rejecting unpatched vanilla USA discs instead of silently exiting |
+| **Ultimate v1.5 Disc Validation** | Validates `SLUS_000.67` and `DRA.BIN` entry point (`0x800E3008`) on import/launch, clearly rejecting unpatched vanilla USA or older v1.4 discs instead of silently exiting |
 
 ---
 
 ### 🎮 Android Quick Start & Hardware Compatibility
 
 1. **Download**: Grab `com.blacklabelhq.sotn-Signed.apk` from [GitHub Releases](https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/releases/latest).
-2. **Disc Import (In-App Picker)**: On first launch, use the in-app Android file picker to select your legally obtained **Castlevania: Symphony of the Night (Ultimate v1.4)** `.cue` and `.bin` files (built from a legal USA `SLUS_000.67` dump with the [Ultimate v1.4](https://github.com/renanbianchi/sotn-ultimate) patch) from anywhere on internal storage or MicroSD. The app copies and indexes them into app-private storage once and never asks again.
+2. **Disc Import (In-App Picker)**: On first launch, use the in-app Android file picker to select your **pre-patched Castlevania: Symphony of the Night (Ultimate v1.5)** `.cue` and `.bin` files (built from your legal dumps using the [Ultimate v1.5](https://github.com/renanbianchi/sotn-ultimate) patch builder — unpatched vanilla USA ISOs are not supported) from anywhere on internal storage or MicroSD. The app copies and indexes them into app-private storage once and never asks again.
 3. **Recommended Handheld Settings**:
    - **Render scale**: `2x` (default for locked 60 FPS on Snapdragon 865 / Adreno 650; adjustable up to `4x` in the in-game Display menu).
    - **Aspect ratio**: `Auto (Device)` for full-screen `16:9` widescreen.
@@ -71,22 +71,22 @@
 
 ## Building from Source
 
-Building from source requires a compatible **SOTN Ultimate v1.4** disc image for recompilation and the **.NET 10 Android workload (`net10.0-android`)**:
+Building from source requires a compatible **SOTN Ultimate v1.5** disc image for recompilation and the **.NET 10 Android workload (`net10.0-android`)**:
 
 ```powershell
 git clone --recursive https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android.git
 cd SymphonyRecomp-Ultimate-Android
 dotnet clean RecompOne.SoTN.Android.csproj -c Release
-dotnet build RecompOne.SoTN.Android.csproj -c Release
+dotnet publish RecompOne.SoTN.Android.csproj -c Release -p:AndroidPackageFormat=apk
 ```
 
-> **Note (`net10.0-android` Release)**: Always run `dotnet clean -c Release` before `dotnet build -c Release` so Android JNI typemaps stay in sync.
+> **Note (`net10.0-android` Release)**: Always run `dotnet clean -c Release` before `dotnet publish -c Release -p:AndroidPackageFormat=apk` (without `-r android-arm64`) so Android JNI typemaps (`libxamarin-app.so`) stay intact.
 
 ---
 
 ## Credits
 
-- **Castlevania: SotN Ultimate v1.4**: **[renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)** — Saturn areas, Saturn & PSP Maria, PSP dub/script, Castle Entrance rework, and ROM hack patches.
+- **Castlevania: SotN Ultimate v1.5**: **[renanbianchi/sotn-ultimate](https://github.com/renanbianchi/sotn-ultimate)** — Saturn areas, Saturn & PSP Maria, PSP dub/script, Castle Entrance rework, and ROM hack patches.
 - **Upstream Android Port & Runtime**: **[sergiomanzur/SymphonyRecomp](https://github.com/sergiomanzur/SymphonyRecomp)** & **[sergiomanzur/RecompOne](https://github.com/sergiomanzur/RecompOne)** — PS1-to-.NET static recompilation runtime and Android host.
 - **Desktop Recompilation & Mods**: **BlackLabelHQ** — original `SymphonyRecomp` architecture, widescreen patches, QOL, and mod system.
 - **SOTN Decomp & Original Game**: The **SOTN Decomp** community and **Konami / KCET**.

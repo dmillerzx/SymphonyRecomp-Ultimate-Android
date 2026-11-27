@@ -6,36 +6,6 @@ namespace Recompiled;
 
 public static partial class SoTN_no3
 {
-    public static void BlinkItem_no3(CpuContext c, IMemory m) => func_801CE868(c, m);
-    public static void BlitChar_no3(CpuContext c, IMemory m) => func_801CEEF4(c, m);
-    public static void BoneScimitarAttackCheck_no3(CpuContext c, IMemory m) => func_801DD280(c, m);
-    public static void CreateEntityFromCurrentEntity_no3(CpuContext c, IMemory m) => func_801CB638(c, m);
-    public static void CreateEntityFromEntity_no3(CpuContext c, IMemory m) => func_801CB6AC(c, m);
-    public static void CutsceneRun_no3(CpuContext c, IMemory m) => func_801C6064(c, m);
-    public static void CutsceneSkip_no3(CpuContext c, IMemory m) => func_801C6310(c, m);
-    public static void CutsceneUnk1_no3(CpuContext c, IMemory m) => func_801C5B78(c, m);
-    public static void CutsceneUnk4_no3(CpuContext c, IMemory m) => func_801C5E00(c, m);
-    public static void DestroyEntity_no3(CpuContext c, IMemory m) => func_801CC49C(c, m);
-    public static void DrawCutsceneActorName_no3(CpuContext c, IMemory m) => func_801C5EB4(c, m);
-    public static void EntityBackgroundTrees_no3(CpuContext c, IMemory m) => func_801BFC84(c, m);
-    public static void EntityExplosionSpawn_no3(CpuContext c, IMemory m) => func_801CD118(c, m);
-    public static void EntityForegroundTree(CpuContext c, IMemory m) => func_801C3EC0(c, m);
-    public static void EntityHighWaterSplash_no3(CpuContext c, IMemory m) => func_801DBFB0(c, m);
-    public static void EntityMermanRockLeftSide_no3(CpuContext c, IMemory m) => func_801C1298(c, m);
-    public static void EntityPathBlockSmallWeight_no3(CpuContext c, IMemory m) => func_801C0BC4(c, m);
-    public static void GetDistanceToPlayerY_no3(CpuContext c, IMemory m) => func_801CC7D8(c, m);
-    public static void InitializeEntity_no3(CpuContext c, IMemory m) => func_801CD1AC(c, m);
-    public static void MoveEntity_no3(CpuContext c, IMemory m) => func_801CC850(c, m);
-    public static void PlaySfxPositional_no3(CpuContext c, IMemory m) => func_801D259C(c, m);
-    public static void Random_no3(CpuContext c, IMemory m) => func_801C8EF8(c, m);
-    public static void ScaleCutsceneAvatar_no3(CpuContext c, IMemory m) => func_801C63F0(c, m);
-    public static void SetCutsceneEnd_no3(CpuContext c, IMemory m) => func_801C6038(c, m);
-    public static void SetCutsceneScript_no3(CpuContext c, IMemory m) => func_801C5BCC(c, m);
-    public static void SetStep_no3(CpuContext c, IMemory m) => func_801CD0DC(c, m);
-    public static void UnkCollisionFunc2_no3(CpuContext c, IMemory m) => func_801CCB24(c, m);
-    public static void UnkEntityFunc0_no3(CpuContext c, IMemory m) => func_801CCF40(c, m);
-    public static void UnkPolyFunc2_no3(CpuContext c, IMemory m) => func_801DE87C(c, m);
-    public static void UnkPrimHelper_no3(CpuContext c, IMemory m) => func_801DE130(c, m);
 
     public static void func_801970E4(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801970E4u);
     public static void func_8019B1B8(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x8019B1B8u);
@@ -143,10 +113,10 @@ public static partial class SoTN_no3
     public static void func_801A75D0(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801A75D0u);
     public static void func_801A7620(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801A7620u);
     public static void func_801AA384(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801AA384u);
-    public static void func_801BC840(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801BC840u);
-    public static void func_801BD5A0(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801BD5A0u);
+    public static void func_801BC840(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801C3CFCu);
+    public static void func_801BD5A0(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801C4AE0u);
     public static void func_801BEE64(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801BEE64u);
-    public static void func_801C38FC(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801C38FCu);
-    public static void func_801C586C(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801C586Cu);
+    public static void func_801C38FC(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801CAFD8u);
+    public static void func_801C586C(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801CD074u);
     public static void func_801D410C(CpuContext c, IMemory m) => Dispatcher.Call(c, m, 0x801D410Cu);
 }

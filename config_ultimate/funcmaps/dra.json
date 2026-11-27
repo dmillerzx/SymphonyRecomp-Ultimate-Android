@@ -33,12 +33,7 @@
     {
       "address": "0x800A5084",
       "name": "func_800A5084",
-      "size": 16
-    },
-    {
-      "address": "0x800A5094",
-      "name": "func_800A5094",
-      "size": 168
+      "size": 184
     },
     {
       "address": "0x800A5CE4",
@@ -96,28 +91,23 @@
       "size": 48
     },
     {
-      "address": "0x800AC800",
-      "name": "func_800AC800",
-      "size": 36
-    },
-    {
-      "address": "0x800ACB8C",
-      "name": "func_800ACB8C",
+      "address": "0x800ACB88",
+      "name": "func_800ACB88",
       "size": 8
     },
     {
-      "address": "0x800AD79C",
-      "name": "func_800AD79C",
+      "address": "0x800AD798",
+      "name": "func_800AD798",
       "size": 8
     },
     {
-      "address": "0x800ADC08",
-      "name": "func_800ADC08",
+      "address": "0x800ADC04",
+      "name": "func_800ADC04",
       "size": 8
     },
     {
-      "address": "0x800ADFE8",
-      "name": "func_800ADFE8",
+      "address": "0x800ADFE4",
+      "name": "func_800ADFE4",
       "size": 8
     },
     {
@@ -351,3494 +341,2909 @@
       "size": 20
     },
     {
-      "address": "0x800E2890",
-      "name": "func_800E2890",
+      "address": "0x800E2A94",
+      "name": "DebugUpdate",
       "size": 8
     },
     {
-      "address": "0x800E2898",
-      "name": "func_800E2898",
+      "address": "0x800E2A9C",
+      "name": "nullsub_9",
       "size": 8
     },
     {
-      "address": "0x800E28A0",
-      "name": "func_800E28A0",
+      "address": "0x800E2AA4",
+      "name": "LoadVabData",
       "size": 500
     },
     {
-      "address": "0x800E2A94",
-      "name": "func_800E2A94",
+      "address": "0x800E2C98",
+      "name": "SetGPUBuffRGBZero",
       "size": 56
     },
     {
-      "address": "0x800E2ACC",
-      "name": "func_800E2ACC",
+      "address": "0x800E2CD0",
+      "name": "SetGPUBuffRGB",
       "size": 56
     },
     {
-      "address": "0x800E2B04",
-      "name": "func_800E2B04",
+      "address": "0x800E2D08",
+      "name": "ConfigStageClip",
       "size": 152
     },
     {
-      "address": "0x800E2B9C",
-      "name": "func_800E2B9C",
+      "address": "0x800E2DA0",
+      "name": "SetStageDisplayBuffer",
       "size": 164
     },
     {
-      "address": "0x800E2C40",
-      "name": "func_800E2C40",
+      "address": "0x800E2E44",
+      "name": "SetCgiDisplayBuffer",
       "size": 176
     },
     {
-      "address": "0x800E2CF0",
-      "name": "func_800E2CF0",
+      "address": "0x800E2EF4",
+      "name": "SetMenuDisplayBuffer",
       "size": 164
     },
     {
-      "address": "0x800E2D94",
-      "name": "func_800E2D94",
+      "address": "0x800E2F98",
+      "name": "func_800E385C",
       "size": 112
     },
     {
-      "address": "0x800E2E04",
-      "name": "func_800E2E04",
+      "address": "0x800E3008",
+      "name": "MainGame",
       "size": 1456
     },
     {
-      "address": "0x800E33B4",
-      "name": "func_800E33B4",
+      "address": "0x800E35B8",
+      "name": "SetGameState",
       "size": 40
     },
     {
-      "address": "0x800E33DC",
-      "name": "func_800E33DC",
+      "address": "0x800E35E0",
+      "name": "func_800E35E0",
       "size": 868
     },
     {
-      "address": "0x800E3740",
-      "name": "func_800E3740",
+      "address": "0x800E3944",
+      "name": "ClearBackbuffer",
       "size": 48
     },
     {
-      "address": "0x800E3770",
-      "name": "func_800E3770",
+      "address": "0x800E3974",
+      "name": "HandleTitle",
       "size": 892
     },
     {
-      "address": "0x800E3AEC",
-      "name": "func_800E3AEC",
+      "address": "0x800E3CF0",
+      "name": "func_800E3CF0",
       "size": 52
     },
     {
-      "address": "0x800E3B20",
-      "name": "func_800E3B20",
+      "address": "0x800E3D24",
+      "name": "func_800E3D24",
       "size": 148
     },
     {
-      "address": "0x800E3BB4",
-      "name": "func_800E3BB4",
+      "address": "0x800E3DB8",
+      "name": "func_800E3DB8",
       "size": 16
     },
     {
-      "address": "0x800E3BC4",
-      "name": "func_800E3BC4",
+      "address": "0x800E3DC8",
+      "name": "func_800E3DC8",
       "size": 292
     },
     {
-      "address": "0x800E3CE8",
-      "name": "func_800E3CE8",
+      "address": "0x800E3EEC",
+      "name": "func_800E3EEC",
       "size": 152
     },
     {
-      "address": "0x800E3D80",
-      "name": "func_800E3D80",
-      "size": 2228
+      "address": "0x800E3F84",
+      "name": "func_800E3F84",
+      "size": 96
     },
     {
-      "address": "0x800E4634",
-      "name": "func_800E4634",
-      "size": 320
-    },
-    {
-      "address": "0x800E4774",
-      "name": "func_800E4774",
-      "size": 236
-    },
-    {
-      "address": "0x800E4860",
-      "name": "func_800E4860",
-      "size": 1856
-    },
-    {
-      "address": "0x800E4FA0",
-      "name": "func_800E4FA0",
-      "size": 1256
-    },
-    {
-      "address": "0x800E5488",
-      "name": "func_800E5488",
-      "size": 56
-    },
-    {
-      "address": "0x800E54C0",
-      "name": "func_800E54C0",
-      "size": 88
-    },
-    {
-      "address": "0x800E5518",
-      "name": "func_800E5518",
-      "size": 1912
-    },
-    {
-      "address": "0x800E5C90",
-      "name": "func_800E5C90",
-      "size": 944
-    },
-    {
-      "address": "0x800E6040",
-      "name": "func_800E6040",
-      "size": 8
-    },
-    {
-      "address": "0x800E6048",
-      "name": "func_800E6048",
-      "size": 144
-    },
-    {
-      "address": "0x800E60D8",
-      "name": "func_800E60D8",
-      "size": 1608
-    },
-    {
-      "address": "0x800E6258",
-      "name": "func_800E6258",
-      "size": 1004
-    },
-    {
-      "address": "0x800E6644",
-      "name": "func_800E6644",
-      "size": 220
-    },
-    {
-      "address": "0x800E6720",
-      "name": "func_800E6720",
-      "size": 68
-    },
-    {
-      "address": "0x800E6764",
-      "name": "func_800E6764",
-      "size": 8
-    },
-    {
-      "address": "0x800E676C",
-      "name": "func_800E676C",
-      "size": 48
-    },
-    {
-      "address": "0x800E679C",
-      "name": "func_800E679C",
-      "size": 156
-    },
-    {
-      "address": "0x800E6838",
-      "name": "func_800E6838",
-      "size": 88
-    },
-    {
-      "address": "0x800E6890",
-      "name": "func_800E6890",
-      "size": 156
-    },
-    {
-      "address": "0x800E692C",
-      "name": "func_800E692C",
-      "size": 424
-    },
-    {
-      "address": "0x800E6AD4",
-      "name": "func_800E6AD4",
-      "size": 160
-    },
-    {
-      "address": "0x800E6B74",
-      "name": "func_800E6B74",
-      "size": 132
-    },
-    {
-      "address": "0x800E6BF8",
-      "name": "func_800E6BF8",
-      "size": 88
-    },
-    {
-      "address": "0x800E6C50",
-      "name": "func_800E6C50",
-      "size": 132
-    },
-    {
-      "address": "0x800E6CD4",
-      "name": "func_800E6CD4",
-      "size": 88
-    },
-    {
-      "address": "0x800E6D2C",
-      "name": "func_800E6D2C",
-      "size": 16
-    },
-    {
-      "address": "0x800E6D3C",
-      "name": "func_800E6D3C",
-      "size": 24
-    },
-    {
-      "address": "0x800E6D54",
-      "name": "func_800E6D54",
-      "size": 508
-    },
-    {
-      "address": "0x800E6F50",
-      "name": "func_800E6F50",
-      "size": 40
-    },
-    {
-      "address": "0x800E6F78",
-      "name": "func_800E6F78",
-      "size": 224
-    },
-    {
-      "address": "0x800E7058",
-      "name": "func_800E7058",
-      "size": 212
-    },
-    {
-      "address": "0x800E712C",
-      "name": "func_800E712C",
-      "size": 124
-    },
-    {
-      "address": "0x800E71A8",
-      "name": "func_800E71A8",
+      "address": "0x800E3FE4",
+      "name": "func_800E3FE4",
       "size": 664
     },
     {
-      "address": "0x800E7440",
-      "name": "func_800E7440",
+      "address": "0x800E427C",
+      "name": "HandlePlay",
+      "size": 2236
+    },
+    {
+      "address": "0x800E4B38",
+      "name": "func_800E4B38",
+      "size": 320
+    },
+    {
+      "address": "0x800E4C78",
+      "name": "func_800E4C78",
+      "size": 236
+    },
+    {
+      "address": "0x800E4D64",
+      "name": "HandleGameOver",
+      "size": 2048
+    },
+    {
+      "address": "0x800E5564",
+      "name": "AnimateNowLoading",
+      "size": 1256
+    },
+    {
+      "address": "0x800E5A4C",
+      "name": "InitializeServant",
+      "size": 56
+    },
+    {
+      "address": "0x800E5A84",
+      "name": "func_800E5A84",
+      "size": 88
+    },
+    {
+      "address": "0x800E5ADC",
+      "name": "HandleNowLoading",
+      "size": 1912
+    },
+    {
+      "address": "0x800E6254",
+      "name": "HandleVideoPlayback",
+      "size": 944
+    },
+    {
+      "address": "0x800E6604",
+      "name": "func_800E6604",
+      "size": 8
+    },
+    {
+      "address": "0x800E660C",
+      "name": "HandlePrologueEnd",
+      "size": 144
+    },
+    {
+      "address": "0x800E669C",
+      "name": "func_800E669C",
+      "size": 384
+    },
+    {
+      "address": "0x800E681C",
+      "name": "HandleEnding",
+      "size": 1004
+    },
+    {
+      "address": "0x800E6C08",
+      "name": "UpdateGame",
+      "size": 220
+    },
+    {
+      "address": "0x800E6CE4",
+      "name": "func_800E6CE4",
+      "size": 68
+    },
+    {
+      "address": "0x800E6D28",
+      "name": "ResetPadsRepeat",
+      "size": 48
+    },
+    {
+      "address": "0x800E6D58",
+      "name": "UpdatePadsRepeat",
+      "size": 156
+    },
+    {
+      "address": "0x800E6DF4",
+      "name": "InitializePads",
+      "size": 88
+    },
+    {
+      "address": "0x800E6E4C",
+      "name": "func_800E6E4C",
+      "size": 236
+    },
+    {
+      "address": "0x800E6F38",
+      "name": "ReadPads",
+      "size": 180
+    },
+    {
+      "address": "0x800E6FEC",
+      "name": "SetupEvents",
+      "size": 424
+    },
+    {
+      "address": "0x800E7194",
+      "name": "_peek_event_with_retry",
+      "size": 160
+    },
+    {
+      "address": "0x800E7234",
+      "name": "_peek_event",
+      "size": 132
+    },
+    {
+      "address": "0x800E72B8",
+      "name": "_clear_event",
+      "size": 88
+    },
+    {
+      "address": "0x800E7310",
+      "name": "_card_event_x",
+      "size": 132
+    },
+    {
+      "address": "0x800E7394",
+      "name": "_clear_event_x",
+      "size": 88
+    },
+    {
+      "address": "0x800E73EC",
+      "name": "MemcardInit",
+      "size": 16
+    },
+    {
+      "address": "0x800E73FC",
+      "name": "MemcardInfoInit",
+      "size": 24
+    },
+    {
+      "address": "0x800E7414",
+      "name": "MemcardParse",
+      "size": 508
+    },
+    {
+      "address": "0x800E7610",
+      "name": "GetMemcardFreeBlockCount",
+      "size": 40
+    },
+    {
+      "address": "0x800E7638",
+      "name": "MemcardDetectSave",
+      "size": 224
+    },
+    {
+      "address": "0x800E7718",
+      "name": "MemcardWriteFile",
+      "size": 212
+    },
+    {
+      "address": "0x800E77EC",
+      "name": "MemcardClose",
+      "size": 124
+    },
+    {
+      "address": "0x800E7868",
+      "name": "func_800E7868",
+      "size": 664
+    },
+    {
+      "address": "0x800E7B00",
+      "name": "MemcardFormat",
       "size": 140
     },
     {
-      "address": "0x800E74CC",
-      "name": "func_800E74CC",
+      "address": "0x800E7B8C",
+      "name": "GetSavePalette",
       "size": 56
     },
     {
-      "address": "0x800E7504",
-      "name": "func_800E7504",
+      "address": "0x800E7BC4",
+      "name": "GetSaveIcon",
       "size": 56
     },
     {
-      "address": "0x800E753C",
-      "name": "func_800E753C",
+      "address": "0x800E7BFC",
+      "name": "func_800E7BFC",
       "size": 36
     },
     {
-      "address": "0x800E7560",
-      "name": "func_800E7560",
+      "address": "0x800E7C20",
+      "name": "func_800E7C20",
       "size": 544
     },
     {
-      "address": "0x800E7780",
-      "name": "func_800E7780",
+      "address": "0x800E7E40",
+      "name": "StoreSaveData",
       "size": 2160
     },
     {
-      "address": "0x800E7FF0",
-      "name": "func_800E7FF0",
+      "address": "0x800E86B0",
+      "name": "ApplySaveData",
       "size": 476
     },
     {
-      "address": "0x800E81CC",
-      "name": "func_800E81CC",
+      "address": "0x800E888C",
+      "name": "MakeMemcardPath",
       "size": 172
     },
     {
-      "address": "0x800E8278",
-      "name": "func_800E8278",
+      "address": "0x800E8938",
+      "name": "func_800E8938",
       "size": 428
     },
     {
-      "address": "0x800E8424",
-      "name": "func_800E8424",
+      "address": "0x800E8AE4",
+      "name": "func_800E8AE4",
       "size": 116
     },
     {
-      "address": "0x800E8498",
-      "name": "func_800E8498",
+      "address": "0x800E8B58",
+      "name": "func_800E8B58",
       "size": 56
-    },
-    {
-      "address": "0x800E84D0",
-      "name": "func_800E84D0",
-      "size": 316
-    },
-    {
-      "address": "0x800E860C",
-      "name": "func_800E860C",
-      "size": 172
-    },
-    {
-      "address": "0x800E86B8",
-      "name": "func_800E86B8",
-      "size": 2784
     },
     {
       "address": "0x800E8B90",
       "name": "func_800E8B90",
+      "size": 316
+    },
+    {
+      "address": "0x800E8CCC",
+      "name": "func_800E8CCC",
+      "size": 172
+    },
+    {
+      "address": "0x800E8D78",
+      "name": "func_800E8D78",
+      "size": 1240
+    },
+    {
+      "address": "0x800E9250",
+      "name": "func_800E9250",
       "size": 112
     },
     {
-      "address": "0x800E8C00",
-      "name": "func_800E8C00",
+      "address": "0x800E92C0",
+      "name": "DRA_InitClutIndices",
       "size": 296
     },
     {
-      "address": "0x800E8D28",
-      "name": "func_800E8D28",
+      "address": "0x800E93E8",
+      "name": "func_800E93E8",
       "size": 72
     },
     {
-      "address": "0x800E8D70",
-      "name": "func_800E8D70",
+      "address": "0x800E9430",
+      "name": "ResetPendingGfxLoad",
       "size": 60
     },
     {
-      "address": "0x800E8DAC",
-      "name": "func_800E8DAC",
+      "address": "0x800E946C",
+      "name": "LoadGfxAsync",
       "size": 160
     },
     {
-      "address": "0x800E8E4C",
-      "name": "func_800E8E4C",
+      "address": "0x800E950C",
+      "name": "DecompressWriteNibble",
       "size": 116
     },
     {
-      "address": "0x800E8EC0",
-      "name": "func_800E8EC0",
+      "address": "0x800E9580",
+      "name": "DecompressReadNibble",
       "size": 92
-    },
-    {
-      "address": "0x800E8F1C",
-      "name": "func_800E8F1C",
-      "size": 636
-    },
-    {
-      "address": "0x800E9198",
-      "name": "func_800E9198",
-      "size": 484
-    },
-    {
-      "address": "0x800E937C",
-      "name": "func_800E937C",
-      "size": 60
-    },
-    {
-      "address": "0x800E93B8",
-      "name": "func_800E93B8",
-      "size": 384
-    },
-    {
-      "address": "0x800E9538",
-      "name": "func_800E9538",
-      "size": 108
-    },
-    {
-      "address": "0x800E95A4",
-      "name": "func_800E95A4",
-      "size": 56
     },
     {
       "address": "0x800E95DC",
-      "name": "func_800E95DC",
-      "size": 1048
+      "name": "DecompressData",
+      "size": 636
     },
     {
-      "address": "0x800E99F4",
-      "name": "func_800E99F4",
+      "address": "0x800E9858",
+      "name": "LoadPendingGfx",
+      "size": 484
+    },
+    {
+      "address": "0x800E9A3C",
+      "name": "func_800E9A3C",
       "size": 60
     },
     {
-      "address": "0x800E9A30",
-      "name": "func_800E9A30",
-      "size": 4172
+      "address": "0x800E9A78",
+      "name": "LoadEquipIcon",
+      "size": 384
     },
     {
-      "address": "0x800EAA7C",
-      "name": "func_800EAA7C",
-      "size": 564
-    },
-    {
-      "address": "0x800EACB0",
-      "name": "func_800EACB0",
-      "size": 44
-    },
-    {
-      "address": "0x800EACDC",
-      "name": "func_800EACDC",
-      "size": 2332
-    },
-    {
-      "address": "0x800EB5F8",
-      "name": "func_800EB5F8",
-      "size": 408
-    },
-    {
-      "address": "0x800EB790",
-      "name": "func_800EB790",
-      "size": 232
-    },
-    {
-      "address": "0x800EB878",
-      "name": "func_800EB878",
-      "size": 124
-    },
-    {
-      "address": "0x800EB8F4",
-      "name": "func_800EB8F4",
-      "size": 36
-    },
-    {
-      "address": "0x800EB918",
-      "name": "func_800EB918",
-      "size": 80
-    },
-    {
-      "address": "0x800EB968",
-      "name": "func_800EB968",
-      "size": 36
-    },
-    {
-      "address": "0x800EB98C",
-      "name": "func_800EB98C",
-      "size": 80
-    },
-    {
-      "address": "0x800EB9DC",
-      "name": "func_800EB9DC",
-      "size": 296
-    },
-    {
-      "address": "0x800EBB04",
-      "name": "func_800EBB04",
-      "size": 284
-    },
-    {
-      "address": "0x800EBC20",
-      "name": "func_800EBC20",
-      "size": 220
-    },
-    {
-      "address": "0x800EBCFC",
-      "name": "func_800EBCFC",
-      "size": 100
-    },
-    {
-      "address": "0x800EBD60",
-      "name": "func_800EBD60",
-      "size": 7452
-    },
-    {
-      "address": "0x800EC040",
-      "name": "func_800EC040",
-      "size": 6716
-    },
-    {
-      "address": "0x800ECC38",
-      "name": "func_800ECC38",
-      "size": 1704
-    },
-    {
-      "address": "0x800ED060",
-      "name": "func_800ED060",
-      "size": 640
-    },
-    {
-      "address": "0x800ED28C",
-      "name": "func_800ED28C",
-      "size": 84
-    },
-    {
-      "address": "0x800ED290",
-      "name": "func_800ED290",
-      "size": 80
-    },
-    {
-      "address": "0x800ED294",
-      "name": "func_800ED294",
-      "size": 76
-    },
-    {
-      "address": "0x800ED2AC",
-      "name": "func_800ED2AC",
-      "size": 52
-    },
-    {
-      "address": "0x800ED2E0",
-      "name": "func_800ED2E0",
-      "size": 5040
-    },
-    {
-      "address": "0x800EDA7C",
-      "name": "func_800EDA7C",
-      "size": 1852
-    },
-    {
-      "address": "0x800EE1B8",
-      "name": "func_800EE1B8",
-      "size": 56
-    },
-    {
-      "address": "0x800EE1F0",
-      "name": "func_800EE1F0",
-      "size": 104
-    },
-    {
-      "address": "0x800EE258",
-      "name": "func_800EE258",
-      "size": 244
-    },
-    {
-      "address": "0x800EE34C",
-      "name": "func_800EE34C",
-      "size": 196
-    },
-    {
-      "address": "0x800EE410",
-      "name": "func_800EE410",
-      "size": 640
-    },
-    {
-      "address": "0x800EE690",
-      "name": "func_800EE690",
-      "size": 280
-    },
-    {
-      "address": "0x800EE7A8",
-      "name": "func_800EE7A8",
-      "size": 1868
-    },
-    {
-      "address": "0x800EEEF4",
-      "name": "func_800EEEF4",
-      "size": 516
-    },
-    {
-      "address": "0x800EF0F8",
-      "name": "func_800EF0F8",
-      "size": 160
-    },
-    {
-      "address": "0x800EF198",
-      "name": "func_800EF198",
-      "size": 88
-    },
-    {
-      "address": "0x800EF1F0",
-      "name": "func_800EF1F0",
-      "size": 68
-    },
-    {
-      "address": "0x800EF234",
-      "name": "func_800EF234",
-      "size": 92
-    },
-    {
-      "address": "0x800EF290",
-      "name": "func_800EF290",
-      "size": 92
-    },
-    {
-      "address": "0x800EF2EC",
-      "name": "func_800EF2EC",
-      "size": 144
-    },
-    {
-      "address": "0x800EF37C",
-      "name": "func_800EF37C",
-      "size": 232
-    },
-    {
-      "address": "0x800EF464",
-      "name": "func_800EF464",
-      "size": 204
-    },
-    {
-      "address": "0x800EF530",
-      "name": "func_800EF530",
-      "size": 588
-    },
-    {
-      "address": "0x800EF77C",
-      "name": "func_800EF77C",
-      "size": 348
-    },
-    {
-      "address": "0x800EF8D8",
-      "name": "func_800EF8D8",
-      "size": 276
-    },
-    {
-      "address": "0x800EF9EC",
-      "name": "func_800EF9EC",
-      "size": 80
-    },
-    {
-      "address": "0x800EFA3C",
-      "name": "func_800EFA3C",
-      "size": 268
-    },
-    {
-      "address": "0x800EFB48",
-      "name": "func_800EFB48",
-      "size": 284
-    },
-    {
-      "address": "0x800EFC64",
-      "name": "func_800EFC64",
-      "size": 76
-    },
-    {
-      "address": "0x800EFCB0",
-      "name": "func_800EFCB0",
-      "size": 380
-    },
-    {
-      "address": "0x800EFE2C",
-      "name": "func_800EFE2C",
-      "size": 240
-    },
-    {
-      "address": "0x800EFF1C",
-      "name": "func_800EFF1C",
-      "size": 356
-    },
-    {
-      "address": "0x800F0080",
-      "name": "func_800F0080",
-      "size": 412
-    },
-    {
-      "address": "0x800F021C",
-      "name": "func_800F021C",
+      "address": "0x800E9BF8",
+      "name": "func_800E9BF8",
       "size": 108
     },
     {
-      "address": "0x800F0288",
-      "name": "func_800F0288",
-      "size": 300
+      "address": "0x800E9C64",
+      "name": "func_800E9C64",
+      "size": 56
     },
     {
-      "address": "0x800F03B4",
-      "name": "func_800F03B4",
-      "size": 176
+      "address": "0x800E9C9C",
+      "name": "func_800E9C9C",
+      "size": 1048
     },
     {
-      "address": "0x800F0464",
-      "name": "func_800F0464",
-      "size": 1104
+      "address": "0x800EA0B4",
+      "name": "ResetEntityArray",
+      "size": 60
     },
     {
-      "address": "0x800F08B4",
-      "name": "func_800F08B4",
-      "size": 6672
+      "address": "0x800EA0F0",
+      "name": "RenderEntities",
+      "size": 4172
     },
     {
-      "address": "0x800F08E0",
-      "name": "func_800F08E0",
-      "size": 6628
+      "address": "0x800EB13C",
+      "name": "InitRenderer",
+      "size": 564
     },
     {
-      "address": "0x800F0AF0",
-      "name": "func_800F0AF0",
-      "size": 6100
+      "address": "0x800EB370",
+      "name": "HideAllBackgroundLayers",
+      "size": 44
     },
     {
-      "address": "0x800F15A4",
-      "name": "func_800F15A4",
-      "size": 3360
+      "address": "0x800EB39C",
+      "name": "RenderTilemap",
+      "size": 2332
     },
     {
-      "address": "0x800F160C",
-      "name": "func_800F160C",
-      "size": 3256
+      "address": "0x800EBCB8",
+      "name": "SetRoomForegroundLayer",
+      "size": 408
     },
     {
-      "address": "0x800F161C",
-      "name": "func_800F161C",
-      "size": 3240
+      "address": "0x800EBE50",
+      "name": "SetRoomBackgroundLayer",
+      "size": 232
     },
     {
-      "address": "0x800F1690",
-      "name": "func_800F1690",
-      "size": 3124
+      "address": "0x800EBF38",
+      "name": "LoadRoomLayer",
+      "size": 124
     },
     {
-      "address": "0x800F1FE4",
-      "name": "func_800F1FE4",
-      "size": 736
-    },
-    {
-      "address": "0x800F2190",
-      "name": "func_800F2190",
-      "size": 308
-    },
-    {
-      "address": "0x800F22A0",
-      "name": "func_800F22A0",
+      "address": "0x800EBFB4",
+      "name": "DestroyPrimitive",
       "size": 36
     },
     {
-      "address": "0x800F22C4",
-      "name": "func_800F22C4",
+      "address": "0x800EBFD8",
+      "name": "DestroyAllPrimitives",
       "size": 80
     },
     {
-      "address": "0x800F2314",
-      "name": "func_800F2314",
+      "address": "0x800EC028",
+      "name": "func_800EC028",
+      "size": 36
+    },
+    {
+      "address": "0x800EC04C",
+      "name": "func_800EC04C",
       "size": 80
     },
     {
-      "address": "0x800F2364",
-      "name": "func_800F2364",
-      "size": 364
+      "address": "0x800EC09C",
+      "name": "func_800EC09C",
+      "size": 296
     },
     {
-      "address": "0x800F24D0",
-      "name": "func_800F24D0",
+      "address": "0x800EC1C4",
+      "name": "AllocPrimitives",
+      "size": 284
+    },
+    {
+      "address": "0x800EC2E0",
+      "name": "AllocPrimitivesReverse",
+      "size": 220
+    },
+    {
+      "address": "0x800EC3BC",
+      "name": "FreePrimitives",
+      "size": 100
+    },
+    {
+      "address": "0x800EC420",
+      "name": "RenderPrimitives",
+      "size": 5504
+    },
+    {
+      "address": "0x800ED9A0",
+      "name": "CheckCollision",
+      "size": 1948
+    },
+    {
+      "address": "0x800EE13C",
+      "name": "DemoGameInit",
+      "size": 1852
+    },
+    {
+      "address": "0x800EE878",
+      "name": "func_800EE878",
+      "size": 56
+    },
+    {
+      "address": "0x800EE8B0",
+      "name": "DemoInit",
+      "size": 104
+    },
+    {
+      "address": "0x800EE918",
+      "name": "func_800EE918",
+      "size": 244
+    },
+    {
+      "address": "0x800EEA0C",
+      "name": "func_800EEA0C",
+      "size": 196
+    },
+    {
+      "address": "0x800EEAD0",
+      "name": "func_800EEAD0",
+      "size": 640
+    },
+    {
+      "address": "0x800EED50",
+      "name": "SetNextRoomToLoad",
+      "size": 280
+    },
+    {
+      "address": "0x800EEE68",
+      "name": "func_800EEE68",
+      "size": 1868
+    },
+    {
+      "address": "0x800EF5B4",
+      "name": "func_800EF5B4",
+      "size": 516
+    },
+    {
+      "address": "0x800EF7B8",
+      "name": "func_800EF7B8",
+      "size": 160
+    },
+    {
+      "address": "0x800EF858",
+      "name": "writeColorToBuffer",
+      "size": 88
+    },
+    {
+      "address": "0x800EF8B0",
+      "name": "readColorFromBuffer",
+      "size": 68
+    },
+    {
+      "address": "0x800EF8F4",
+      "name": "copyMapTileColorsToBuffer",
+      "size": 92
+    },
+    {
+      "address": "0x800EF950",
+      "name": "copyBufferToMapTile",
+      "size": 92
+    },
+    {
+      "address": "0x800EF9AC",
+      "name": "resetMapTileOnCastleBlueprint",
+      "size": 144
+    },
+    {
+      "address": "0x800EFA3C",
+      "name": "paintMapTileOnCastleBlueprint",
+      "size": 232
+    },
+    {
+      "address": "0x800EFB24",
+      "name": "repaintMapTilesOnCastleBlueprint",
+      "size": 204
+    },
+    {
+      "address": "0x800EFBF0",
+      "name": "func_800EFBF0",
+      "size": 588
+    },
+    {
+      "address": "0x800EFE3C",
+      "name": "DrawSecretPassageOnMap",
+      "size": 348
+    },
+    {
+      "address": "0x800EFF98",
+      "name": "RevealSecretPassageOnMap",
+      "size": 276
+    },
+    {
+      "address": "0x800F00AC",
+      "name": "RevealSecretPassageAtPlayerPositionOnMap",
       "size": 80
     },
     {
-      "address": "0x800F2520",
-      "name": "func_800F2520",
-      "size": 932
+      "address": "0x800F00FC",
+      "name": "func_800F00FC",
+      "size": 416
     },
     {
-      "address": "0x800F28C4",
-      "name": "func_800F28C4",
-      "size": 632
+      "address": "0x800F029C",
+      "name": "func_800F029C",
+      "size": 284
+    },
+    {
+      "address": "0x800F03B8",
+      "name": "LoadMonsterLibrarianPreview",
+      "size": 76
+    },
+    {
+      "address": "0x800F0404",
+      "name": "func_800F0404",
+      "size": 380
+    },
+    {
+      "address": "0x800F0580",
+      "name": "func_800F0580",
+      "size": 240
+    },
+    {
+      "address": "0x800F0670",
+      "name": "func_800F0670",
+      "size": 356
+    },
+    {
+      "address": "0x800F07D4",
+      "name": "DrawMapCursor",
+      "size": 412
+    },
+    {
+      "address": "0x800F0970",
+      "name": "func_800F0970",
+      "size": 108
+    },
+    {
+      "address": "0x800F09DC",
+      "name": "func_800F09DC",
+      "size": 300
+    },
+    {
+      "address": "0x800F0B08",
+      "name": "func_800F0B08",
+      "size": 176
+    },
+    {
+      "address": "0x800F0BB8",
+      "name": "RunMainEngine",
+      "size": 7988
+    },
+    {
+      "address": "0x800F2AEC",
+      "name": "func_800F2AEC",
+      "size": 80
     },
     {
       "address": "0x800F2B3C",
       "name": "func_800F2B3C",
+      "size": 80
+    },
+    {
+      "address": "0x800F2B8C",
+      "name": "CheckIfAllButtonsAreAssigned",
+      "size": 364
+    },
+    {
+      "address": "0x800F2CF8",
+      "name": "IsAlucart",
+      "size": 80
+    },
+    {
+      "address": "0x800F2D48",
+      "name": "func_800F2D48",
+      "size": 932
+    },
+    {
+      "address": "0x800F30EC",
+      "name": "CalcAttack",
+      "size": 632
+    },
+    {
+      "address": "0x800F3364",
+      "name": "func_800F3364",
       "size": 136
     },
     {
-      "address": "0x800F2BC4",
-      "name": "func_800F2BC4",
+      "address": "0x800F33EC",
+      "name": "CalcDefense",
       "size": 980
     },
     {
-      "address": "0x800F2F98",
-      "name": "func_800F2F98",
+      "address": "0x800F37C0",
+      "name": "func_800F37C0",
       "size": 48
     },
     {
-      "address": "0x800F2FC8",
-      "name": "func_800F2FC8",
+      "address": "0x800F37F0",
+      "name": "func_800F37F0",
       "size": 184
     },
     {
-      "address": "0x800F3080",
-      "name": "func_800F3080",
+      "address": "0x800F38A8",
+      "name": "func_800F38A8",
       "size": 64
     },
     {
-      "address": "0x800F30C0",
-      "name": "func_800F30C0",
+      "address": "0x800F38E8",
+      "name": "IsOutsideDrawArea",
       "size": 100
     },
     {
-      "address": "0x800F3124",
-      "name": "func_800F3124",
+      "address": "0x800F394C",
+      "name": "ScissorPolyG4",
       "size": 284
     },
     {
-      "address": "0x800F3240",
-      "name": "func_800F3240",
+      "address": "0x800F3A68",
+      "name": "ScissorPolyGT4",
       "size": 380
     },
     {
-      "address": "0x800F33BC",
-      "name": "func_800F33BC",
+      "address": "0x800F3BE4",
+      "name": "ScissorSprite",
       "size": 316
     },
     {
-      "address": "0x800F34F8",
-      "name": "func_800F34F8",
+      "address": "0x800F3D20",
+      "name": "MenuDrawImg",
       "size": 396
     },
     {
-      "address": "0x800F3684",
-      "name": "func_800F3684",
-      "size": 84
-    },
-    {
-      "address": "0x800F36D8",
-      "name": "func_800F36D8",
+      "address": "0x800F3EAC",
+      "name": "func_800F3EAC",
       "size": 172
     },
     {
-      "address": "0x800F3784",
-      "name": "func_800F3784",
+      "address": "0x800F3F58",
+      "name": "MenuDrawSprite",
       "size": 436
     },
     {
-      "address": "0x800F3938",
-      "name": "func_800F3938",
+      "address": "0x800F410C",
+      "name": "MenuDrawRect",
       "size": 292
     },
     {
-      "address": "0x800F3A5C",
-      "name": "func_800F3A5C",
+      "address": "0x800F4230",
+      "name": "func_800F4230",
       "size": 136
     },
     {
-      "address": "0x800F3AE4",
-      "name": "func_800F3AE4",
+      "address": "0x800F42B8",
+      "name": "DrawRelicsMenu",
       "size": 828
     },
     {
-      "address": "0x800F3E20",
-      "name": "func_800F3E20",
+      "address": "0x800F45F4",
+      "name": "MenuDrawAlucardPortrait",
       "size": 188
     },
     {
-      "address": "0x800F3EDC",
-      "name": "func_800F3EDC",
+      "address": "0x800F46B0",
+      "name": "DarkenCloakColor",
       "size": 28
     },
     {
-      "address": "0x800F3EF8",
-      "name": "func_800F3EF8",
+      "address": "0x800F46CC",
+      "name": "ApplyJosephsCloakPalette",
       "size": 312
     },
     {
-      "address": "0x800F4030",
-      "name": "func_800F4030",
+      "address": "0x800F4804",
+      "name": "MenuDrawAlucardCloakPreview",
       "size": 204
     },
     {
-      "address": "0x800F40FC",
-      "name": "func_800F40FC",
+      "address": "0x800F48D0",
+      "name": "func_800F48D0",
       "size": 96
     },
     {
-      "address": "0x800F415C",
-      "name": "func_800F415C",
-      "size": 176
+      "address": "0x800F4930",
+      "name": "func_800F4930",
+      "size": 200
     },
     {
-      "address": "0x800F420C",
-      "name": "func_800F420C",
+      "address": "0x800F49F8",
+      "name": "func_800F49F8",
       "size": 228
     },
     {
-      "address": "0x800F42F0",
-      "name": "func_800F42F0",
+      "address": "0x800F4ADC",
+      "name": "func_800F4ADC",
       "size": 208
     },
     {
-      "address": "0x800F43C0",
-      "name": "func_800F43C0",
+      "address": "0x800F4BAC",
+      "name": "MenuDrawChar",
       "size": 96
     },
     {
-      "address": "0x800F4420",
-      "name": "func_800F4420",
+      "address": "0x800F4C0C",
+      "name": "MenuDrawStr",
       "size": 264
     },
     {
-      "address": "0x800F4528",
-      "name": "func_800F4528",
+      "address": "0x800F4D14",
+      "name": "MenuDrawInt",
       "size": 164
     },
     {
-      "address": "0x800F45CC",
-      "name": "func_800F45CC",
+      "address": "0x800F4DB8",
+      "name": "MenuDrawTime",
       "size": 176
     },
     {
-      "address": "0x800F467C",
-      "name": "func_800F467C",
+      "address": "0x800F4E68",
+      "name": "func_800F4E68",
       "size": 40
     },
     {
-      "address": "0x800F46A4",
-      "name": "func_800F46A4",
+      "address": "0x800F4E90",
+      "name": "MenuJosephsCloakDraw",
       "size": 380
     },
     {
-      "address": "0x800F4820",
-      "name": "func_800F4820",
+      "address": "0x800F500C",
+      "name": "MenuWindowColorsDraw",
       "size": 212
     },
     {
-      "address": "0x800F48F4",
-      "name": "func_800F48F4",
+      "address": "0x800F50E0",
+      "name": "SortTimeAttackEntries",
       "size": 264
     },
     {
-      "address": "0x800F49FC",
-      "name": "func_800F49FC",
+      "address": "0x800F51E8",
+      "name": "MenuTimeAttackDraw",
       "size": 476
     },
     {
-      "address": "0x800F4BD8",
-      "name": "func_800F4BD8",
-      "size": 376
+      "address": "0x800F53C4",
+      "name": "MenuButtonConfigDraw",
+      "size": 440
     },
     {
-      "address": "0x800F4D50",
-      "name": "func_800F4D50",
+      "address": "0x800F557C",
+      "name": "MenuReverseCloakDraw",
       "size": 140
     },
     {
-      "address": "0x800F4DDC",
-      "name": "func_800F4DDC",
-      "size": 176
+      "address": "0x800F5608",
+      "name": "func_800F5608",
+      "size": 240
     },
     {
-      "address": "0x800F4E8C",
-      "name": "func_800F4E8C",
+      "address": "0x800F56F8",
+      "name": "StatChangeArrow",
       "size": 44
     },
     {
-      "address": "0x800F4EB8",
-      "name": "func_800F4EB8",
+      "address": "0x800F5724",
+      "name": "func_800F5724",
       "size": 120
     },
     {
-      "address": "0x800F4F30",
-      "name": "func_800F4F30",
+      "address": "0x800F579C",
+      "name": "MenuStatChangesDraw",
       "size": 504
     },
     {
-      "address": "0x800F5128",
-      "name": "func_800F5128",
-      "size": 1748
+      "address": "0x800F5994",
+      "name": "func_800F5994",
+      "size": 152
     },
     {
-      "address": "0x800F57FC",
-      "name": "func_800F57FC",
-      "size": 1028
+      "address": "0x800F5A2C",
+      "name": "func_800F5A2C",
+      "size": 196
     },
     {
-      "address": "0x800F5C00",
-      "name": "func_800F5C00",
-      "size": 888
+      "address": "0x800F5AF0",
+      "name": "func_800F5AF0",
+      "size": 216
     },
     {
-      "address": "0x800F5F78",
-      "name": "func_800F5F78",
-      "size": 128
-    },
-    {
-      "address": "0x800F5FF8",
-      "name": "func_800F5FF8",
-      "size": 344
-    },
-    {
-      "address": "0x800F6150",
-      "name": "func_800F6150",
-      "size": 536
-    },
-    {
-      "address": "0x800F6368",
-      "name": "func_800F6368",
-      "size": 112
-    },
-    {
-      "address": "0x800F63D8",
-      "name": "func_800F63D8",
-      "size": 260
-    },
-    {
-      "address": "0x800F64DC",
-      "name": "func_800F64DC",
-      "size": 212
-    },
-    {
-      "address": "0x800F65B0",
-      "name": "func_800F65B0",
-      "size": 100
-    },
-    {
-      "address": "0x800F6614",
-      "name": "func_800F6614",
-      "size": 776
-    },
-    {
-      "address": "0x800F691C",
-      "name": "func_800F691C",
-      "size": 384
-    },
-    {
-      "address": "0x800F6A9C",
-      "name": "func_800F6A9C",
-      "size": 320
-    },
-    {
-      "address": "0x800F6BDC",
-      "name": "func_800F6BDC",
-      "size": 2184
-    },
-    {
-      "address": "0x800F6C10",
-      "name": "func_800F6C10",
-      "size": 2132
-    },
-    {
-      "address": "0x800F7114",
-      "name": "func_800F7114",
-      "size": 848
-    },
-    {
-      "address": "0x800F7420",
-      "name": "func_800F7420",
-      "size": 68
-    },
-    {
-      "address": "0x800F7424",
-      "name": "func_800F7424",
-      "size": 64
-    },
-    {
-      "address": "0x800F7464",
-      "name": "func_800F7464",
-      "size": 100
-    },
-    {
-      "address": "0x800F74C8",
-      "name": "func_800F74C8",
-      "size": 232
-    },
-    {
-      "address": "0x800F75B0",
-      "name": "func_800F75B0",
-      "size": 44
-    },
-    {
-      "address": "0x800F75DC",
-      "name": "func_800F75DC",
-      "size": 164
-    },
-    {
-      "address": "0x800F7680",
-      "name": "func_800F7680",
-      "size": 268
-    },
-    {
-      "address": "0x800F778C",
-      "name": "func_800F778C",
-      "size": 372
-    },
-    {
-      "address": "0x800F7840",
-      "name": "func_800F7840",
-      "size": 192
-    },
-    {
-      "address": "0x800F78D0",
-      "name": "func_800F78D0",
-      "size": 48
-    },
-    {
-      "address": "0x800F7900",
-      "name": "func_800F7900",
-      "size": 532
-    },
-    {
-      "address": "0x800F7944",
-      "name": "func_800F7944",
-      "size": 464
-    },
-    {
-      "address": "0x800F7A88",
-      "name": "func_800F7A88",
-      "size": 140
-    },
-    {
-      "address": "0x800F7B14",
-      "name": "func_800F7B14",
-      "size": 72
-    },
-    {
-      "address": "0x800F7B5C",
-      "name": "func_800F7B5C",
-      "size": 72
-    },
-    {
-      "address": "0x800F7BA4",
-      "name": "func_800F7BA4",
-      "size": 312
-    },
-    {
-      "address": "0x800F7CDC",
-      "name": "func_800F7CDC",
-      "size": 244
-    },
-    {
-      "address": "0x800F7DD0",
-      "name": "func_800F7DD0",
-      "size": 912
-    },
-    {
-      "address": "0x800F8160",
-      "name": "func_800F8160",
-      "size": 584
-    },
-    {
-      "address": "0x800F83A8",
-      "name": "func_800F83A8",
-      "size": 476
-    },
-    {
-      "address": "0x800F8584",
-      "name": "func_800F8584",
-      "size": 220
-    },
-    {
-      "address": "0x800F8660",
-      "name": "func_800F8660",
+      "address": "0x800F5BC8",
+      "name": "func_800F5BC8",
       "size": 180
     },
     {
-      "address": "0x800F8714",
-      "name": "func_800F8714",
+      "address": "0x800F5C7C",
+      "name": "func_800F5C7C",
+      "size": 260
+    },
+    {
+      "address": "0x800F5D80",
+      "name": "MenuDrawStats",
+      "size": 1816
+    },
+    {
+      "address": "0x800F6498",
+      "name": "MenuSpellsDraw",
+      "size": 1028
+    },
+    {
+      "address": "0x800F689C",
+      "name": "MenuFamiliarsDraw",
+      "size": 888
+    },
+    {
+      "address": "0x800F6C14",
+      "name": "func_800F6C14",
+      "size": 128
+    },
+    {
+      "address": "0x800F6C94",
+      "name": "MenuSystemDraw",
+      "size": 412
+    },
+    {
+      "address": "0x800F6E30",
+      "name": "func_800F6E30",
+      "size": 536
+    },
+    {
+      "address": "0x800F7048",
+      "name": "func_800F7048",
+      "size": 112
+    },
+    {
+      "address": "0x800F70B8",
+      "name": "func_800F70B8",
+      "size": 260
+    },
+    {
+      "address": "0x800F71BC",
+      "name": "MenuEquipSortDraw",
+      "size": 212
+    },
+    {
+      "address": "0x800F7290",
+      "name": "func_800F7290",
+      "size": 100
+    },
+    {
+      "address": "0x800F72F4",
+      "name": "func_800F72F4",
+      "size": 776
+    },
+    {
+      "address": "0x800F75FC",
+      "name": "MenuDrawLine",
+      "size": 384
+    },
+    {
+      "address": "0x800F777C",
+      "name": "func_800F777C",
       "size": 320
     },
     {
-      "address": "0x800F8854",
-      "name": "func_800F8854",
-      "size": 112
+      "address": "0x800F78BC",
+      "name": "func_800F78BC",
+      "size": 68
+    },
+    {
+      "address": "0x800F7900",
+      "name": "MenuDraw",
+      "size": 2252
+    },
+    {
+      "address": "0x800F81CC",
+      "name": "func_800F81CC",
+      "size": 100
+    },
+    {
+      "address": "0x800F8230",
+      "name": "func_800F8230",
+      "size": 232
+    },
+    {
+      "address": "0x800F8318",
+      "name": "func_800F8318",
+      "size": 44
+    },
+    {
+      "address": "0x800F8344",
+      "name": "func_800F8344",
+      "size": 164
+    },
+    {
+      "address": "0x800F83E8",
+      "name": "func_800F83E8",
+      "size": 268
+    },
+    {
+      "address": "0x800F84F4",
+      "name": "func_800F84F4",
+      "size": 904
+    },
+    {
+      "address": "0x800F887C",
+      "name": "func_800F887C",
+      "size": 72
     },
     {
       "address": "0x800F88C4",
       "name": "func_800F88C4",
+      "size": 72
+    },
+    {
+      "address": "0x800F890C",
+      "name": "func_800F890C",
+      "size": 312
+    },
+    {
+      "address": "0x800F8A44",
+      "name": "func_800F8A44",
+      "size": 244
+    },
+    {
+      "address": "0x800F8B38",
+      "name": "MenuHandleCursorInput",
+      "size": 912
+    },
+    {
+      "address": "0x800F8EC8",
+      "name": "func_800F8EC8",
+      "size": 584
+    },
+    {
+      "address": "0x800F9110",
+      "name": "MenuEquipHandlePageScroll",
+      "size": 476
+    },
+    {
+      "address": "0x800F92EC",
+      "name": "CheckWeaponCombo",
+      "size": 220
+    },
+    {
+      "address": "0x800F93C8",
+      "name": "LoadWeaponPrg",
+      "size": 180
+    },
+    {
+      "address": "0x800F947C",
+      "name": "InitWeapon",
+      "size": 320
+    },
+    {
+      "address": "0x800F95BC",
+      "name": "func_800F95BC",
+      "size": 112
+    },
+    {
+      "address": "0x800F962C",
+      "name": "MenuHide",
       "size": 48
     },
     {
-      "address": "0x800F88F4",
-      "name": "func_800F88F4",
+      "address": "0x800F965C",
+      "name": "MenuShow",
       "size": 48
     },
     {
-      "address": "0x800F8924",
-      "name": "func_800F8924",
+      "address": "0x800F968C",
+      "name": "func_800F968C",
       "size": 32
     },
     {
-      "address": "0x800F8944",
-      "name": "func_800F8944",
+      "address": "0x800F96AC",
+      "name": "func_800F96AC",
       "size": 36
     },
     {
-      "address": "0x800F8968",
-      "name": "func_800F8968",
+      "address": "0x800F96D0",
+      "name": "func_800F96D0",
       "size": 24
     },
     {
-      "address": "0x800F8980",
-      "name": "func_800F8980",
+      "address": "0x800F96E8",
+      "name": "func_800F96E8",
       "size": 80
     },
     {
-      "address": "0x800F89D0",
-      "name": "func_800F89D0",
+      "address": "0x800F9738",
+      "name": "func_800F9738",
       "size": 32
     },
     {
-      "address": "0x800F89F0",
-      "name": "func_800F89F0",
+      "address": "0x800F9758",
+      "name": "func_800F9758",
       "size": 240
     },
     {
-      "address": "0x800F8AE0",
-      "name": "func_800F8AE0",
+      "address": "0x800F9848",
+      "name": "func_800F9848",
       "size": 140
     },
     {
-      "address": "0x800F8B6C",
-      "name": "func_800F8B6C",
+      "address": "0x800F98D4",
+      "name": "func_800F98D4",
       "size": 304
     },
     {
-      "address": "0x800F8C9C",
-      "name": "func_800F8C9C",
+      "address": "0x800F9A04",
+      "name": "func_800F9A04",
       "size": 44
     },
     {
-      "address": "0x800F8CC8",
-      "name": "func_800F8CC8",
+      "address": "0x800F9A30",
+      "name": "func_800F9A30",
       "size": 128
     },
     {
-      "address": "0x800F8D48",
-      "name": "func_800F8D48",
+      "address": "0x800F9AB0",
+      "name": "func_800F9AB0",
       "size": 192
     },
     {
-      "address": "0x800F8E08",
-      "name": "func_800F8E08",
+      "address": "0x800F9B70",
+      "name": "func_800F9B70",
       "size": 248
     },
     {
-      "address": "0x800F8F00",
-      "name": "func_800F8F00",
+      "address": "0x800F9C68",
+      "name": "func_800F9C68",
       "size": 100
     },
     {
-      "address": "0x800F8F64",
-      "name": "func_800F8F64",
+      "address": "0x800F9CCC",
+      "name": "func_800F9CCC",
       "size": 140
     },
     {
-      "address": "0x800F8FF0",
-      "name": "func_800F8FF0",
+      "address": "0x800F9D58",
+      "name": "func_800F9D58",
       "size": 80
     },
     {
-      "address": "0x800F9040",
-      "name": "func_800F9040",
+      "address": "0x800F9DA8",
+      "name": "func_800F9DA8",
       "size": 2060
     },
     {
-      "address": "0x800F984C",
-      "name": "func_800F984C",
+      "address": "0x800FA5B4",
+      "name": "func_800FA5B4",
       "size": 252
     },
     {
-      "address": "0x800F9948",
-      "name": "func_800F9948",
+      "address": "0x800FA6B0",
+      "name": "func_800FA6B0",
       "size": 352
     },
     {
-      "address": "0x800F9AA8",
-      "name": "func_800F9AA8",
-      "size": 6808
+      "address": "0x800FA810",
+      "name": "MenuHandle",
+      "size": 6308
     },
     {
-      "address": "0x800FAD10",
-      "name": "func_800FAD10",
-      "size": 1452
+      "address": "0x800FC0B4",
+      "name": "TimeAttackController",
+      "size": 252
     },
     {
-      "address": "0x800FAE5C",
-      "name": "func_800FAE5C",
-      "size": 1120
-    },
-    {
-      "address": "0x800FB264",
-      "name": "func_800FB264",
-      "size": 88
-    },
-    {
-      "address": "0x800FB26C",
-      "name": "func_800FB26C",
-      "size": 80
-    },
-    {
-      "address": "0x800FB2BC",
-      "name": "func_800FB2BC",
-      "size": 132
-    },
-    {
-      "address": "0x800FB340",
-      "name": "func_800FB340",
-      "size": 120
-    },
-    {
-      "address": "0x800FB398",
-      "name": "func_800FB398",
-      "size": 32
-    },
-    {
-      "address": "0x800FB3B0",
-      "name": "func_800FB3B0",
-      "size": 8
-    },
-    {
-      "address": "0x800FB3B8",
-      "name": "func_800FB3B8",
+      "address": "0x800FC1B0",
+      "name": "CalcPlayerDamage",
       "size": 168
     },
     {
-      "address": "0x800FB460",
-      "name": "func_800FB460",
+      "address": "0x800FC258",
+      "name": "func_800FC258",
       "size": 36
     },
     {
-      "address": "0x800FB484",
-      "name": "func_800FB484",
+      "address": "0x800FC27C",
+      "name": "GetEquipItemCategory",
       "size": 60
     },
     {
-      "address": "0x800FB4C0",
-      "name": "func_800FB4C0",
-      "size": 72
+      "address": "0x800FC2B8",
+      "name": "func_800FC2B8",
+      "size": 128
     },
     {
-      "address": "0x800FB508",
-      "name": "func_800FB508",
-      "size": 56
-    },
-    {
-      "address": "0x800FB538",
-      "name": "func_800FB538",
-      "size": 8
-    },
-    {
-      "address": "0x800FB540",
-      "name": "func_800FB540",
+      "address": "0x800FC338",
+      "name": "GetEquipOrder",
       "size": 28
     },
     {
-      "address": "0x800FB55C",
-      "name": "func_800FB55C",
+      "address": "0x800FC354",
+      "name": "GetEquipCount",
       "size": 28
     },
     {
-      "address": "0x800FB578",
-      "name": "func_800FB578",
+      "address": "0x800FC370",
+      "name": "GetEquipmentName",
       "size": 68
     },
     {
-      "address": "0x800FB5BC",
-      "name": "func_800FB5BC",
+      "address": "0x800FC3B4",
+      "name": "CheckEquipmentItemCount",
       "size": 180
     },
     {
-      "address": "0x800FB670",
-      "name": "func_800FB670",
+      "address": "0x800FC468",
+      "name": "AddToInventory",
       "size": 352
     },
     {
-      "address": "0x800FB7D0",
-      "name": "func_800FB7D0",
+      "address": "0x800FC5C8",
+      "name": "GetSpellDef",
       "size": 324
     },
     {
-      "address": "0x800FB914",
-      "name": "func_800FB914",
+      "address": "0x800FC70C",
+      "name": "GetStatusAilmentTimer",
       "size": 380
     },
     {
-      "address": "0x800FBA90",
-      "name": "func_800FBA90",
+      "address": "0x800FC888",
+      "name": "CastSpell",
       "size": 76
     },
     {
-      "address": "0x800FBADC",
-      "name": "func_800FBADC",
+      "address": "0x800FC8D4",
+      "name": "LearnSpell",
       "size": 100
     },
     {
-      "address": "0x800FBB40",
-      "name": "func_800FBB40",
+      "address": "0x800FC938",
+      "name": "func_800FC938",
       "size": 188
     },
     {
-      "address": "0x800FBBFC",
-      "name": "KanjiFntClose",
+      "address": "0x800FC9F4",
+      "name": "func_800FC9F4",
       "size": 32
     },
     {
-      "address": "0x800FBC1C",
-      "name": "func_800FBC1C",
+      "address": "0x800FCA14",
+      "name": "CheckAndDoLevelUp",
       "size": 608
     },
     {
-      "address": "0x800FBE7C",
-      "name": "func_800FBE7C",
+      "address": "0x800FCC74",
+      "name": "func_800FCC74",
       "size": 876
     },
     {
-      "address": "0x800FC1E8",
-      "name": "func_800FC1E8",
+      "address": "0x800FCFE0",
+      "name": "func_800FCFE0",
       "size": 24
     },
     {
-      "address": "0x800FC200",
-      "name": "func_800FC200",
+      "address": "0x800FCFF8",
+      "name": "func_800FCFF8",
       "size": 200
     },
     {
-      "address": "0x800FC2C8",
-      "name": "func_800FC2C8",
+      "address": "0x800FD0C0",
+      "name": "func_800FD0C0",
       "size": 176
     },
     {
-      "address": "0x800FC378",
-      "name": "func_800FC378",
+      "address": "0x800FD170",
+      "name": "func_800FD170",
       "size": 88
     },
     {
-      "address": "0x800FC3D0",
-      "name": "func_800FC3D0",
+      "address": "0x800FD1C8",
+      "name": "IsRelicActive",
       "size": 56
     },
     {
-      "address": "0x800FC408",
-      "name": "func_800FC408",
+      "address": "0x800FD200",
+      "name": "func_800FD200",
       "size": 868
     },
     {
-      "address": "0x800FC76C",
-      "name": "func_800FC76C",
+      "address": "0x800FD564",
+      "name": "GetEquipProperties",
       "size": 396
     },
     {
-      "address": "0x800FC8F8",
-      "name": "func_800FC8F8",
+      "address": "0x800FD6F0",
+      "name": "HasEnoughMp",
       "size": 60
     },
     {
-      "address": "0x800FC934",
-      "name": "func_800FC934",
+      "address": "0x800FD72C",
+      "name": "func_800FD72C",
       "size": 36
     },
     {
-      "address": "0x800FC958",
-      "name": "func_800FC958",
+      "address": "0x800FD750",
+      "name": "AddHearts",
       "size": 104
     },
     {
-      "address": "0x800FC9C0",
-      "name": "func_800FC9C0",
+      "address": "0x800FD7B8",
+      "name": "HandleDamage",
       "size": 1264
     },
     {
-      "address": "0x800FCEB0",
-      "name": "func_800FCEB0",
+      "address": "0x800FDCA8",
+      "name": "DecrementStatBuffTimers",
       "size": 56
     },
     {
-      "address": "0x800FCEE8",
-      "name": "func_800FCEE8",
+      "address": "0x800FDCE0",
+      "name": "HandleTransformationMP",
       "size": 448
     },
     {
-      "address": "0x800FD0A8",
-      "name": "func_800FD0A8",
+      "address": "0x800FDEA0",
+      "name": "HandleGravityBootsMP",
       "size": 60
     },
     {
-      "address": "0x800FD0E4",
-      "name": "func_800FD0E4",
+      "address": "0x800FDEDC",
+      "name": "ClearStatBuff",
       "size": 24
     },
     {
-      "address": "0x800FD0FC",
-      "name": "func_800FD0FC",
+      "address": "0x800FDEF4",
+      "name": "ClearStatBuffs",
       "size": 60
     },
     {
-      "address": "0x800FD138",
-      "name": "func_800FD138",
+      "address": "0x800FDF30",
+      "name": "GiveStatBuff",
       "size": 28
     },
     {
-      "address": "0x800FD154",
-      "name": "DS_system_status",
+      "address": "0x800FDF4C",
+      "name": "GetStatBuffTimer",
       "size": 24
     },
     {
-      "address": "0x800FD16C",
-      "name": "func_800FD16C",
+      "address": "0x800FDF64",
+      "name": "DealDamage",
       "size": 824
     },
     {
-      "address": "0x800FD4A4",
-      "name": "func_800FD4A4",
+      "address": "0x800FE29C",
+      "name": "func_800FE29C",
       "size": 52
     },
     {
-      "address": "0x800FD4D8",
-      "name": "func_800FD4D8",
+      "address": "0x800FE2D0",
+      "name": "func_800FE2D0",
       "size": 376
     },
     {
-      "address": "0x800FD650",
-      "name": "func_800FD650",
+      "address": "0x800FE448",
+      "name": "UpdateCapePalette",
       "size": 276
     },
     {
-      "address": "0x800FD764",
-      "name": "func_800FD764",
+      "address": "0x800FE55C",
+      "name": "RefreshCapePalette",
       "size": 68
     },
     {
-      "address": "0x800FD7A8",
-      "name": "func_800FD7A8",
-      "size": 4112
+      "address": "0x800FE5A0",
+      "name": "InitStatsAndGear",
+      "size": 4100
     },
     {
-      "address": "0x800FE7B8",
-      "name": "func_800FE7B8",
-      "size": 1112
+      "address": "0x800FF5A4",
+      "name": "DrawRichterHud",
+      "size": 1228
     },
     {
-      "address": "0x800FEBDC",
-      "name": "func_800FEBDC",
-      "size": 52
-    },
-    {
-      "address": "0x800FEC10",
-      "name": "func_800FEC10",
-      "size": 116
-    },
-    {
-      "address": "0x800FEC50",
-      "name": "func_800FEC50",
-      "size": 52
-    },
-    {
-      "address": "0x800FEC84",
-      "name": "func_800FEC84",
+      "address": "0x800FFA70",
+      "name": "func_800FFA70",
       "size": 324
     },
     {
-      "address": "0x800FEDC8",
-      "name": "func_800FEDC8",
+      "address": "0x800FFBB4",
+      "name": "func_800FFBB4",
       "size": 104
     },
     {
-      "address": "0x800FEE30",
-      "name": "func_800FEE30",
+      "address": "0x800FFC1C",
+      "name": "func_800FFC1C",
       "size": 92
     },
     {
-      "address": "0x800FEE8C",
-      "name": "func_800FEE8C",
-      "size": 452
+      "address": "0x800FFC78",
+      "name": "func_800FFC78",
+      "size": 1164
     },
     {
-      "address": "0x800FF050",
-      "name": "func_800FF050",
-      "size": 648
+      "address": "0x80100104",
+      "name": "DrawRichterHudSubweapon",
+      "size": 3464
     },
     {
-      "address": "0x800FF2D8",
-      "name": "func_800FF2D8",
-      "size": 3368
-    },
-    {
-      "address": "0x80100000",
-      "name": "func_80100000",
+      "address": "0x80100E8C",
+      "name": "func_80100E8C",
       "size": 96
     },
     {
-      "address": "0x80100004",
-      "name": "func_80100004",
-      "size": 92
+      "address": "0x80100EEC",
+      "name": "func_80100EEC",
+      "size": 88
     },
     {
-      "address": "0x80100018",
-      "name": "func_80100018",
-      "size": 72
+      "address": "0x80100F44",
+      "name": "DrawHud",
+      "size": 484
     },
     {
-      "address": "0x80100020",
-      "name": "func_80100020",
-      "size": 64
-    },
-    {
-      "address": "0x80100040",
-      "name": "func_80100040",
-      "size": 32
-    },
-    {
-      "address": "0x80100060",
-      "name": "func_80100060",
-      "size": 96
-    },
-    {
-      "address": "0x801000C0",
-      "name": "func_801000C0",
-      "size": 4
-    },
-    {
-      "address": "0x801000C4",
-      "name": "func_801000C4",
-      "size": 12
-    },
-    {
-      "address": "0x801000D0",
-      "name": "func_801000D0",
-      "size": 468
-    },
-    {
-      "address": "0x801002A4",
-      "name": "func_801002A4",
+      "address": "0x80101128",
+      "name": "DrawHudSubweapon",
       "size": 2652
     },
     {
-      "address": "0x80100D00",
-      "name": "func_80100D00",
+      "address": "0x80101B84",
+      "name": "InitFade",
       "size": 280
     },
     {
-      "address": "0x80100E18",
-      "name": "func_80100E18",
+      "address": "0x80101C9C",
+      "name": "func_80101C9C",
       "size": 52
     },
     {
-      "address": "0x80100E4C",
-      "name": "func_80100E4C",
+      "address": "0x80101CD0",
+      "name": "SetFadeWidth",
       "size": 148
     },
     {
-      "address": "0x80100EE0",
-      "name": "func_80100EE0",
+      "address": "0x80101D64",
+      "name": "SetMapOpacity",
       "size": 232
     },
     {
-      "address": "0x80100FC8",
-      "name": "func_80100FC8",
+      "address": "0x80101E4C",
+      "name": "HideMap",
       "size": 32
     },
     {
-      "address": "0x80100FE8",
-      "name": "func_80100FE8",
-      "size": 1300
+      "address": "0x80101E6C",
+      "name": "SetFadeMode",
+      "size": 232
     },
     {
-      "address": "0x801010D0",
-      "name": "func_801010D0",
+      "address": "0x80101F54",
+      "name": "UpdateFade",
       "size": 1068
     },
     {
-      "address": "0x801014FC",
-      "name": "func_801014FC",
+      "address": "0x80102380",
+      "name": "func_80102380",
       "size": 48
     },
     {
-      "address": "0x8010152C",
-      "name": "func_8010152C",
+      "address": "0x801023B0",
+      "name": "func_801023B0",
       "size": 104
     },
     {
-      "address": "0x80101594",
-      "name": "func_80101594",
+      "address": "0x80102418",
+      "name": "func_80102418",
       "size": 124
     },
     {
-      "address": "0x80101610",
-      "name": "func_80101610",
+      "address": "0x80102494",
+      "name": "MemCardSetPort",
       "size": 24
     },
     {
-      "address": "0x80101628",
-      "name": "func_80101628",
+      "address": "0x801024AC",
+      "name": "MemCardInitAndFormat",
       "size": 180
     },
     {
-      "address": "0x801016DC",
-      "name": "func_801016DC",
+      "address": "0x80102560",
+      "name": "func_80102560",
       "size": 508
     },
     {
-      "address": "0x801018D8",
-      "name": "func_801018D8",
+      "address": "0x8010275C",
+      "name": "func_8010275C",
       "size": 148
     },
     {
-      "address": "0x8010196C",
-      "name": "func_8010196C",
+      "address": "0x801027F0",
+      "name": "func_801027F0",
       "size": 240
     },
     {
-      "address": "0x80101A5C",
-      "name": "func_80101A5C",
-      "size": 3188
-    },
-    {
-      "address": "0x801026D0",
-      "name": "func_801026D0",
-      "size": 40
-    },
-    {
-      "address": "0x801026F8",
-      "name": "func_801026F8",
-      "size": 936
-    },
-    {
-      "address": "0x80102AA0",
-      "name": "free_makebg",
-      "size": 72
-    },
-    {
-      "address": "0x80102AE8",
-      "name": "func_80102AE8",
-      "size": 1204
-    },
-    {
-      "address": "0x80102F9C",
-      "name": "func_80102F9C",
-      "size": 1124
-    },
-    {
-      "address": "0x80103268",
-      "name": "func_80103268",
-      "size": 408
-    },
-    {
-      "address": "0x801033C0",
-      "name": "func_801033C0",
-      "size": 64
+      "address": "0x801028E0",
+      "name": "HandleSaveMenu",
+      "size": 2848
     },
     {
       "address": "0x80103400",
       "name": "func_80103400",
-      "size": 1156
-    },
-    {
-      "address": "0x80103814",
-      "name": "func_80103814",
-      "size": 112
-    },
-    {
-      "address": "0x80103884",
-      "name": "func_80103884",
-      "size": 904
-    },
-    {
-      "address": "0x80103C0C",
-      "name": "func_80103C0C",
-      "size": 8
-    },
-    {
-      "address": "0x80103C14",
-      "name": "func_80103C14",
-      "size": 32
-    },
-    {
-      "address": "0x80103C34",
-      "name": "func_80103C34",
-      "size": 2968
-    },
-    {
-      "address": "0x801047CC",
-      "name": "func_801047CC",
-      "size": 236
-    },
-    {
-      "address": "0x801047E0",
-      "name": "func_801047E0",
-      "size": 216
-    },
-    {
-      "address": "0x8010482C",
-      "name": "func_8010482C",
-      "size": 140
-    },
-    {
-      "address": "0x80104844",
-      "name": "func_80104844",
-      "size": 116
-    },
-    {
-      "address": "0x8010486C",
-      "name": "func_8010486C",
-      "size": 76
-    },
-    {
-      "address": "0x80104890",
-      "name": "func_80104890",
-      "size": 40
-    },
-    {
-      "address": "0x801048B8",
-      "name": "func_801048B8",
-      "size": 1316
-    },
-    {
-      "address": "0x80104914",
-      "name": "func_80104914",
-      "size": 1224
-    },
-    {
-      "address": "0x80104948",
-      "name": "func_80104948",
-      "size": 1172
-    },
-    {
-      "address": "0x8010496C",
-      "name": "func_8010496C",
-      "size": 1136
-    },
-    {
-      "address": "0x80104988",
-      "name": "func_80104988",
-      "size": 1108
-    },
-    {
-      "address": "0x80104998",
-      "name": "func_80104998",
-      "size": 1092
-    },
-    {
-      "address": "0x80104A70",
-      "name": "func_80104A70",
-      "size": 876
-    },
-    {
-      "address": "0x80104AE8",
-      "name": "func_80104AE8",
-      "size": 756
-    },
-    {
-      "address": "0x80104B1C",
-      "name": "func_80104B1C",
-      "size": 704
-    },
-    {
-      "address": "0x80104B5C",
-      "name": "func_80104B5C",
-      "size": 640
-    },
-    {
-      "address": "0x80104B6C",
-      "name": "func_80104B6C",
-      "size": 624
-    },
-    {
-      "address": "0x80104B7C",
-      "name": "func_80104B7C",
-      "size": 608
-    },
-    {
-      "address": "0x80104BDC",
-      "name": "func_80104BDC",
-      "size": 512
-    },
-    {
-      "address": "0x80104D60",
-      "name": "func_80104D60",
-      "size": 124
-    },
-    {
-      "address": "0x80104D70",
-      "name": "func_80104D70",
-      "size": 108
-    },
-    {
-      "address": "0x80104D74",
-      "name": "func_80104D74",
-      "size": 104
-    },
-    {
-      "address": "0x80104DDC",
-      "name": "func_80104DDC",
-      "size": 100
-    },
-    {
-      "address": "0x80104E40",
-      "name": "func_80104E40",
-      "size": 124
-    },
-    {
-      "address": "0x80104EBC",
-      "name": "func_80104EBC",
-      "size": 1844
-    },
-    {
-      "address": "0x801055F0",
-      "name": "func_801055F0",
-      "size": 76
-    },
-    {
-      "address": "0x8010563C",
-      "name": "func_8010563C",
-      "size": 132
-    },
-    {
-      "address": "0x801056C0",
-      "name": "func_801056C0",
-      "size": 108
-    },
-    {
-      "address": "0x8010572C",
-      "name": "atof",
-      "size": 32
-    },
-    {
-      "address": "0x8010574C",
-      "name": "func_8010574C",
-      "size": 32
-    },
-    {
-      "address": "0x8010576C",
-      "name": "func_8010576C",
-      "size": 48
-    },
-    {
-      "address": "0x8010579C",
-      "name": "func_8010579C",
-      "size": 96
-    },
-    {
-      "address": "0x801057FC",
-      "name": "func_801057FC",
-      "size": 148
-    },
-    {
-      "address": "0x80105890",
-      "name": "func_80105890",
-      "size": 112
-    },
-    {
-      "address": "0x80105900",
-      "name": "func_80105900",
-      "size": 372
-    },
-    {
-      "address": "0x80105A74",
-      "name": "func_80105A74",
-      "size": 40
-    },
-    {
-      "address": "0x80105A9C",
-      "name": "func_80105A9C",
-      "size": 100
-    },
-    {
-      "address": "0x80105B00",
-      "name": "func_80105B00",
-      "size": 92
-    },
-    {
-      "address": "0x80105B5C",
-      "name": "func_80105B5C",
-      "size": 344
-    },
-    {
-      "address": "0x80105CB4",
-      "name": "func_80105CB4",
-      "size": 316
-    },
-    {
-      "address": "0x80105DF0",
-      "name": "func_80105DF0",
-      "size": 372
-    },
-    {
-      "address": "0x80105F64",
-      "name": "func_80105F64",
-      "size": 576
-    },
-    {
-      "address": "0x801061A4",
-      "name": "func_801061A4",
-      "size": 360
-    },
-    {
-      "address": "0x8010630C",
-      "name": "func_8010630C",
-      "size": 320
-    },
-    {
-      "address": "0x8010644C",
-      "name": "func_8010644C",
-      "size": 316
-    },
-    {
-      "address": "0x80106588",
-      "name": "func_80106588",
-      "size": 492
-    },
-    {
-      "address": "0x80106774",
-      "name": "func_80106774",
-      "size": 688
-    },
-    {
-      "address": "0x80106A24",
-      "name": "func_80106A24",
-      "size": 48
-    },
-    {
-      "address": "0x80106A54",
-      "name": "func_80106A54",
-      "size": 52
-    },
-    {
-      "address": "0x80106A88",
-      "name": "func_80106A88",
-      "size": 2376
-    },
-    {
-      "address": "0x801073D0",
-      "name": "func_801073D0",
-      "size": 896
-    },
-    {
-      "address": "0x8010745C",
-      "name": "func_8010745C",
-      "size": 756
-    },
-    {
-      "address": "0x801074AC",
-      "name": "func_801074AC",
-      "size": 676
-    },
-    {
-      "address": "0x80107750",
-      "name": "CopySupportOvlCallback",
-      "size": 56
-    },
-    {
-      "address": "0x80107788",
-      "name": "func_80107788",
-      "size": 1340
-    },
-    {
-      "address": "0x8010779C",
-      "name": "func_8010779C",
-      "size": 1320
-    },
-    {
-      "address": "0x80107808",
-      "name": "func_80107808",
-      "size": 1212
-    },
-    {
-      "address": "0x801078A8",
-      "name": "func_801078A8",
-      "size": 1052
-    },
-    {
-      "address": "0x8010794C",
-      "name": "func_8010794C",
-      "size": 888
-    },
-    {
-      "address": "0x80107BAC",
-      "name": "func_80107BAC",
-      "size": 280
-    },
-    {
-      "address": "0x80107BBC",
-      "name": "func_80107BBC",
-      "size": 264
-    },
-    {
-      "address": "0x80107C00",
-      "name": "func_80107C00",
-      "size": 196
-    },
-    {
-      "address": "0x80107C08",
-      "name": "func_80107C08",
-      "size": 188
-    },
-    {
-      "address": "0x80107C10",
-      "name": "func_80107C10",
-      "size": 180
-    },
-    {
-      "address": "0x80107C58",
-      "name": "func_80107C58",
-      "size": 108
-    },
-    {
-      "address": "0x80107C9C",
-      "name": "func_80107C9C",
-      "size": 40
-    },
-    {
-      "address": "0x80107CB4",
-      "name": "func_80107CB4",
-      "size": 16
-    },
-    {
-      "address": "0x80107CC4",
-      "name": "func_80107CC4",
-      "size": 292
-    },
-    {
-      "address": "0x80107CEC",
-      "name": "func_80107CEC",
-      "size": 252
-    },
-    {
-      "address": "0x80107D00",
-      "name": "func_80107D00",
-      "size": 232
-    },
-    {
-      "address": "0x80107D88",
-      "name": "func_80107D88",
-      "size": 96
-    },
-    {
-      "address": "0x80107D90",
-      "name": "func_80107D90",
-      "size": 88
-    },
-    {
-      "address": "0x80107DC0",
-      "name": "func_80107DC0",
-      "size": 40
-    },
-    {
-      "address": "0x80107DE8",
-      "name": "func_80107DE8",
-      "size": 64
-    },
-    {
-      "address": "0x80107E28",
-      "name": "func_80107E28",
-      "size": 156
-    },
-    {
-      "address": "0x80107EC4",
-      "name": "func_80107EC4",
-      "size": 464
-    },
-    {
-      "address": "0x80108094",
-      "name": "func_80108094",
-      "size": 1020
-    },
-    {
-      "address": "0x80108490",
-      "name": "func_80108490",
-      "size": 180
-    },
-    {
-      "address": "0x80108544",
-      "name": "func_80108544",
-      "size": 2032
-    },
-    {
-      "address": "0x80108D34",
-      "name": "func_80108D34",
-      "size": 444
-    },
-    {
-      "address": "0x80108EF0",
-      "name": "func_80108EF0",
-      "size": 180
-    },
-    {
-      "address": "0x80108FA4",
-      "name": "func_80108FA4",
-      "size": 280
-    },
-    {
-      "address": "0x801090BC",
-      "name": "func_801090BC",
-      "size": 6596
-    },
-    {
-      "address": "0x8010AA80",
-      "name": "func_8010AA80",
-      "size": 152
-    },
-    {
-      "address": "0x8010AB18",
-      "name": "func_8010AB18",
-      "size": 880
-    },
-    {
-      "address": "0x8010AE88",
-      "name": "func_8010AE88",
-      "size": 1672
-    },
-    {
-      "address": "0x8010B510",
-      "name": "func_8010B510",
-      "size": 828
-    },
-    {
-      "address": "0x8010B56C",
-      "name": "func_8010B56C",
-      "size": 736
-    },
-    {
-      "address": "0x8010B84C",
-      "name": "func_8010B84C",
-      "size": 736
-    },
-    {
-      "address": "0x8010B88C",
-      "name": "func_8010B88C",
-      "size": 672
-    },
-    {
-      "address": "0x8010B924",
-      "name": "func_8010B924",
-      "size": 248
-    },
-    {
-      "address": "0x8010BA1C",
-      "name": "func_8010BA1C",
-      "size": 272
-    },
-    {
-      "address": "0x8010BA24",
-      "name": "func_8010BA24",
-      "size": 264
-    },
-    {
-      "address": "0x8010BA2C",
-      "name": "func_8010BA2C",
-      "size": 204
-    },
-    {
-      "address": "0x8010BAE0",
-      "name": "func_8010BAE0",
-      "size": 24
-    },
-    {
-      "address": "0x8010BAF8",
-      "name": "func_8010BAF8",
-      "size": 52
-    },
-    {
-      "address": "0x8010BB2C",
-      "name": "func_8010BB2C",
-      "size": 260
-    },
-    {
-      "address": "0x8010BC04",
-      "name": "func_8010BC04",
-      "size": 44
-    },
-    {
-      "address": "0x8010BC30",
-      "name": "func_8010BC30",
-      "size": 436
-    },
-    {
-      "address": "0x8010BC38",
-      "name": "func_8010BC38",
-      "size": 348
-    },
-    {
-      "address": "0x8010BD94",
-      "name": "func_8010BD94",
-      "size": 80
-    },
-    {
-      "address": "0x8010BD9C",
-      "name": "func_8010BD9C",
-      "size": 24
-    },
-    {
-      "address": "0x8010BDB4",
-      "name": "func_8010BDB4",
-      "size": 48
-    },
-    {
-      "address": "0x8010BDE4",
-      "name": "func_8010BDE4",
-      "size": 492
-    },
-    {
-      "address": "0x8010BEBC",
-      "name": "func_8010BEBC",
-      "size": 52
-    },
-    {
-      "address": "0x8010BEF0",
-      "name": "func_8010BEF0",
-      "size": 224
-    },
-    {
-      "address": "0x8010BFD0",
-      "name": "func_8010BFD0",
-      "size": 208
-    },
-    {
-      "address": "0x8010C000",
-      "name": "func_8010C000",
-      "size": 160
-    },
-    {
-      "address": "0x8010C050",
-      "name": "func_8010C050",
-      "size": 80
-    },
-    {
-      "address": "0x8010C058",
-      "name": "func_8010C058",
-      "size": 72
-    },
-    {
-      "address": "0x8010C070",
-      "name": "func_8010C070",
-      "size": 48
-    },
-    {
-      "address": "0x8010C0A0",
-      "name": "func_8010C0A0",
-      "size": 24
-    },
-    {
-      "address": "0x8010C0B8",
-      "name": "func_8010C0B8",
-      "size": 612
-    },
-    {
-      "address": "0x8010C31C",
-      "name": "func_8010C31C",
-      "size": 556
-    },
-    {
-      "address": "0x8010C548",
-      "name": "func_8010C548",
-      "size": 40
-    },
-    {
-      "address": "0x8010C570",
-      "name": "func_8010C570",
-      "size": 200
-    },
-    {
-      "address": "0x8010C638",
-      "name": "func_8010C638",
-      "size": 196
-    },
-    {
-      "address": "0x8010C6FC",
-      "name": "func_8010C6FC",
-      "size": 420
-    },
-    {
-      "address": "0x8010C8A0",
-      "name": "func_8010C8A0",
-      "size": 464
-    },
-    {
-      "address": "0x8010CA70",
-      "name": "func_8010CA70",
-      "size": 128
-    },
-    {
-      "address": "0x8010CAF0",
-      "name": "func_8010CAF0",
-      "size": 184
-    },
-    {
-      "address": "0x8010CBA8",
-      "name": "func_8010CBA8",
-      "size": 16
-    },
-    {
-      "address": "0x8010CBB8",
-      "name": "func_8010CBB8",
-      "size": 24
-    },
-    {
-      "address": "0x8010CBD0",
-      "name": "func_8010CBD0",
-      "size": 152
-    },
-    {
-      "address": "0x8010CC68",
-      "name": "func_8010CC68",
-      "size": 132
-    },
-    {
-      "address": "0x8010CCEC",
-      "name": "func_8010CCEC",
-      "size": 72
-    },
-    {
-      "address": "0x8010CD34",
-      "name": "func_8010CD34",
-      "size": 72
-    },
-    {
-      "address": "0x8010CD7C",
-      "name": "func_8010CD7C",
-      "size": 184
-    },
-    {
-      "address": "0x8010CE34",
-      "name": "func_8010CE34",
-      "size": 92
-    },
-    {
-      "address": "0x8010CE90",
-      "name": "func_8010CE90",
-      "size": 40
-    },
-    {
-      "address": "0x8010CEB8",
-      "name": "func_8010CEB8",
-      "size": 40
-    },
-    {
-      "address": "0x8010CEE0",
-      "name": "func_8010CEE0",
-      "size": 76
-    },
-    {
-      "address": "0x8010CF2C",
-      "name": "func_8010CF2C",
-      "size": 68
-    },
-    {
-      "address": "0x8010CF70",
-      "name": "func_8010CF70",
-      "size": 96
-    },
-    {
-      "address": "0x8010CFD0",
-      "name": "func_8010CFD0",
-      "size": 160
-    },
-    {
-      "address": "0x8010D070",
-      "name": "func_8010D070",
-      "size": 316
-    },
-    {
-      "address": "0x8010D1AC",
-      "name": "func_8010D1AC",
-      "size": 120
-    },
-    {
-      "address": "0x8010D224",
-      "name": "func_8010D224",
-      "size": 332
-    },
-    {
-      "address": "0x8010D370",
-      "name": "func_8010D370",
-      "size": 176
-    },
-    {
-      "address": "0x8010D420",
-      "name": "func_8010D420",
-      "size": 324
-    },
-    {
-      "address": "0x8010D564",
-      "name": "func_8010D564",
-      "size": 100
-    },
-    {
-      "address": "0x8010D5C8",
-      "name": "func_8010D5C8",
-      "size": 176
-    },
-    {
-      "address": "0x8010D678",
-      "name": "func_8010D678",
-      "size": 136
-    },
-    {
-      "address": "0x8010D700",
-      "name": "func_8010D700",
-      "size": 128
-    },
-    {
-      "address": "0x8010D780",
-      "name": "func_8010D780",
-      "size": 304
-    },
-    {
-      "address": "0x8010D8B0",
-      "name": "func_8010D8B0",
-      "size": 200
-    },
-    {
-      "address": "0x8010D978",
-      "name": "func_8010D978",
-      "size": 100
-    },
-    {
-      "address": "0x8010D9DC",
-      "name": "func_8010D9DC",
-      "size": 7492
-    },
-    {
-      "address": "0x8010E720",
-      "name": "func_8010E720",
-      "size": 48
-    },
-    {
-      "address": "0x8010E750",
-      "name": "func_8010E750",
-      "size": 68
-    },
-    {
-      "address": "0x8010E794",
-      "name": "func_8010E794",
-      "size": 140
-    },
-    {
-      "address": "0x8010E820",
-      "name": "func_8010E820",
-      "size": 92
-    },
-    {
-      "address": "0x8010E87C",
-      "name": "func_8010E87C",
-      "size": 104
-    },
-    {
-      "address": "0x8010E8E4",
-      "name": "func_8010E8E4",
-      "size": 108
-    },
-    {
-      "address": "0x8010E950",
-      "name": "func_8010E950",
-      "size": 100
-    },
-    {
-      "address": "0x8010E9B4",
-      "name": "func_8010E9B4",
-      "size": 112
-    },
-    {
-      "address": "0x8010EA24",
-      "name": "func_8010EA24",
-      "size": 1384
-    },
-    {
-      "address": "0x8010EF8C",
-      "name": "func_8010EF8C",
-      "size": 264
-    },
-    {
-      "address": "0x8010EFD4",
-      "name": "func_8010EFD4",
-      "size": 192
-    },
-    {
-      "address": "0x8010F07C",
-      "name": "func_8010F07C",
-      "size": 24
-    },
-    {
-      "address": "0x8010F094",
-      "name": "func_8010F094",
-      "size": 316
-    },
-    {
-      "address": "0x8010F1D0",
-      "name": "func_8010F1D0",
-      "size": 48
-    },
-    {
-      "address": "0x8010F200",
-      "name": "func_8010F200",
-      "size": 468
-    },
-    {
-      "address": "0x8010F3D4",
-      "name": "func_8010F3D4",
-      "size": 376
-    },
-    {
-      "address": "0x8010F54C",
-      "name": "func_8010F54C",
-      "size": 332
-    },
-    {
-      "address": "0x8010F698",
-      "name": "func_8010F698",
-      "size": 1160
-    },
-    {
-      "address": "0x8010F8F0",
-      "name": "func_8010F8F0",
-      "size": 560
-    },
-    {
-      "address": "0x8010FB20",
-      "name": "func_8010FB20",
-      "size": 536
-    },
-    {
-      "address": "0x8010FD38",
-      "name": "func_8010FD38",
-      "size": 2272
-    },
-    {
-      "address": "0x8010FFCC",
-      "name": "func_8010FFCC",
-      "size": 1612
-    },
-    {
-      "address": "0x80110234",
-      "name": "func_80110234",
-      "size": 748
-    },
-    {
-      "address": "0x80110520",
-      "name": "func_80110520",
-      "size": 4344
-    },
-    {
-      "address": "0x80110618",
-      "name": "func_80110618",
-      "size": 16
-    },
-    {
-      "address": "0x80110628",
-      "name": "func_80110628",
-      "size": 100
-    },
-    {
-      "address": "0x8011068C",
-      "name": "func_8011068C",
-      "size": 196
-    },
-    {
-      "address": "0x80110750",
-      "name": "func_80110750",
-      "size": 596
-    },
-    {
-      "address": "0x801109A4",
-      "name": "func_801109A4",
-      "size": 120
-    },
-    {
-      "address": "0x80110A1C",
-      "name": "func_80110A1C",
-      "size": 5040
-    },
-    {
-      "address": "0x80111654",
-      "name": "func_80111654",
-      "size": 76
-    },
-    {
-      "address": "0x801116A0",
-      "name": "func_801116A0",
-      "size": 248
-    },
-    {
-      "address": "0x80111798",
-      "name": "func_80111798",
-      "size": 1588
-    },
-    {
-      "address": "0x80111DCC",
-      "name": "func_80111DCC",
-      "size": 124
-    },
-    {
-      "address": "0x80111E48",
-      "name": "func_80111E48",
-      "size": 2056
-    },
-    {
-      "address": "0x80112650",
-      "name": "func_80112650",
-      "size": 224
-    },
-    {
-      "address": "0x80112730",
-      "name": "func_80112730",
-      "size": 720
-    },
-    {
-      "address": "0x80112A00",
-      "name": "func_80112A00",
-      "size": 236
-    },
-    {
-      "address": "0x80112AEC",
-      "name": "func_80112AEC",
-      "size": 120
-    },
-    {
-      "address": "0x80112B64",
-      "name": "PlayerStepWalk",
-      "size": 156
-    },
-    {
-      "address": "0x80112C00",
-      "name": "func_80112C00",
-      "size": 224
-    },
-    {
-      "address": "0x80112CE0",
-      "name": "func_80112CE0",
-      "size": 3452
-    },
-    {
-      "address": "0x80113A5C",
-      "name": "func_80113A5C",
-      "size": 1440
-    },
-    {
-      "address": "0x80113FFC",
-      "name": "func_80113FFC",
-      "size": 2076
-    },
-    {
-      "address": "0x80114818",
-      "name": "func_80114818",
-      "size": 160
-    },
-    {
-      "address": "0x801148B8",
-      "name": "func_801148B8",
-      "size": 336
-    },
-    {
-      "address": "0x80114A08",
-      "name": "func_80114A08",
-      "size": 2308
-    },
-    {
-      "address": "0x80114BBC",
-      "name": "func_80114BBC",
-      "size": 692
-    },
-    {
-      "address": "0x80114E70",
-      "name": "func_80114E70",
-      "size": 512
-    },
-    {
-      "address": "0x80115070",
-      "name": "func_80115070",
-      "size": 668
-    },
-    {
-      "address": "0x8011530C",
-      "name": "func_8011530C",
-      "size": 232
-    },
-    {
-      "address": "0x801153F4",
-      "name": "func_801153F4",
-      "size": 68
-    },
-    {
-      "address": "0x80115438",
-      "name": "func_80115438",
-      "size": 104
-    },
-    {
-      "address": "0x801154A0",
-      "name": "func_801154A0",
-      "size": 212
-    },
-    {
-      "address": "0x80115574",
-      "name": "func_80115574",
-      "size": 136
-    },
-    {
-      "address": "0x801155FC",
-      "name": "func_801155FC",
-      "size": 3620
-    },
-    {
-      "address": "0x80115774",
-      "name": "func_80115774",
-      "size": 3244
-    },
-    {
-      "address": "0x80116420",
-      "name": "func_80116420",
-      "size": 800
-    },
-    {
-      "address": "0x80116740",
-      "name": "func_80116740",
-      "size": 636
-    },
-    {
-      "address": "0x801169BC",
-      "name": "func_801169BC",
-      "size": 176
-    },
-    {
-      "address": "0x80116A6C",
-      "name": "func_80116A6C",
-      "size": 1272
-    },
-    {
-      "address": "0x80116F64",
-      "name": "func_80116F64",
-      "size": 796
-    },
-    {
-      "address": "0x80117280",
-      "name": "func_80117280",
-      "size": 44
-    },
-    {
-      "address": "0x801172AC",
-      "name": "func_801172AC",
-      "size": 48
-    },
-    {
-      "address": "0x801172DC",
-      "name": "func_801172DC",
-      "size": 124
-    },
-    {
-      "address": "0x80117358",
-      "name": "func_80117358",
-      "size": 176
-    },
-    {
-      "address": "0x80117408",
-      "name": "func_80117408",
-      "size": 116
-    },
-    {
-      "address": "0x8011747C",
-      "name": "func_8011747C",
-      "size": 132
-    },
-    {
-      "address": "0x80117500",
-      "name": "func_80117500",
-      "size": 220
-    },
-    {
-      "address": "0x801175DC",
-      "name": "func_801175DC",
-      "size": 424
-    },
-    {
-      "address": "0x80117784",
-      "name": "func_80117784",
-      "size": 272
-    },
-    {
-      "address": "0x80117894",
-      "name": "func_80117894",
-      "size": 92
-    },
-    {
-      "address": "0x801178F0",
-      "name": "func_801178F0",
-      "size": 136
-    },
-    {
-      "address": "0x80117978",
-      "name": "func_80117978",
-      "size": 4116
-    },
-    {
-      "address": "0x801181F4",
-      "name": "func_801181F4",
-      "size": 6040
-    },
-    {
-      "address": "0x8011898C",
-      "name": "func_8011898C",
-      "size": 316
-    },
-    {
-      "address": "0x80118AC8",
-      "name": "func_80118AC8",
-      "size": 248
-    },
-    {
-      "address": "0x80118BC0",
-      "name": "func_80118BC0",
-      "size": 800
-    },
-    {
-      "address": "0x80118EE0",
-      "name": "func_80118EE0",
-      "size": 152
-    },
-    {
-      "address": "0x80118F78",
-      "name": "func_80118F78",
-      "size": 132
-    },
-    {
-      "address": "0x80118FFC",
-      "name": "func_80118FFC",
-      "size": 256
-    },
-    {
-      "address": "0x801190FC",
-      "name": "func_801190FC",
-      "size": 8
-    },
-    {
-      "address": "0x80119104",
-      "name": "func_80119104",
-      "size": 916
-    },
-    {
-      "address": "0x80119498",
-      "name": "func_80119498",
-      "size": 360
-    },
-    {
-      "address": "0x80119600",
-      "name": "func_80119600",
-      "size": 292
-    },
-    {
-      "address": "0x80119724",
-      "name": "func_80119724",
-      "size": 320
-    },
-    {
-      "address": "0x80119864",
-      "name": "func_80119864",
-      "size": 1376
-    },
-    {
-      "address": "0x80119DC4",
-      "name": "func_80119DC4",
-      "size": 420
-    },
-    {
-      "address": "0x80119F68",
-      "name": "func_80119F68",
-      "size": 332
-    },
-    {
-      "address": "0x8011A0B4",
-      "name": "func_8011A0B4",
-      "size": 176
-    },
-    {
-      "address": "0x8011A164",
-      "name": "func_8011A164",
-      "size": 116
-    },
-    {
-      "address": "0x8011A1D8",
-      "name": "func_8011A1D8",
-      "size": 1596
-    },
-    {
-      "address": "0x8011A814",
-      "name": "func_8011A814",
-      "size": 360
-    },
-    {
-      "address": "0x8011A97C",
-      "name": "func_8011A97C",
-      "size": 92
-    },
-    {
-      "address": "0x8011A9D8",
-      "name": "func_8011A9D8",
-      "size": 9024
-    },
-    {
-      "address": "0x8011C62C",
-      "name": "func_8011C62C",
-      "size": 1772
-    },
-    {
-      "address": "0x8011CD18",
-      "name": "func_8011CD18",
-      "size": 8
-    },
-    {
-      "address": "0x8011CD20",
-      "name": "func_8011CD20",
-      "size": 676
-    },
-    {
-      "address": "0x8011CFC4",
-      "name": "func_8011CFC4",
-      "size": 300
-    },
-    {
-      "address": "0x8011D0F0",
-      "name": "func_8011D0F0",
-      "size": 132
-    },
-    {
-      "address": "0x8011D174",
-      "name": "func_8011D174",
-      "size": 48
-    },
-    {
-      "address": "0x8011D1A4",
-      "name": "func_8011D1A4",
-      "size": 60
-    },
-    {
-      "address": "0x8011D1E0",
-      "name": "func_8011D1E0",
-      "size": 156
-    },
-    {
-      "address": "0x8011D27C",
-      "name": "func_8011D27C",
-      "size": 712
-    },
-    {
-      "address": "0x8011D544",
-      "name": "func_8011D544",
-      "size": 904
-    },
-    {
-      "address": "0x8011D8CC",
-      "name": "func_8011D8CC",
-      "size": 380
-    },
-    {
-      "address": "0x8011DA48",
-      "name": "func_8011DA48",
-      "size": 356
-    },
-    {
-      "address": "0x8011DBAC",
-      "name": "func_8011DBAC",
-      "size": 80
-    },
-    {
-      "address": "0x8011DBFC",
-      "name": "func_8011DBFC",
-      "size": 272
-    },
-    {
-      "address": "0x8011DD0C",
-      "name": "func_8011DD0C",
-      "size": 3676
-    },
-    {
-      "address": "0x8011E284",
-      "name": "func_8011E284",
-      "size": 2276
-    },
-    {
-      "address": "0x8011EB68",
-      "name": "func_8011EB68",
-      "size": 8
-    },
-    {
-      "address": "0x8011EB70",
-      "name": "func_8011EB70",
-      "size": 716
-    },
-    {
-      "address": "0x8011EE3C",
-      "name": "func_8011EE3C",
-      "size": 472
-    },
-    {
-      "address": "0x8011F014",
-      "name": "func_8011F014",
-      "size": 1768
-    },
-    {
-      "address": "0x8011F6FC",
-      "name": "func_8011F6FC",
-      "size": 1912
-    },
-    {
-      "address": "0x8011FE74",
-      "name": "func_8011FE74",
-      "size": 2636
-    },
-    {
-      "address": "0x801208C0",
-      "name": "func_801208C0",
-      "size": 3720
-    },
-    {
-      "address": "0x80120B98",
-      "name": "func_80120B98",
-      "size": 2992
-    },
-    {
-      "address": "0x80121748",
-      "name": "func_80121748",
-      "size": 1428
-    },
-    {
-      "address": "0x80121CDC",
-      "name": "func_80121CDC",
-      "size": 68
-    },
-    {
-      "address": "0x80121D20",
-      "name": "func_80121D20",
-      "size": 964
-    },
-    {
-      "address": "0x801220E4",
-      "name": "func_801220E4",
-      "size": 9324
-    },
-    {
-      "address": "0x80123550",
-      "name": "func_80123550",
-      "size": 324
-    },
-    {
-      "address": "0x80123694",
-      "name": "func_80123694",
-      "size": 404
-    },
-    {
-      "address": "0x80123828",
-      "name": "func_80123828",
-      "size": 224
-    },
-    {
-      "address": "0x80123908",
-      "name": "func_80123908",
-      "size": 1080
-    },
-    {
-      "address": "0x80123D40",
-      "name": "func_80123D40",
-      "size": 492
-    },
-    {
-      "address": "0x80123F2C",
-      "name": "func_80123F2C",
-      "size": 588
-    },
-    {
-      "address": "0x80124178",
-      "name": "func_80124178",
-      "size": 1756
-    },
-    {
-      "address": "0x80124854",
-      "name": "func_80124854",
-      "size": 252
-    },
-    {
-      "address": "0x80124950",
-      "name": "func_80124950",
-      "size": 1960
-    },
-    {
-      "address": "0x801250F8",
-      "name": "func_801250F8",
-      "size": 1792
-    },
-    {
-      "address": "0x801257F8",
-      "name": "func_801257F8",
-      "size": 316
-    },
-    {
-      "address": "0x80125934",
-      "name": "func_80125934",
-      "size": 192
-    },
-    {
-      "address": "0x801259F4",
-      "name": "func_801259F4",
-      "size": 572
-    },
-    {
-      "address": "0x80125C30",
-      "name": "func_80125C30",
-      "size": 1092
-    },
-    {
-      "address": "0x80126074",
-      "name": "func_80126074",
-      "size": 1284
-    },
-    {
-      "address": "0x80126578",
-      "name": "func_80126578",
-      "size": 1176
-    },
-    {
-      "address": "0x80126A10",
-      "name": "func_80126A10",
-      "size": 644
-    },
-    {
-      "address": "0x80126C94",
-      "name": "func_80126C94",
-      "size": 1508
-    },
-    {
-      "address": "0x80127278",
-      "name": "func_80127278",
-      "size": 432
-    },
-    {
-      "address": "0x80127428",
-      "name": "func_80127428",
-      "size": 436
-    },
-    {
-      "address": "0x801275DC",
-      "name": "func_801275DC",
-      "size": 444
-    },
-    {
-      "address": "0x80127798",
-      "name": "func_80127798",
-      "size": 716
-    },
-    {
-      "address": "0x80127A64",
-      "name": "func_80127A64",
-      "size": 484
-    },
-    {
-      "address": "0x80127C48",
-      "name": "func_80127C48",
-      "size": 68
-    },
-    {
-      "address": "0x80127C8C",
-      "name": "func_80127C8C",
-      "size": 80
-    },
-    {
-      "address": "0x80127CDC",
-      "name": "func_80127CDC",
-      "size": 2004
-    },
-    {
-      "address": "0x801284B0",
-      "name": "func_801284B0",
-      "size": 1192
-    },
-    {
-      "address": "0x80128958",
-      "name": "func_80128958",
-      "size": 112
-    },
-    {
-      "address": "0x801289C8",
-      "name": "func_801289C8",
-      "size": 1432
-    },
-    {
-      "address": "0x80128F60",
-      "name": "func_80128F60",
-      "size": 1696
-    },
-    {
-      "address": "0x80129600",
-      "name": "func_80129600",
-      "size": 2112
-    },
-    {
-      "address": "0x80129E40",
-      "name": "func_80129E40",
-      "size": 1156
-    },
-    {
-      "address": "0x8012A2C4",
-      "name": "func_8012A2C4",
-      "size": 884
-    },
-    {
-      "address": "0x8012A638",
-      "name": "func_8012A638",
-      "size": 3824
-    },
-    {
-      "address": "0x8012B528",
-      "name": "func_8012B528",
-      "size": 516
-    },
-    {
-      "address": "0x8012B72C",
-      "name": "func_8012B72C",
-      "size": 1384
-    },
-    {
-      "address": "0x8012BC94",
-      "name": "func_8012BC94",
-      "size": 1800
-    },
-    {
-      "address": "0x8012C39C",
-      "name": "func_8012C39C",
-      "size": 652
-    },
-    {
-      "address": "0x8012C628",
-      "name": "func_8012C628",
-      "size": 240
-    },
-    {
-      "address": "0x8012C718",
-      "name": "func_8012C718",
-      "size": 232
-    },
-    {
-      "address": "0x8012C800",
-      "name": "func_8012C800",
-      "size": 168
-    },
-    {
-      "address": "0x8012C8A8",
-      "name": "func_8012C8A8",
-      "size": 64
-    },
-    {
-      "address": "0x8012C8E8",
-      "name": "func_8012C8E8",
-      "size": 228
-    },
-    {
-      "address": "0x8012C9CC",
-      "name": "func_8012C9CC",
-      "size": 180
-    },
-    {
-      "address": "0x8012CA80",
-      "name": "func_8012CA80",
-      "size": 496
-    },
-    {
-      "address": "0x8012CC70",
-      "name": "func_8012CC70",
-      "size": 212
-    },
-    {
-      "address": "0x8012CD44",
-      "name": "func_8012CD44",
-      "size": 72
-    },
-    {
-      "address": "0x8012CD8C",
-      "name": "func_8012CD8C",
-      "size": 52
-    },
-    {
-      "address": "0x8012CDC0",
-      "name": "func_8012CDC0",
       "size": 340
     },
     {
-      "address": "0x8012CF14",
-      "name": "func_8012CF14",
-      "size": 276
+      "address": "0x80103554",
+      "name": "func_80103554",
+      "size": 40
     },
     {
-      "address": "0x8012D028",
-      "name": "func_8012D028",
-      "size": 348
+      "address": "0x8010357C",
+      "name": "func_8010357C",
+      "size": 936
     },
     {
-      "address": "0x8012D184",
-      "name": "func_8012D184",
-      "size": 2004
+      "address": "0x80103924",
+      "name": "func_80103924",
+      "size": 72
     },
     {
-      "address": "0x8012D958",
-      "name": "func_8012D958",
-      "size": 840
+      "address": "0x8010396C",
+      "name": "func_8010396C",
+      "size": 1204
     },
     {
-      "address": "0x8012DCA0",
-      "name": "func_8012DCA0",
-      "size": 316
+      "address": "0x80103E20",
+      "name": "func_80103E20",
+      "size": 2280
     },
     {
-      "address": "0x8012DDDC",
-      "name": "func_8012DDDC",
-      "size": 1296
+      "address": "0x80104708",
+      "name": "func_80104708",
+      "size": 912
     },
     {
-      "address": "0x8012E2EC",
-      "name": "func_8012E2EC",
-      "size": 596
+      "address": "0x80104A98",
+      "name": "func_80104A98",
+      "size": 32
     },
     {
-      "address": "0x8012E540",
-      "name": "func_8012E540",
-      "size": 540
+      "address": "0x80104AB8",
+      "name": "func_80104AB8",
+      "size": 4508
     },
     {
-      "address": "0x8012E75C",
-      "name": "func_8012E75C",
-      "size": 272
+      "address": "0x80105C54",
+      "name": "DestroyEntity",
+      "size": 100
     },
     {
-      "address": "0x8012E86C",
-      "name": "func_8012E86C",
-      "size": 608
+      "address": "0x80105CB8",
+      "name": "DestroyEntitiesFromIndex",
+      "size": 124
     },
     {
-      "address": "0x8012EACC",
-      "name": "func_8012EACC",
-      "size": 508
+      "address": "0x80105D34",
+      "name": "func_80105D34",
+      "size": 1844
     },
     {
-      "address": "0x8012ECC8",
-      "name": "func_8012ECC8",
-      "size": 4684
+      "address": "0x80106468",
+      "name": "func_80106468",
+      "size": 76
     },
     {
-      "address": "0x8012EF14",
-      "name": "func_8012EF14",
-      "size": 1732
+      "address": "0x801064B4",
+      "name": "DRA_SetPrimVertexGrey",
+      "size": 132
     },
     {
-      "address": "0x8012F5D8",
-      "name": "func_8012F5D8",
-      "size": 88
-    },
-    {
-      "address": "0x8012F630",
-      "name": "func_8012F630",
-      "size": 2512
-    },
-    {
-      "address": "0x80130000",
-      "name": "func_80130000",
-      "size": 948
-    },
-    {
-      "address": "0x801303B4",
-      "name": "func_801303B4",
-      "size": 924
-    },
-    {
-      "address": "0x80130750",
-      "name": "func_80130750",
-      "size": 1248
-    },
-    {
-      "address": "0x80130C30",
-      "name": "func_80130C30",
-      "size": 1240
-    },
-    {
-      "address": "0x80131108",
-      "name": "func_80131108",
-      "size": 652
-    },
-    {
-      "address": "0x80131394",
-      "name": "func_80131394",
-      "size": 2244
-    },
-    {
-      "address": "0x80131C58",
-      "name": "func_80131C58",
+      "address": "0x80106538",
+      "name": "DRA_SetPrimGrey",
       "size": 108
     },
     {
-      "address": "0x80131CC4",
-      "name": "func_80131CC4",
+      "address": "0x801065A4",
+      "name": "func_801065A4",
+      "size": 32
+    },
+    {
+      "address": "0x801065C4",
+      "name": "func_801065C4",
+      "size": 32
+    },
+    {
+      "address": "0x801065E4",
+      "name": "SetPrimRect",
+      "size": 48
+    },
+    {
+      "address": "0x80106614",
+      "name": "SetTexturedPrimRect",
+      "size": 96
+    },
+    {
+      "address": "0x80106674",
+      "name": "func_80106674",
+      "size": 148
+    },
+    {
+      "address": "0x80106708",
+      "name": "func_80106708",
+      "size": 212
+    },
+    {
+      "address": "0x801067DC",
+      "name": "func_801067DC",
+      "size": 372
+    },
+    {
+      "address": "0x80106950",
+      "name": "func_80106950",
+      "size": 40
+    },
+    {
+      "address": "0x80106978",
+      "name": "DRA_StreamDiskIsReady",
+      "size": 100
+    },
+    {
+      "address": "0x801069DC",
+      "name": "func_801069DC",
+      "size": 92
+    },
+    {
+      "address": "0x80106A38",
+      "name": "CopyStageOvlCallback",
+      "size": 388
+    },
+    {
+      "address": "0x80106BBC",
+      "name": "CopyRicOvlCallback",
+      "size": 316
+    },
+    {
+      "address": "0x80106CF8",
+      "name": "CopySupportOvlCallback",
+      "size": 372
+    },
+    {
+      "address": "0x80106E6C",
+      "name": "func_80106E6C",
+      "size": 576
+    },
+    {
+      "address": "0x801070AC",
+      "name": "CopyMonsterPreviewCallback",
+      "size": 360
+    },
+    {
+      "address": "0x80107214",
+      "name": "func_80107214",
+      "size": 320
+    },
+    {
+      "address": "0x80107354",
+      "name": "func_80107354",
+      "size": 316
+    },
+    {
+      "address": "0x80107490",
+      "name": "func_80107490",
+      "size": 492
+    },
+    {
+      "address": "0x8010767C",
+      "name": "func_8010767C",
+      "size": 688
+    },
+    {
+      "address": "0x8010792C",
+      "name": "func_8010792C",
+      "size": 48
+    },
+    {
+      "address": "0x8010795C",
+      "name": "func_8010795C",
+      "size": 232
+    },
+    {
+      "address": "0x80107A44",
+      "name": "UpdateCd",
+      "size": 4860
+    },
+    {
+      "address": "0x80108D40",
+      "name": "func_80108D40",
+      "size": 64
+    },
+    {
+      "address": "0x80108D80",
+      "name": "func_80108D80",
+      "size": 156
+    },
+    {
+      "address": "0x80108E1C",
+      "name": "func_80108E1C",
+      "size": 464
+    },
+    {
+      "address": "0x80108FEC",
+      "name": "AluInit",
+      "size": 1020
+    },
+    {
+      "address": "0x801093E8",
+      "name": "func_801093E8",
+      "size": 180
+    },
+    {
+      "address": "0x8010949C",
+      "name": "CheckStageCollision",
+      "size": 2032
+    },
+    {
+      "address": "0x80109C8C",
+      "name": "func_80109C8C",
+      "size": 444
+    },
+    {
+      "address": "0x80109E48",
+      "name": "func_80109E48",
+      "size": 180
+    },
+    {
+      "address": "0x80109EFC",
+      "name": "GetTeleportToOtherCastle",
+      "size": 280
+    },
+    {
+      "address": "0x8010A014",
+      "name": "EntityAlucard",
+      "size": 6596
+    },
+    {
+      "address": "0x8010B9D8",
+      "name": "GetPlayerSensor",
+      "size": 152
+    },
+    {
+      "address": "0x8010BA70",
+      "name": "func_8010BA70",
+      "size": 880
+    },
+    {
+      "address": "0x8010BDE0",
+      "name": "func_8010BDE0",
       "size": 496
+    },
+    {
+      "address": "0x8010BFD0",
+      "name": "CheckFloor",
+      "size": 1176
+    },
+    {
+      "address": "0x8010C468",
+      "name": "CheckCeiling",
+      "size": 1564
+    },
+    {
+      "address": "0x8010CA84",
+      "name": "CheckWallRight",
+      "size": 696
+    },
+    {
+      "address": "0x8010CD3C",
+      "name": "CheckWallLeft",
+      "size": 700
+    },
+    {
+      "address": "0x8010CFF8",
+      "name": "SetPlayerStep",
+      "size": 24
+    },
+    {
+      "address": "0x8010D010",
+      "name": "InitPlayerAfterImage",
+      "size": 612
+    },
+    {
+      "address": "0x8010D274",
+      "name": "DrawPlayerAfterImage",
+      "size": 556
+    },
+    {
+      "address": "0x8010D4A0",
+      "name": "SetPlayerAnim",
+      "size": 40
+    },
+    {
+      "address": "0x8010D4C8",
+      "name": "DRA_func",
+      "size": 200
+    },
+    {
+      "address": "0x8010D590",
+      "name": "UpdateUnarmedAnim",
+      "size": 196
+    },
+    {
+      "address": "0x8010D654",
+      "name": "PlayAnimation",
+      "size": 420
+    },
+    {
+      "address": "0x8010D7F8",
+      "name": "UpdateAnim",
+      "size": 464
+    },
+    {
+      "address": "0x8010D9C8",
+      "name": "func_8010D9C8",
+      "size": 128
+    },
+    {
+      "address": "0x8010DA48",
+      "name": "func_8010DA48",
+      "size": 184
+    },
+    {
+      "address": "0x8010DB00",
+      "name": "ForceAfterImageOn",
+      "size": 16
+    },
+    {
+      "address": "0x8010DB10",
+      "name": "EnableAfterImage",
+      "size": 24
+    },
+    {
+      "address": "0x8010DB28",
+      "name": "func_8010DB28",
+      "size": 152
+    },
+    {
+      "address": "0x8010DBC0",
+      "name": "func_8010DBC0",
+      "size": 132
+    },
+    {
+      "address": "0x8010DC44",
+      "name": "DecelerateX",
+      "size": 72
+    },
+    {
+      "address": "0x8010DC8C",
+      "name": "DecelerateY",
+      "size": 72
+    },
+    {
+      "address": "0x8010DCD4",
+      "name": "CheckMoveDirection",
+      "size": 184
+    },
+    {
+      "address": "0x8010DD8C",
+      "name": "func_8010DD8C",
+      "size": 136
+    },
+    {
+      "address": "0x8010DE14",
+      "name": "SetSpeedX",
+      "size": 40
+    },
+    {
+      "address": "0x8010DE3C",
+      "name": "func_8010DE3C",
+      "size": 40
+    },
+    {
+      "address": "0x8010DE64",
+      "name": "func_8010DE64",
+      "size": 76
+    },
+    {
+      "address": "0x8010DEB0",
+      "name": "func_8010DEB0",
+      "size": 68
+    },
+    {
+      "address": "0x8010DEF4",
+      "name": "func_8010DEF4",
+      "size": 96
+    },
+    {
+      "address": "0x8010DF54",
+      "name": "CheckPlayerStuck",
+      "size": 160
+    },
+    {
+      "address": "0x8010DFF4",
+      "name": "func_8010DFF4",
+      "size": 316
+    },
+    {
+      "address": "0x8010E130",
+      "name": "func_8010E130",
+      "size": 120
+    },
+    {
+      "address": "0x8010E1A8",
+      "name": "func_8010E1A8",
+      "size": 332
+    },
+    {
+      "address": "0x8010E2F4",
+      "name": "func_8010E2F4",
+      "size": 176
+    },
+    {
+      "address": "0x8010E3A4",
+      "name": "func_8010E3A4",
+      "size": 324
+    },
+    {
+      "address": "0x8010E4E8",
+      "name": "func_8010E4E8",
+      "size": 100
+    },
+    {
+      "address": "0x8010E54C",
+      "name": "DoGravityJump",
+      "size": 176
+    },
+    {
+      "address": "0x8010E5FC",
+      "name": "func_8010E5FC",
+      "size": 136
+    },
+    {
+      "address": "0x8010E684",
+      "name": "CheckSubwpnChainLimit",
+      "size": 128
+    },
+    {
+      "address": "0x8010E704",
+      "name": "func_8010E704",
+      "size": 304
+    },
+    {
+      "address": "0x8010E834",
+      "name": "CheckChainLimit",
+      "size": 200
+    },
+    {
+      "address": "0x8010E8FC",
+      "name": "func_8010E8FC",
+      "size": 100
+    },
+    {
+      "address": "0x8010E960",
+      "name": "func_8010E960",
+      "size": 3396
+    },
+    {
+      "address": "0x8010F6A4",
+      "name": "func_8010F6A4",
+      "size": 48
+    },
+    {
+      "address": "0x8010F6D4",
+      "name": "PerformHellfire",
+      "size": 68
+    },
+    {
+      "address": "0x8010F718",
+      "name": "PerformDarkMetamorphosis",
+      "size": 140
+    },
+    {
+      "address": "0x8010F7A4",
+      "name": "PerformSoulSteal",
+      "size": 92
+    },
+    {
+      "address": "0x8010F800",
+      "name": "PerformSummonSpirit",
+      "size": 104
+    },
+    {
+      "address": "0x8010F868",
+      "name": "PerformTetraSpirit",
+      "size": 108
+    },
+    {
+      "address": "0x8010F8D4",
+      "name": "PerformSwordBrothers",
+      "size": 100
+    },
+    {
+      "address": "0x8010F938",
+      "name": "func_8010F938",
+      "size": 112
+    },
+    {
+      "address": "0x8010F9A8",
+      "name": "func_8010F9A8",
+      "size": 1648
+    },
+    {
+      "address": "0x80110018",
+      "name": "func_80110018",
+      "size": 316
+    },
+    {
+      "address": "0x80110154",
+      "name": "func_80110154",
+      "size": 48
+    },
+    {
+      "address": "0x80110184",
+      "name": "CheckGravityBootsInput",
+      "size": 468
+    },
+    {
+      "address": "0x80110358",
+      "name": "CheckQuarterCircleForwardInput",
+      "size": 376
+    },
+    {
+      "address": "0x801104D0",
+      "name": "CheckBackForwardInput",
+      "size": 332
+    },
+    {
+      "address": "0x8011061C",
+      "name": "CheckDarkMetamorphosisInput",
+      "size": 600
+    },
+    {
+      "address": "0x80110874",
+      "name": "CheckSummonSpiritInput",
+      "size": 560
+    },
+    {
+      "address": "0x80110AA4",
+      "name": "CheckHellfireInput",
+      "size": 536
+    },
+    {
+      "address": "0x80110CBC",
+      "name": "func_80110CBC",
+      "size": 660
+    },
+    {
+      "address": "0x80110F50",
+      "name": "CheckSoulStealInput",
+      "size": 616
+    },
+    {
+      "address": "0x801111B8",
+      "name": "CheckSwordBrothersInput",
+      "size": 748
+    },
+    {
+      "address": "0x801114A4",
+      "name": "PlayerStepStand",
+      "size": 248
+    },
+    {
+      "address": "0x8011159C",
+      "name": "GetCdVolume",
+      "size": 16
+    },
+    {
+      "address": "0x801115AC",
+      "name": "func_801115AC",
+      "size": 100
+    },
+    {
+      "address": "0x80111610",
+      "name": "func_80111610",
+      "size": 196
+    },
+    {
+      "address": "0x801116D4",
+      "name": "func_801116D4",
+      "size": 596
+    },
+    {
+      "address": "0x80111928",
+      "name": "func_80111928",
+      "size": 120
+    },
+    {
+      "address": "0x801119A0",
+      "name": "func_801119A0",
+      "size": 3128
+    },
+    {
+      "address": "0x801125D8",
+      "name": "PlayerStepWalk",
+      "size": 76
+    },
+    {
+      "address": "0x80112624",
+      "name": "func_80112624",
+      "size": 280
+    },
+    {
+      "address": "0x8011273C",
+      "name": "PlayerStepJump",
+      "size": 1588
+    },
+    {
+      "address": "0x80112D70",
+      "name": "PlayerStepFall",
+      "size": 124
+    },
+    {
+      "address": "0x80112DEC",
+      "name": "PlayerStepCrouch",
+      "size": 2116
+    },
+    {
+      "address": "0x80113630",
+      "name": "func_80113630",
+      "size": 224
+    },
+    {
+      "address": "0x80113710",
+      "name": "PlayerStepHighJump",
+      "size": 720
+    },
+    {
+      "address": "0x801139E0",
+      "name": "func_801139E0",
+      "size": 236
+    },
+    {
+      "address": "0x80113ACC",
+      "name": "func_80113ACC",
+      "size": 120
+    },
+    {
+      "address": "0x80113B44",
+      "name": "func_80113B44",
+      "size": 156
+    },
+    {
+      "address": "0x80113BE0",
+      "name": "func_80113BE0",
+      "size": 224
+    },
+    {
+      "address": "0x80113CC0",
+      "name": "AlucardHandleDamage",
+      "size": 3452
+    },
+    {
+      "address": "0x80114A3C",
+      "name": "PlayerStepStoned",
+      "size": 1440
+    },
+    {
+      "address": "0x80114FDC",
+      "name": "PlayerStepKill",
+      "size": 2076
+    },
+    {
+      "address": "0x801157F8",
+      "name": "PlayerStepUnk17",
+      "size": 160
+    },
+    {
+      "address": "0x80115898",
+      "name": "func_80115898",
+      "size": 336
+    },
+    {
+      "address": "0x801159E8",
+      "name": "func_801159E8",
+      "size": 436
+    },
+    {
+      "address": "0x80115B9C",
+      "name": "PlayerStepKillWater",
+      "size": 692
+    },
+    {
+      "address": "0x80115E50",
+      "name": "PlayerStepBossGrab",
+      "size": 512
+    },
+    {
+      "address": "0x80116050",
+      "name": "PlayerStepHellfire",
+      "size": 668
+    },
+    {
+      "address": "0x801162EC",
+      "name": "PlayerStepUnk48",
+      "size": 232
+    },
+    {
+      "address": "0x801163D4",
+      "name": "PlayerStepUnk49",
+      "size": 68
+    },
+    {
+      "address": "0x80116418",
+      "name": "PlayerStepUnk50",
+      "size": 104
+    },
+    {
+      "address": "0x80116480",
+      "name": "BatFormFinished",
+      "size": 212
+    },
+    {
+      "address": "0x80116554",
+      "name": "func_80116554",
+      "size": 136
+    },
+    {
+      "address": "0x801165DC",
+      "name": "CheckWingSmashInput",
+      "size": 376
+    },
+    {
+      "address": "0x80116754",
+      "name": "ControlBatForm",
+      "size": 3244
+    },
+    {
+      "address": "0x80117400",
+      "name": "PlayerStepUnmorphBat",
+      "size": 800
+    },
+    {
+      "address": "0x80117720",
+      "name": "PlayerStepStuck",
+      "size": 636
+    },
+    {
+      "address": "0x8011799C",
+      "name": "MistFormFinished",
+      "size": 176
+    },
+    {
+      "address": "0x80117A4C",
+      "name": "ControlMistForm",
+      "size": 1272
+    },
+    {
+      "address": "0x80117F44",
+      "name": "PlayerStepUnmorphMist",
+      "size": 796
+    },
+    {
+      "address": "0x80118260",
+      "name": "PlayerStepDarkMetamorphosis",
+      "size": 44
+    },
+    {
+      "address": "0x8011828C",
+      "name": "PlayerStepSummonSpells",
+      "size": 48
+    },
+    {
+      "address": "0x801182BC",
+      "name": "PlayerStepSoulSteal",
+      "size": 124
+    },
+    {
+      "address": "0x80118338",
+      "name": "PlayerStepSwordWarp",
+      "size": 176
+    },
+    {
+      "address": "0x801183E8",
+      "name": "GetFreeEntity",
+      "size": 116
+    },
+    {
+      "address": "0x8011845C",
+      "name": "GetFreeEntityReverse",
+      "size": 132
+    },
+    {
+      "address": "0x801184E0",
+      "name": "func_801184E0",
+      "size": 220
+    },
+    {
+      "address": "0x801185BC",
+      "name": "func_801185BC",
+      "size": 424
+    },
+    {
+      "address": "0x80118764",
+      "name": "func_80118764",
+      "size": 272
+    },
+    {
+      "address": "0x80118874",
+      "name": "func_80118874",
+      "size": 92
+    },
+    {
+      "address": "0x801188D0",
+      "name": "CreateHPNumMove",
+      "size": 136
+    },
+    {
+      "address": "0x80118958",
+      "name": "EntityNumberMovesToHpMeter",
+      "size": 2172
+    },
+    {
+      "address": "0x801191D4",
+      "name": "func_801191D4",
+      "size": 1944
+    },
+    {
+      "address": "0x8011996C",
+      "name": "EntitySmallRisingHeart",
+      "size": 316
+    },
+    {
+      "address": "0x80119AA8",
+      "name": "func_80119AA8",
+      "size": 248
+    },
+    {
+      "address": "0x80119BA0",
+      "name": "func_80119BA0",
+      "size": 800
+    },
+    {
+      "address": "0x80119EC0",
+      "name": "func_80119EC0",
+      "size": 152
+    },
+    {
+      "address": "0x80119F58",
+      "name": "func_80119F58",
+      "size": 132
+    },
+    {
+      "address": "0x80119FDC",
+      "name": "func_80119FDC",
+      "size": 256
+    },
+    {
+      "address": "0x8011A0DC",
+      "name": "EntityNull",
+      "size": 8
+    },
+    {
+      "address": "0x8011A0E4",
+      "name": "UpdatePlayerEntities",
+      "size": 916
+    },
+    {
+      "address": "0x8011A478",
+      "name": "func_8011A478",
+      "size": 360
+    },
+    {
+      "address": "0x8011A5E0",
+      "name": "func_8011A5E0",
+      "size": 292
+    },
+    {
+      "address": "0x8011A704",
+      "name": "CreateEntFactoryFromEntity",
+      "size": 320
+    },
+    {
+      "address": "0x8011A844",
+      "name": "EntityFactory",
+      "size": 1376
+    },
+    {
+      "address": "0x8011ADA4",
+      "name": "EntityUnarmedAttack",
+      "size": 420
+    },
+    {
+      "address": "0x8011AF48",
+      "name": "EntityDiveKickAttack",
+      "size": 332
+    },
+    {
+      "address": "0x8011B094",
+      "name": "func_8011B094",
+      "size": 176
+    },
+    {
+      "address": "0x8011B144",
+      "name": "DebugInputWait",
+      "size": 116
+    },
+    {
+      "address": "0x8011B1B8",
+      "name": "EntitySmokePuff",
+      "size": 1596
+    },
+    {
+      "address": "0x8011B7F4",
+      "name": "EntityUnkId24",
+      "size": 360
+    },
+    {
+      "address": "0x8011B95C",
+      "name": "func_8011B95C",
+      "size": 92
+    },
+    {
+      "address": "0x8011B9B8",
+      "name": "EntityPlayerBlinkWhite",
+      "size": 7252
+    },
+    {
+      "address": "0x8011D60C",
+      "name": "func_8011D60C",
+      "size": 1772
+    },
+    {
+      "address": "0x8011DCF8",
+      "name": "nullsub_10",
+      "size": 8
+    },
+    {
+      "address": "0x8011DD00",
+      "name": "EntityGravityBootBeam",
+      "size": 676
+    },
+    {
+      "address": "0x8011DFA4",
+      "name": "EntityWingSmashTrail",
+      "size": 300
+    },
+    {
+      "address": "0x8011E0D0",
+      "name": "func_8011E0D0",
+      "size": 132
+    },
+    {
+      "address": "0x8011E154",
+      "name": "func_8011E154",
+      "size": 48
+    },
+    {
+      "address": "0x8011E184",
+      "name": "func_8011E184",
+      "size": 60
+    },
+    {
+      "address": "0x8011E1C0",
+      "name": "func_8011E1C0",
+      "size": 76
+    },
+    {
+      "address": "0x8011E20C",
+      "name": "func_8011E20C",
+      "size": 80
+    },
+    {
+      "address": "0x8011E25C",
+      "name": "func_8011E25C",
+      "size": 2276
+    },
+    {
+      "address": "0x8011EB40",
+      "name": "func_8011EB40",
+      "size": 8
+    },
+    {
+      "address": "0x8011EB48",
+      "name": "func_8011EB48",
+      "size": 716
+    },
+    {
+      "address": "0x8011EE14",
+      "name": "DRA_RicEntityHitByDark",
+      "size": 472
+    },
+    {
+      "address": "0x8011EFEC",
+      "name": "EntityHitByLightning",
+      "size": 1768
+    },
+    {
+      "address": "0x8011F6D4",
+      "name": "EntityHitByIce",
+      "size": 1912
+    },
+    {
+      "address": "0x8011FE4C",
+      "name": "EntityTransparentWhiteCircle",
+      "size": 2636
+    },
+    {
+      "address": "0x80120898",
+      "name": "func_80120898",
+      "size": 728
+    },
+    {
+      "address": "0x80120B70",
+      "name": "EntityPlayerDissolves",
+      "size": 2992
+    },
+    {
+      "address": "0x80121720",
+      "name": "EntityLevelUpAnimation",
+      "size": 1428
+    },
+    {
+      "address": "0x80121CB4",
+      "name": "func_80121CB4",
+      "size": 68
+    },
+    {
+      "address": "0x80121CF8",
+      "name": "func_80121CF8",
+      "size": 964
+    },
+    {
+      "address": "0x801220BC",
+      "name": "EntityMist",
+      "size": 5228
+    },
+    {
+      "address": "0x80123528",
+      "name": "UnknownEntId48",
+      "size": 324
+    },
+    {
+      "address": "0x8012366C",
+      "name": "UnknownEntId49",
+      "size": 404
+    },
+    {
+      "address": "0x80123800",
+      "name": "func_80123800",
+      "size": 224
+    },
+    {
+      "address": "0x801238E0",
+      "name": "func_801238E0",
+      "size": 1080
+    },
+    {
+      "address": "0x80123D18",
+      "name": "func_80123D18",
+      "size": 492
+    },
+    {
+      "address": "0x80123F04",
+      "name": "func_80123F04",
+      "size": 588
+    },
+    {
+      "address": "0x80124150",
+      "name": "EntityTeleport",
+      "size": 1756
+    },
+    {
+      "address": "0x8012482C",
+      "name": "EntityPlayerSleepZ",
+      "size": 252
+    },
+    {
+      "address": "0x80124928",
+      "name": "EntitySubwpnKnife",
+      "size": 1960
+    },
+    {
+      "address": "0x801250D0",
+      "name": "EntitySubwpnThrownAxe",
+      "size": 1792
+    },
+    {
+      "address": "0x801257D0",
+      "name": "CheckHolyWaterCollision",
+      "size": 316
+    },
+    {
+      "address": "0x8012590C",
+      "name": "func_8012590C",
+      "size": 192
+    },
+    {
+      "address": "0x801259CC",
+      "name": "EntitySubwpnHolyWater",
+      "size": 572
+    },
+    {
+      "address": "0x80125C08",
+      "name": "EntitySubwpnHolyWaterBreakGlass",
+      "size": 1092
+    },
+    {
+      "address": "0x8012604C",
+      "name": "EntitySubwpnHolyWaterFlame",
+      "size": 1284
+    },
+    {
+      "address": "0x80126550",
+      "name": "EntitySubwpnCrashCross",
+      "size": 1176
+    },
+    {
+      "address": "0x801269E8",
+      "name": "EntitySubwpnCrashCrossParticles",
+      "size": 644
+    },
+    {
+      "address": "0x80126C6C",
+      "name": "EntityHellfire",
+      "size": 1508
+    },
+    {
+      "address": "0x80127250",
+      "name": "EntityHellfireNormalFireball",
+      "size": 432
+    },
+    {
+      "address": "0x80127400",
+      "name": "EntityBatFireball",
+      "size": 436
+    },
+    {
+      "address": "0x801275B4",
+      "name": "EntityHellfireBigFireball",
+      "size": 444
+    },
+    {
+      "address": "0x80127770",
+      "name": "EntityExpandingCircle",
+      "size": 716
+    },
+    {
+      "address": "0x80127A3C",
+      "name": "func_80127A3C",
+      "size": 484
+    },
+    {
+      "address": "0x80127C20",
+      "name": "ReboundStoneBounce1",
+      "size": 68
+    },
+    {
+      "address": "0x80127C64",
+      "name": "ReboundStoneBounce2",
+      "size": 80
+    },
+    {
+      "address": "0x80127CB4",
+      "name": "EntitySubwpnReboundStone",
+      "size": 2004
+    },
+    {
+      "address": "0x80128488",
+      "name": "EntitySubwpnThrownVibhuti",
+      "size": 1192
+    },
+    {
+      "address": "0x80128930",
+      "name": "PrimDecreaseBrightness",
+      "size": 112
+    },
+    {
+      "address": "0x801289A0",
+      "name": "EntitySubwpnAgunea",
+      "size": 1432
+    },
+    {
+      "address": "0x80128F38",
+      "name": "EntityAguneaHitEnemy",
+      "size": 1696
+    },
+    {
+      "address": "0x801295D8",
+      "name": "func_801295D8",
+      "size": 2112
+    },
+    {
+      "address": "0x80129E18",
+      "name": "EntitySummonSpirit",
+      "size": 1156
+    },
+    {
+      "address": "0x8012A29C",
+      "name": "EntityStopWatchExpandingCircle",
+      "size": 884
+    },
+    {
+      "address": "0x8012A610",
+      "name": "EntityStopWatch",
+      "size": 3824
+    },
+    {
+      "address": "0x8012B500",
+      "name": "EntitySubwpnBibleTrail",
+      "size": 516
+    },
+    {
+      "address": "0x8012B704",
+      "name": "EntitySubwpnBible",
+      "size": 1384
+    },
+    {
+      "address": "0x8012BC6C",
+      "name": "EntityBatEcho",
+      "size": 1800
+    },
+    {
+      "address": "0x8012C374",
+      "name": "func_8012C374",
+      "size": 652
+    },
+    {
+      "address": "0x8012C600",
+      "name": "WolfFormFinished",
+      "size": 240
+    },
+    {
+      "address": "0x8012C6F0",
+      "name": "func_8012C6F0",
+      "size": 232
+    },
+    {
+      "address": "0x8012C7D8",
+      "name": "func_8012C7D8",
+      "size": 168
+    },
+    {
+      "address": "0x8012C880",
+      "name": "DRA_RicDebugExit",
+      "size": 64
+    },
+    {
+      "address": "0x8012C8C0",
+      "name": "func_8012C8C0",
+      "size": 228
+    },
+    {
+      "address": "0x8012C9A4",
+      "name": "func_8012C9A4",
+      "size": 180
+    },
+    {
+      "address": "0x8012CA58",
+      "name": "func_8012CA58",
+      "size": 496
+    },
+    {
+      "address": "0x8012CC48",
+      "name": "func_8012CC48",
+      "size": 212
+    },
+    {
+      "address": "0x8012CD1C",
+      "name": "func_8012CD1C",
+      "size": 72
+    },
+    {
+      "address": "0x8012CD64",
+      "name": "func_8012CD64",
+      "size": 52
+    },
+    {
+      "address": "0x8012CD98",
+      "name": "func_8012CD98",
+      "size": 340
+    },
+    {
+      "address": "0x8012CEEC",
+      "name": "func_8012CEEC",
+      "size": 276
+    },
+    {
+      "address": "0x8012D000",
+      "name": "func_8012D000",
+      "size": 348
+    },
+    {
+      "address": "0x8012D15C",
+      "name": "func_8012D15C",
+      "size": 2004
+    },
+    {
+      "address": "0x8012D930",
+      "name": "func_8012D930",
+      "size": 840
+    },
+    {
+      "address": "0x8012DC78",
+      "name": "func_8012DC78",
+      "size": 316
+    },
+    {
+      "address": "0x8012DDB4",
+      "name": "func_8012DDB4",
+      "size": 1296
+    },
+    {
+      "address": "0x8012E2C4",
+      "name": "func_8012E2C4",
+      "size": 596
+    },
+    {
+      "address": "0x8012E518",
+      "name": "func_8012E518",
+      "size": 540
+    },
+    {
+      "address": "0x8012E734",
+      "name": "func_8012E734",
+      "size": 272
+    },
+    {
+      "address": "0x8012E844",
+      "name": "PlayerStepUnmorphWolf",
+      "size": 608
+    },
+    {
+      "address": "0x8012EAA4",
+      "name": "func_8012EAA4",
+      "size": 508
+    },
+    {
+      "address": "0x8012ECA0",
+      "name": "func_8012ECA0",
+      "size": 588
+    },
+    {
+      "address": "0x8012EEEC",
+      "name": "func_8012EEEC",
+      "size": 1732
+    },
+    {
+      "address": "0x8012F5B0",
+      "name": "func_8012F5B0",
+      "size": 88
+    },
+    {
+      "address": "0x8012F608",
+      "name": "func_8012F608",
+      "size": 2512
+    },
+    {
+      "address": "0x8012FFD8",
+      "name": "func_8012FFD8",
+      "size": 948
+    },
+    {
+      "address": "0x8013038C",
+      "name": "func_8013038C",
+      "size": 924
+    },
+    {
+      "address": "0x80130728",
+      "name": "func_80130728",
+      "size": 1248
+    },
+    {
+      "address": "0x80130C08",
+      "name": "func_80130C08",
+      "size": 1240
+    },
+    {
+      "address": "0x801310E0",
+      "name": "func_801310E0",
+      "size": 652
+    },
+    {
+      "address": "0x8013136C",
+      "name": "EntityGiantSpinningCross",
+      "size": 2244
+    },
+    {
+      "address": "0x80131C30",
+      "name": "func_80131C30",
+      "size": 108
+    },
+    {
+      "address": "0x80131C9C",
+      "name": "func_80131C9C",
+      "size": 536
     },
     {
       "address": "0x80131EB4",
@@ -3847,17 +3252,17 @@
     },
     {
       "address": "0x80131ED0",
-      "name": "func_80131ED0",
+      "name": "SetCdPos",
       "size": 16
     },
     {
       "address": "0x80131EE0",
-      "name": "func_80131EE0",
+      "name": "MuteCd",
       "size": 28
     },
     {
       "address": "0x80131EFC",
-      "name": "func_80131EFC",
+      "name": "UnMuteCd",
       "size": 36
     },
     {
@@ -3877,7 +3282,7 @@
     },
     {
       "address": "0x8013201C",
-      "name": "func_8013201C",
+      "name": "SetReverbDepth",
       "size": 40
     },
     {
@@ -3887,42 +3292,42 @@
     },
     {
       "address": "0x801320A0",
-      "name": "func_801320A0",
+      "name": "DoCdCommand",
       "size": 260
     },
     {
       "address": "0x801321A4",
-      "name": "func_801321A4",
+      "name": "SetMaxVolume",
       "size": 56
     },
     {
       "address": "0x801321DC",
-      "name": "func_801321DC",
+      "name": "InitSoundVars3",
       "size": 144
     },
     {
       "address": "0x8013226C",
-      "name": "func_8013226C",
+      "name": "InitSoundVars2",
       "size": 96
     },
     {
       "address": "0x801322CC",
-      "name": "func_801322CC",
+      "name": "InitSoundVars1",
       "size": 524
     },
     {
       "address": "0x801324D8",
-      "name": "func_801324D8",
+      "name": "SetCdVolume",
       "size": 76
     },
     {
       "address": "0x80132524",
-      "name": "func_80132524",
+      "name": "SetMonoStereo",
       "size": 216
     },
     {
       "address": "0x801325FC",
-      "name": "func_801325FC",
+      "name": "SoundInit",
       "size": 256
     },
     {
@@ -3932,17 +3337,17 @@
     },
     {
       "address": "0x80132740",
-      "name": "func_80132740",
+      "name": "SoundWait",
       "size": 68
     },
     {
       "address": "0x80132784",
-      "name": "func_80132784",
+      "name": "MuteSound",
       "size": 84
     },
     {
       "address": "0x801327D8",
-      "name": "func_801327D8",
+      "name": "KeyOnRange",
       "size": 592
     },
     {
@@ -3952,72 +3357,72 @@
     },
     {
       "address": "0x80132C50",
-      "name": "func_80132C50",
+      "name": "AddCdSoundCommand",
       "size": 524
     },
     {
       "address": "0x80132E5C",
-      "name": "func_80132E5C",
+      "name": "AdvanceCdSoundCommandQueue",
       "size": 88
     },
     {
       "address": "0x80132EB4",
-      "name": "func_80132EB4",
+      "name": "MakeCdLoc",
       "size": 208
     },
     {
       "address": "0x80132F84",
-      "name": "func_80132F84",
+      "name": "CdSoundCommand4",
       "size": 828
     },
     {
       "address": "0x801332C0",
-      "name": "func_801332C0",
+      "name": "CdSoundCommand6",
       "size": 504
     },
     {
       "address": "0x801334B8",
-      "name": "func_801334B8",
+      "name": "CdFadeOut1",
       "size": 380
     },
     {
       "address": "0x80133634",
-      "name": "func_80133634",
+      "name": "CdFadeOut2",
       "size": 380
     },
     {
       "address": "0x801337B0",
-      "name": "func_801337B0",
+      "name": "EnableCdReverb",
       "size": 52
     },
     {
       "address": "0x801337E4",
-      "name": "func_801337E4",
+      "name": "StopSeq",
       "size": 92
     },
     {
       "address": "0x80133840",
-      "name": "func_80133840",
+      "name": "PlaySeq",
       "size": 272
     },
     {
       "address": "0x80133950",
-      "name": "func_80133950",
+      "name": "CdSoundCommandQueueEmpty",
       "size": 16
     },
     {
       "address": "0x80133960",
-      "name": "CdSoundCommand12",
+      "name": "func_80133960",
       "size": 16
     },
     {
       "address": "0x80133970",
-      "name": "func_80133970",
+      "name": "CdSoundCommand12",
       "size": 636
     },
     {
       "address": "0x80133BEC",
-      "name": "func_80133BEC",
+      "name": "CdSoundCommand14",
       "size": 1008
     },
     {
@@ -4027,72 +3432,72 @@
     },
     {
       "address": "0x80134118",
-      "name": "func_80134118",
+      "name": "SetReleaseRate1",
       "size": 88
     },
     {
       "address": "0x80134170",
-      "name": "func_80134170",
+      "name": "SetReleaseRate2",
       "size": 88
     },
     {
       "address": "0x801341C8",
-      "name": "func_801341C8",
+      "name": "CdSoundCommand10",
       "size": 468
     },
     {
       "address": "0x8013439C",
-      "name": "func_8013439C",
+      "name": "CdSoundCommand8",
       "size": 384
     },
     {
       "address": "0x8013451C",
-      "name": "func_8013451C",
+      "name": "SetReleaseRateHigh20_21",
       "size": 92
     },
     {
       "address": "0x80134578",
-      "name": "func_80134578",
+      "name": "SetReleaseRateHigh22_23",
       "size": 92
     },
     {
       "address": "0x801345D4",
-      "name": "func_801345D4",
+      "name": "SetReleaseRateLow_20_21",
       "size": 92
     },
     {
       "address": "0x80134630",
-      "name": "func_80134630",
+      "name": "SetReleaseRateLow_22_23",
       "size": 92
     },
     {
       "address": "0x8013468C",
-      "name": "func_8013468C",
+      "name": "SetVolumeCommand22_23",
       "size": 156
     },
     {
       "address": "0x80134728",
-      "name": "func_80134728",
+      "name": "PlaySfxVolPan",
       "size": 228
     },
     {
       "address": "0x8013480C",
-      "name": "func_8013480C",
+      "name": "PlaySfx",
       "size": 324
     },
     {
       "address": "0x80134950",
-      "name": "func_80134950",
+      "name": "RestoreSfxScriptData",
       "size": 184
     },
     {
       "address": "0x80134A08",
-      "name": "func_80134A08",
+      "name": "PauseSfxScripts",
       "size": 328
     },
     {
       "address": "0x80134B50",
-      "name": "func_80134B50",
+      "name": "UnpauseSfxScripts",
       "size": 272
     },
     {
@@ -4113,7 +3518,7 @@
     {
       "address": "0x80134F50",
       "name": "ExecSoundCommands",
-      "size": 1332
+      "size": 1104
     },
     {
       "address": "0x801353A0",
@@ -4162,3129 +3567,8 @@
     },
     {
       "address": "0x801362A4",
-      "name": "nullsub_10",
+      "name": "func_801362A4",
       "size": 8
-    },
-    {
-      "address": "0x80180490",
-      "name": "func_80180490",
-      "size": 8
-    },
-    {
-      "address": "0x801821D0",
-      "name": "func_801821D0",
-      "size": 8
-    },
-    {
-      "address": "0x801858C0",
-      "name": "func_801858C0",
-      "size": 8
-    },
-    {
-      "address": "0x80194090",
-      "name": "func_80194090",
-      "size": 8
-    },
-    {
-      "address": "0x8019A780",
-      "name": "func_8019A780",
-      "size": 8
-    },
-    {
-      "address": "0x8019B380",
-      "name": "func_8019B380",
-      "size": 8
-    },
-    {
-      "address": "0x8019BF70",
-      "name": "func_8019BF70",
-      "size": 8
-    },
-    {
-      "address": "0x800E2398",
-      "name": "DebugShowWaitInfo",
-      "size": 160
-    },
-    {
-      "address": "0x800E2438",
-      "name": "DebugInputWait",
-      "size": 100
-    },
-    {
-      "address": "0x800E249C",
-      "name": "DebugCaptureScreen",
-      "size": 904
-    },
-    {
-      "address": "0x800E2824",
-      "name": "DebugCaptureVideo",
-      "size": 732
-    },
-    {
-      "address": "0x800E2B00",
-      "name": "func_800E2B00",
-      "size": 920
-    },
-    {
-      "address": "0x800E2E98",
-      "name": "DebugEditColorChannel",
-      "size": 156
-    },
-    {
-      "address": "0x800E2F34",
-      "name": "DebugUpdate",
-      "size": 8
-    },
-    {
-      "address": "0x800E2F3C",
-      "name": "PrintGpuInfo",
-      "size": 644
-    },
-    {
-      "address": "0x800E31C0",
-      "name": "PrintHBlankInfo",
-      "size": 184
-    },
-    {
-      "address": "0x800E3278",
-      "name": "LoadVabData",
-      "size": 500
-    },
-    {
-      "address": "0x800E346C",
-      "name": "SetGPUBuffRGBZero",
-      "size": 56
-    },
-    {
-      "address": "0x800E34A4",
-      "name": "SetGPUBuffRGB",
-      "size": 56
-    },
-    {
-      "address": "0x800E34DC",
-      "name": "func_800E34DC",
-      "size": 152
-    },
-    {
-      "address": "0x800E3574",
-      "name": "SetStageDisplayBuffer",
-      "size": 164
-    },
-    {
-      "address": "0x800E3618",
-      "name": "SetCgiDisplayBuffer",
-      "size": 176
-    },
-    {
-      "address": "0x800E36C8",
-      "name": "SetMenuDisplayBuffer",
-      "size": 164
-    },
-    {
-      "address": "0x800E376C",
-      "name": "SetTitleDisplayBuffer",
-      "size": 240
-    },
-    {
-      "address": "0x800E385C",
-      "name": "func_800E385C",
-      "size": 112
-    },
-    {
-      "address": "0x800E38CC",
-      "name": "func_800E38CC",
-      "size": 188
-    },
-    {
-      "address": "0x800E3988",
-      "name": "MainGame",
-      "size": 1948
-    },
-    {
-      "address": "0x800E4124",
-      "name": "SetGameState",
-      "size": 40
-    },
-    {
-      "address": "0x800E414C",
-      "name": "func_800E414C",
-      "size": 928
-    },
-    {
-      "address": "0x800E44EC",
-      "name": "ClearBackbuffer",
-      "size": 48
-    },
-    {
-      "address": "0x800E451C",
-      "name": "HandleTitle",
-      "size": 1056
-    },
-    {
-      "address": "0x800E493C",
-      "name": "func_800E493C",
-      "size": 52
-    },
-    {
-      "address": "0x800E4970",
-      "name": "func_800E4970",
-      "size": 148
-    },
-    {
-      "address": "0x800E4A04",
-      "name": "func_800E4A04",
-      "size": 16
-    },
-    {
-      "address": "0x800E4A14",
-      "name": "HandlePlay",
-      "size": 2372
-    },
-    {
-      "address": "0x800E5358",
-      "name": "func_800E5358",
-      "size": 320
-    },
-    {
-      "address": "0x800E5498",
-      "name": "func_800E5498",
-      "size": 236
-    },
-    {
-      "address": "0x800E5584",
-      "name": "HandleGameOver",
-      "size": 1964
-    },
-    {
-      "address": "0x800E5D30",
-      "name": "AnimateNowLoading",
-      "size": 1256
-    },
-    {
-      "address": "0x800E6218",
-      "name": "InitializeServant",
-      "size": 56
-    },
-    {
-      "address": "0x800E6250",
-      "name": "func_800E6250",
-      "size": 176
-    },
-    {
-      "address": "0x800E6300",
-      "name": "func_800E6300",
-      "size": 88
-    },
-    {
-      "address": "0x800E6358",
-      "name": "HandleNowLoading",
-      "size": 3196
-    },
-    {
-      "address": "0x800E6FD4",
-      "name": "HandleVideoPlayback",
-      "size": 944
-    },
-    {
-      "address": "0x800E7384",
-      "name": "nullsub_9",
-      "size": 8
-    },
-    {
-      "address": "0x800E738C",
-      "name": "HandlePrologueEnd",
-      "size": 204
-    },
-    {
-      "address": "0x800E7458",
-      "name": "MainMenuHandler",
-      "size": 564
-    },
-    {
-      "address": "0x800E768C",
-      "name": "HandleEnding",
-      "size": 1120
-    },
-    {
-      "address": "0x800E7AEC",
-      "name": "UpdateGame",
-      "size": 204
-    },
-    {
-      "address": "0x800E7BB8",
-      "name": "VSyncHandler",
-      "size": 336
-    },
-    {
-      "address": "0x800E7D08",
-      "name": "func_800E7D08",
-      "size": 68
-    },
-    {
-      "address": "0x800E7D4C",
-      "name": "LoadStageTileset",
-      "size": 188
-    },
-    {
-      "address": "0x800E7E08",
-      "name": "LoadFileSimToMem",
-      "size": 1012
-    },
-    {
-      "address": "0x800E81FC",
-      "name": "LoadFileSim",
-      "size": 2856
-    },
-    {
-      "address": "0x800E8D24",
-      "name": "ResetPadsRepeat",
-      "size": 48
-    },
-    {
-      "address": "0x800E8D54",
-      "name": "UpdatePadsRepeat",
-      "size": 156
-    },
-    {
-      "address": "0x800E8DF0",
-      "name": "InitializePads",
-      "size": 88
-    },
-    {
-      "address": "0x800E8E48",
-      "name": "ReadPads",
-      "size": 156
-    },
-    {
-      "address": "0x800E8EE4",
-      "name": "SetupEvents",
-      "size": 424
-    },
-    {
-      "address": "0x800E908C",
-      "name": "_peek_event_with_retry",
-      "size": 160
-    },
-    {
-      "address": "0x800E912C",
-      "name": "_peek_event",
-      "size": 132
-    },
-    {
-      "address": "0x800E91B0",
-      "name": "_clear_event",
-      "size": 88
-    },
-    {
-      "address": "0x800E9208",
-      "name": "_card_event_x",
-      "size": 132
-    },
-    {
-      "address": "0x800E928C",
-      "name": "_clear_event_x",
-      "size": 88
-    },
-    {
-      "address": "0x800E92E4",
-      "name": "MemcardInit",
-      "size": 16
-    },
-    {
-      "address": "0x800E92F4",
-      "name": "MemcardInfoInit",
-      "size": 24
-    },
-    {
-      "address": "0x800E930C",
-      "name": "MemcardParse",
-      "size": 508
-    },
-    {
-      "address": "0x800E9508",
-      "name": "GetMemcardFreeBlockCount",
-      "size": 40
-    },
-    {
-      "address": "0x800E9530",
-      "name": "MemcardDetectSave",
-      "size": 224
-    },
-    {
-      "address": "0x800E9610",
-      "name": "IsMemcardBlockUsed",
-      "size": 48
-    },
-    {
-      "address": "0x800E9640",
-      "name": "MemcardReadFile",
-      "size": 168
-    },
-    {
-      "address": "0x800E96E8",
-      "name": "MemcardWriteFile",
-      "size": 212
-    },
-    {
-      "address": "0x800E97BC",
-      "name": "MemcardEraseFile",
-      "size": 72
-    },
-    {
-      "address": "0x800E9804",
-      "name": "MemcardClose",
-      "size": 124
-    },
-    {
-      "address": "0x800E9880",
-      "name": "func_800E9880",
-      "size": 664
-    },
-    {
-      "address": "0x800E9B18",
-      "name": "MemcardFormat",
-      "size": 140
-    },
-    {
-      "address": "0x800E9BA4",
-      "name": "GetSavePalette",
-      "size": 56
-    },
-    {
-      "address": "0x800E9BDC",
-      "name": "GetSaveIcon",
-      "size": 56
-    },
-    {
-      "address": "0x800E9C14",
-      "name": "StoreSaveData",
-      "size": 1692
-    },
-    {
-      "address": "0x800EA2B0",
-      "name": "ApplySaveData",
-      "size": 476
-    },
-    {
-      "address": "0x800EA48C",
-      "name": "MakeMemcardPath",
-      "size": 172
-    },
-    {
-      "address": "0x800EA538",
-      "name": "func_800EA538",
-      "size": 116
-    },
-    {
-      "address": "0x800EA5AC",
-      "name": "func_800EA5AC",
-      "size": 56
-    },
-    {
-      "address": "0x800EA5E4",
-      "name": "func_800EA5E4",
-      "size": 316
-    },
-    {
-      "address": "0x800EA720",
-      "name": "func_800EA720",
-      "size": 172
-    },
-    {
-      "address": "0x800EA7CC",
-      "name": "func_800EA7CC",
-      "size": 1344
-    },
-    {
-      "address": "0x800EAD0C",
-      "name": "func_800EAD0C",
-      "size": 112
-    },
-    {
-      "address": "0x800EAD7C",
-      "name": "DRA_InitClutIndices",
-      "size": 296
-    },
-    {
-      "address": "0x800EAEA4",
-      "name": "func_800EAEA4",
-      "size": 72
-    },
-    {
-      "address": "0x800EAEEC",
-      "name": "ResetPendingGfxLoad",
-      "size": 60
-    },
-    {
-      "address": "0x800EAF28",
-      "name": "LoadGfxAsync",
-      "size": 160
-    },
-    {
-      "address": "0x800EAFC8",
-      "name": "DecompressWriteNibble",
-      "size": 116
-    },
-    {
-      "address": "0x800EB03C",
-      "name": "DecompressReadNibble",
-      "size": 92
-    },
-    {
-      "address": "0x800EB098",
-      "name": "DecompressData",
-      "size": 636
-    },
-    {
-      "address": "0x800EB314",
-      "name": "LoadPendingGfx",
-      "size": 484
-    },
-    {
-      "address": "0x800EB4F8",
-      "name": "func_800EB4F8",
-      "size": 60
-    },
-    {
-      "address": "0x800EB534",
-      "name": "LoadEquipIcon",
-      "size": 384
-    },
-    {
-      "address": "0x800EB6B4",
-      "name": "func_800EB6B4",
-      "size": 108
-    },
-    {
-      "address": "0x800EB720",
-      "name": "func_800EB720",
-      "size": 56
-    },
-    {
-      "address": "0x800EB758",
-      "name": "func_800EB758",
-      "size": 1048
-    },
-    {
-      "address": "0x800EBB70",
-      "name": "ResetEntityArray",
-      "size": 60
-    },
-    {
-      "address": "0x800EBBAC",
-      "name": "RenderEntities",
-      "size": 4172
-    },
-    {
-      "address": "0x800ECBF8",
-      "name": "InitRenderer",
-      "size": 564
-    },
-    {
-      "address": "0x800ECE2C",
-      "name": "HideAllBackgroundLayers",
-      "size": 44
-    },
-    {
-      "address": "0x800ECE58",
-      "name": "RenderTilemap",
-      "size": 2332
-    },
-    {
-      "address": "0x800ED774",
-      "name": "SetRoomForegroundLayer",
-      "size": 408
-    },
-    {
-      "address": "0x800ED90C",
-      "name": "SetRoomBackgroundLayer",
-      "size": 232
-    },
-    {
-      "address": "0x800ED9F4",
-      "name": "LoadRoomLayer",
-      "size": 124
-    },
-    {
-      "address": "0x800EDA70",
-      "name": "DestroyPrimitive",
-      "size": 36
-    },
-    {
-      "address": "0x800EDA94",
-      "name": "DestroyAllPrimitives",
-      "size": 80
-    },
-    {
-      "address": "0x800EDAE4",
-      "name": "func_800EDAE4",
-      "size": 36
-    },
-    {
-      "address": "0x800EDB08",
-      "name": "func_800EDB08",
-      "size": 80
-    },
-    {
-      "address": "0x800EDB58",
-      "name": "func_800EDB58",
-      "size": 296
-    },
-    {
-      "address": "0x800EDC80",
-      "name": "AllocPrimitives",
-      "size": 284
-    },
-    {
-      "address": "0x800EDD9C",
-      "name": "AllocPrimitivesReverse",
-      "size": 220
-    },
-    {
-      "address": "0x800EDE78",
-      "name": "FreePrimitives",
-      "size": 100
-    },
-    {
-      "address": "0x800EDEDC",
-      "name": "RenderPrimitives",
-      "size": 5504
-    },
-    {
-      "address": "0x800EF45C",
-      "name": "CheckCollision",
-      "size": 1948
-    },
-    {
-      "address": "0x800EFBF8",
-      "name": "DemoGameInit",
-      "size": 1852
-    },
-    {
-      "address": "0x800F0334",
-      "name": "DemoOpenFile",
-      "size": 368
-    },
-    {
-      "address": "0x800F04A4",
-      "name": "DemoSaveFile",
-      "size": 212
-    },
-    {
-      "address": "0x800F0578",
-      "name": "DemoInit",
-      "size": 144
-    },
-    {
-      "address": "0x800F0608",
-      "name": "DemoUpdate",
-      "size": 628
-    },
-    {
-      "address": "0x800F087C",
-      "name": "func_800F087C",
-      "size": 196
-    },
-    {
-      "address": "0x800F0940",
-      "name": "func_800F0940",
-      "size": 640
-    },
-    {
-      "address": "0x800F0BC0",
-      "name": "SetNextRoomToLoad",
-      "size": 280
-    },
-    {
-      "address": "0x800F0CD8",
-      "name": "func_800F0CD8",
-      "size": 1868
-    },
-    {
-      "address": "0x800F1424",
-      "name": "func_800F1424",
-      "size": 168
-    },
-    {
-      "address": "0x800F14CC",
-      "name": "func_800F14CC",
-      "size": 516
-    },
-    {
-      "address": "0x800F16D0",
-      "name": "func_800F16D0",
-      "size": 160
-    },
-    {
-      "address": "0x800F1770",
-      "name": "writeColorToBuffer",
-      "size": 88
-    },
-    {
-      "address": "0x800F17C8",
-      "name": "readColorFromBuffer",
-      "size": 68
-    },
-    {
-      "address": "0x800F180C",
-      "name": "copyMapTileColorsToBuffer",
-      "size": 92
-    },
-    {
-      "address": "0x800F1868",
-      "name": "copyBufferToMapTile",
-      "size": 92
-    },
-    {
-      "address": "0x800F18C4",
-      "name": "resetMapTileOnCastleBlueprint",
-      "size": 144
-    },
-    {
-      "address": "0x800F1954",
-      "name": "paintMapTileOnCastleBlueprint",
-      "size": 232
-    },
-    {
-      "address": "0x800F1A3C",
-      "name": "repaintMapTilesOnCastleBlueprint",
-      "size": 204
-    },
-    {
-      "address": "0x800F1B08",
-      "name": "func_800F1B08",
-      "size": 588
-    },
-    {
-      "address": "0x800F1D54",
-      "name": "DrawSecretPassageOnMap",
-      "size": 348
-    },
-    {
-      "address": "0x800F1EB0",
-      "name": "RevealSecretPassageOnMap",
-      "size": 276
-    },
-    {
-      "address": "0x800F1FC4",
-      "name": "RevealSecretPassageAtPlayerPositionOnMap",
-      "size": 80
-    },
-    {
-      "address": "0x800F2014",
-      "name": "func_800F2014",
-      "size": 268
-    },
-    {
-      "address": "0x800F2120",
-      "name": "func_800F2120",
-      "size": 284
-    },
-    {
-      "address": "0x800F223C",
-      "name": "func_800F223C",
-      "size": 76
-    },
-    {
-      "address": "0x800F2288",
-      "name": "func_800F2288",
-      "size": 380
-    },
-    {
-      "address": "0x800F2404",
-      "name": "func_800F2404",
-      "size": 240
-    },
-    {
-      "address": "0x800F24F4",
-      "name": "func_800F24F4",
-      "size": 356
-    },
-    {
-      "address": "0x800F2658",
-      "name": "DrawMapCursor",
-      "size": 412
-    },
-    {
-      "address": "0x800F27F4",
-      "name": "func_800F27F4",
-      "size": 108
-    },
-    {
-      "address": "0x800F2860",
-      "name": "func_800F2860",
-      "size": 300
-    },
-    {
-      "address": "0x800F298C",
-      "name": "RunMainEngine",
-      "size": 7856
-    },
-    {
-      "address": "0x800F483C",
-      "name": "CheckIfAllButtonsAreAssigned",
-      "size": 264
-    },
-    {
-      "address": "0x800F4944",
-      "name": "IsAlucart",
-      "size": 80
-    },
-    {
-      "address": "0x800F4994",
-      "name": "func_800F4994",
-      "size": 932
-    },
-    {
-      "address": "0x800F4D38",
-      "name": "CalcAttack",
-      "size": 528
-    },
-    {
-      "address": "0x800F4F48",
-      "name": "func_800F4F48",
-      "size": 136
-    },
-    {
-      "address": "0x800F4FD0",
-      "name": "CalcDefense",
-      "size": 980
-    },
-    {
-      "address": "0x800F53A4",
-      "name": "func_800F53A4",
-      "size": 48
-    },
-    {
-      "address": "0x800F53D4",
-      "name": "func_800F53D4",
-      "size": 184
-    },
-    {
-      "address": "0x800F548C",
-      "name": "func_800F548C",
-      "size": 64
-    },
-    {
-      "address": "0x800F54CC",
-      "name": "IsOutsideDrawArea",
-      "size": 100
-    },
-    {
-      "address": "0x800F5530",
-      "name": "ScissorPolyG4",
-      "size": 284
-    },
-    {
-      "address": "0x800F564C",
-      "name": "ScissorPolyGT4",
-      "size": 380
-    },
-    {
-      "address": "0x800F57C8",
-      "name": "ScissorSprite",
-      "size": 316
-    },
-    {
-      "address": "0x800F5904",
-      "name": "MenuDrawImg",
-      "size": 396
-    },
-    {
-      "address": "0x800F5A90",
-      "name": "func_800F5A90",
-      "size": 84
-    },
-    {
-      "address": "0x800F5AE4",
-      "name": "func_800F5AE4",
-      "size": 172
-    },
-    {
-      "address": "0x800F5B90",
-      "name": "MenuDrawSprite",
-      "size": 436
-    },
-    {
-      "address": "0x800F5D44",
-      "name": "MenuDrawRect",
-      "size": 292
-    },
-    {
-      "address": "0x800F5E68",
-      "name": "func_800F5E68",
-      "size": 136
-    },
-    {
-      "address": "0x800F5EF0",
-      "name": "DrawRelicsMenu",
-      "size": 828
-    },
-    {
-      "address": "0x800F622C",
-      "name": "MenuDrawAlucardPortrait",
-      "size": 188
-    },
-    {
-      "address": "0x800F62E8",
-      "name": "DarkenCloakColor",
-      "size": 28
-    },
-    {
-      "address": "0x800F6304",
-      "name": "ApplyJosephsCloakPalette",
-      "size": 312
-    },
-    {
-      "address": "0x800F643C",
-      "name": "MenuDrawAlucardCloakPreview",
-      "size": 204
-    },
-    {
-      "address": "0x800F6508",
-      "name": "func_800F6508",
-      "size": 96
-    },
-    {
-      "address": "0x800F6568",
-      "name": "func_800F6568",
-      "size": 176
-    },
-    {
-      "address": "0x800F6618",
-      "name": "func_800F6618",
-      "size": 164
-    },
-    {
-      "address": "0x800F66BC",
-      "name": "func_800F66BC",
-      "size": 208
-    },
-    {
-      "address": "0x800F678C",
-      "name": "MenuDrawChar",
-      "size": 96
-    },
-    {
-      "address": "0x800F67EC",
-      "name": "MenuDrawStr",
-      "size": 264
-    },
-    {
-      "address": "0x800F68F4",
-      "name": "MenuDrawInt",
-      "size": 164
-    },
-    {
-      "address": "0x800F6998",
-      "name": "MenuDrawTime",
-      "size": 176
-    },
-    {
-      "address": "0x800F6A48",
-      "name": "func_800F6A48",
-      "size": 40
-    },
-    {
-      "address": "0x800F6A70",
-      "name": "MenuJosephsCloakDraw",
-      "size": 380
-    },
-    {
-      "address": "0x800F6BEC",
-      "name": "MenuWindowColorsDraw",
-      "size": 212
-    },
-    {
-      "address": "0x800F6CC0",
-      "name": "SortTimeAttackEntries",
-      "size": 264
-    },
-    {
-      "address": "0x800F6DC8",
-      "name": "MenuTimeAttackDraw",
-      "size": 476
-    },
-    {
-      "address": "0x800F6FA4",
-      "name": "MenuButtonConfigDraw",
-      "size": 312
-    },
-    {
-      "address": "0x800F70DC",
-      "name": "MenuReverseCloakDraw",
-      "size": 140
-    },
-    {
-      "address": "0x800F7168",
-      "name": "MenuSoundConfigDraw",
-      "size": 176
-    },
-    {
-      "address": "0x800F7218",
-      "name": "StatChangeArrow",
-      "size": 44
-    },
-    {
-      "address": "0x800F7244",
-      "name": "func_800F7244",
-      "size": 120
-    },
-    {
-      "address": "0x800F72BC",
-      "name": "MenuStatChangesDraw",
-      "size": 504
-    },
-    {
-      "address": "0x800F74B4",
-      "name": "MenuDrawStats",
-      "size": 1708
-    },
-    {
-      "address": "0x800F7B60",
-      "name": "MenuSpellsDraw",
-      "size": 1028
-    },
-    {
-      "address": "0x800F7F64",
-      "name": "MenuFamiliarsDraw",
-      "size": 912
-    },
-    {
-      "address": "0x800F82F4",
-      "name": "func_800F82F4",
-      "size": 128
-    },
-    {
-      "address": "0x800F8374",
-      "name": "MenuSystemDraw",
-      "size": 344
-    },
-    {
-      "address": "0x800F84CC",
-      "name": "func_800F84CC",
-      "size": 536
-    },
-    {
-      "address": "0x800F86E4",
-      "name": "func_800F86E4",
-      "size": 112
-    },
-    {
-      "address": "0x800F8754",
-      "name": "func_800F8754",
-      "size": 260
-    },
-    {
-      "address": "0x800F8858",
-      "name": "MenuEquipSortDraw",
-      "size": 212
-    },
-    {
-      "address": "0x800F892C",
-      "name": "func_800F892C",
-      "size": 100
-    },
-    {
-      "address": "0x800F8990",
-      "name": "func_800F8990",
-      "size": 776
-    },
-    {
-      "address": "0x800F8C98",
-      "name": "MenuDrawLine",
-      "size": 384
-    },
-    {
-      "address": "0x800F8E18",
-      "name": "DrawConsumableCount",
-      "size": 272
-    },
-    {
-      "address": "0x800F8F28",
-      "name": "MenuDraw",
-      "size": 1896
-    },
-    {
-      "address": "0x800F9690",
-      "name": "func_800F9690",
-      "size": 100
-    },
-    {
-      "address": "0x800F96F4",
-      "name": "func_800F96F4",
-      "size": 232
-    },
-    {
-      "address": "0x800F97DC",
-      "name": "func_800F97DC",
-      "size": 44
-    },
-    {
-      "address": "0x800F9808",
-      "name": "func_800F9808",
-      "size": 164
-    },
-    {
-      "address": "0x800F98AC",
-      "name": "func_800F98AC",
-      "size": 268
-    },
-    {
-      "address": "0x800F99B8",
-      "name": "func_800F99B8",
-      "size": 904
-    },
-    {
-      "address": "0x800F9D40",
-      "name": "func_800F9D40",
-      "size": 72
-    },
-    {
-      "address": "0x800F9D88",
-      "name": "func_800F9D88",
-      "size": 72
-    },
-    {
-      "address": "0x800F9DD0",
-      "name": "func_800F9DD0",
-      "size": 72
-    },
-    {
-      "address": "0x800F9E18",
-      "name": "func_800F9E18",
-      "size": 296
-    },
-    {
-      "address": "0x800F9F40",
-      "name": "func_800F9F40",
-      "size": 244
-    },
-    {
-      "address": "0x800FA034",
-      "name": "MenuHandleCursorInput",
-      "size": 912
-    },
-    {
-      "address": "0x800FA3C4",
-      "name": "func_800FA3C4",
-      "size": 584
-    },
-    {
-      "address": "0x800FA60C",
-      "name": "MenuEquipHandlePageScroll",
-      "size": 476
-    },
-    {
-      "address": "0x800FA7E8",
-      "name": "CheckWeaponCombo",
-      "size": 220
-    },
-    {
-      "address": "0x800FA8C4",
-      "name": "LoadWeaponPrg",
-      "size": 280
-    },
-    {
-      "address": "0x800FA9DC",
-      "name": "InitWeapon",
-      "size": 320
-    },
-    {
-      "address": "0x800FAB1C",
-      "name": "func_800FAB1C",
-      "size": 112
-    },
-    {
-      "address": "0x800FAB8C",
-      "name": "MenuHide",
-      "size": 48
-    },
-    {
-      "address": "0x800FABBC",
-      "name": "MenuShow",
-      "size": 48
-    },
-    {
-      "address": "0x800FABEC",
-      "name": "func_800FABEC",
-      "size": 32
-    },
-    {
-      "address": "0x800FAC0C",
-      "name": "func_800FAC0C",
-      "size": 36
-    },
-    {
-      "address": "0x800FAC30",
-      "name": "func_800FAC30",
-      "size": 24
-    },
-    {
-      "address": "0x800FAC48",
-      "name": "func_800FAC48",
-      "size": 80
-    },
-    {
-      "address": "0x800FAC98",
-      "name": "func_800FAC98",
-      "size": 32
-    },
-    {
-      "address": "0x800FACB8",
-      "name": "func_800FACB8",
-      "size": 124
-    },
-    {
-      "address": "0x800FAD34",
-      "name": "func_800FAD34",
-      "size": 140
-    },
-    {
-      "address": "0x800FADC0",
-      "name": "func_800FADC0",
-      "size": 216
-    },
-    {
-      "address": "0x800FAE98",
-      "name": "func_800FAE98",
-      "size": 44
-    },
-    {
-      "address": "0x800FAEC4",
-      "name": "func_800FAEC4",
-      "size": 128
-    },
-    {
-      "address": "0x800FAF44",
-      "name": "func_800FAF44",
-      "size": 192
-    },
-    {
-      "address": "0x800FB004",
-      "name": "func_800FB004",
-      "size": 248
-    },
-    {
-      "address": "0x800FB0FC",
-      "name": "func_800FB0FC",
-      "size": 100
-    },
-    {
-      "address": "0x800FB160",
-      "name": "func_800FB160",
-      "size": 140
-    },
-    {
-      "address": "0x800FB1EC",
-      "name": "func_800FB1EC",
-      "size": 80
-    },
-    {
-      "address": "0x800FB23C",
-      "name": "func_800FB23C",
-      "size": 1920
-    },
-    {
-      "address": "0x800FB9BC",
-      "name": "func_800FB9BC",
-      "size": 264
-    },
-    {
-      "address": "0x800FBAC4",
-      "name": "func_800FBAC4",
-      "size": 352
-    },
-    {
-      "address": "0x800FBC24",
-      "name": "MenuHandle",
-      "size": 6008
-    },
-    {
-      "address": "0x800FD39C",
-      "name": "func_800FD39C",
-      "size": 292
-    },
-    {
-      "address": "0x800FD4C0",
-      "name": "TimeAttackController",
-      "size": 252
-    },
-    {
-      "address": "0x800FD5BC",
-      "name": "CalcPlayerDamage",
-      "size": 168
-    },
-    {
-      "address": "0x800FD664",
-      "name": "func_800FD664",
-      "size": 36
-    },
-    {
-      "address": "0x800FD688",
-      "name": "GetEquipItemCategory",
-      "size": 60
-    },
-    {
-      "address": "0x800FD6C4",
-      "name": "func_800FD6C4",
-      "size": 128
-    },
-    {
-      "address": "0x800FD744",
-      "name": "GetEquipOrder",
-      "size": 28
-    },
-    {
-      "address": "0x800FD760",
-      "name": "GetEquipCount",
-      "size": 28
-    },
-    {
-      "address": "0x800FD77C",
-      "name": "GetEquipmentName",
-      "size": 68
-    },
-    {
-      "address": "0x800FD7C0",
-      "name": "CheckEquipmentItemCount",
-      "size": 180
-    },
-    {
-      "address": "0x800FD874",
-      "name": "AddToInventory",
-      "size": 352
-    },
-    {
-      "address": "0x800FD9D4",
-      "name": "GetSpellDef",
-      "size": 324
-    },
-    {
-      "address": "0x800FDB18",
-      "name": "GetStatusAilmentTimer",
-      "size": 380
-    },
-    {
-      "address": "0x800FDC94",
-      "name": "CastSpell",
-      "size": 76
-    },
-    {
-      "address": "0x800FDCE0",
-      "name": "LearnSpell",
-      "size": 100
-    },
-    {
-      "address": "0x800FDD44",
-      "name": "func_800FDD44",
-      "size": 188
-    },
-    {
-      "address": "0x800FDE00",
-      "name": "func_800FDE00",
-      "size": 32
-    },
-    {
-      "address": "0x800FDE20",
-      "name": "CheckAndDoLevelUp",
-      "size": 548
-    },
-    {
-      "address": "0x800FE044",
-      "name": "func_800FE044",
-      "size": 868
-    },
-    {
-      "address": "0x800FE3A8",
-      "name": "IsRelicActive",
-      "size": 28
-    },
-    {
-      "address": "0x800FE3C4",
-      "name": "func_800FE3C4",
-      "size": 868
-    },
-    {
-      "address": "0x800FE728",
-      "name": "GetEquipProperties",
-      "size": 396
-    },
-    {
-      "address": "0x800FE8B4",
-      "name": "HasEnoughMp",
-      "size": 60
-    },
-    {
-      "address": "0x800FE8F0",
-      "name": "func_800FE8F0",
-      "size": 36
-    },
-    {
-      "address": "0x800FE914",
-      "name": "AddHearts",
-      "size": 104
-    },
-    {
-      "address": "0x800FE97C",
-      "name": "HandleDamage",
-      "size": 1264
-    },
-    {
-      "address": "0x800FEE6C",
-      "name": "DecrementStatBuffTimers",
-      "size": 56
-    },
-    {
-      "address": "0x800FEEA4",
-      "name": "HandleTransformationMP",
-      "size": 448
-    },
-    {
-      "address": "0x800FF064",
-      "name": "HandleGravityBootsMP",
-      "size": 60
-    },
-    {
-      "address": "0x800FF0A0",
-      "name": "ClearStatBuff",
-      "size": 24
-    },
-    {
-      "address": "0x800FF0B8",
-      "name": "ClearStatBuffs",
-      "size": 60
-    },
-    {
-      "address": "0x800FF0F4",
-      "name": "GiveStatBuff",
-      "size": 28
-    },
-    {
-      "address": "0x800FF110",
-      "name": "GetStatBuffTimer",
-      "size": 24
-    },
-    {
-      "address": "0x800FF128",
-      "name": "DealDamage",
-      "size": 824
-    },
-    {
-      "address": "0x800FF460",
-      "name": "func_800FF460",
-      "size": 52
-    },
-    {
-      "address": "0x800FF494",
-      "name": "func_800FF494",
-      "size": 376
-    },
-    {
-      "address": "0x800FF60C",
-      "name": "UpdateCapePalette",
-      "size": 184
-    },
-    {
-      "address": "0x800FF6C4",
-      "name": "RefreshCapePalette",
-      "size": 68
-    },
-    {
-      "address": "0x800FF708",
-      "name": "func_800FF708",
-      "size": 176
-    },
-    {
-      "address": "0x800FF7B8",
-      "name": "InitStatsAndGear",
-      "size": 3992
-    },
-    {
-      "address": "0x80100750",
-      "name": "DrawRichterHud",
-      "size": 1024
-    },
-    {
-      "address": "0x80100B50",
-      "name": "DrawRichterHudSubweapon",
-      "size": 3308
-    },
-    {
-      "address": "0x8010183C",
-      "name": "func_8010183C",
-      "size": 96
-    },
-    {
-      "address": "0x8010189C",
-      "name": "DrawHud",
-      "size": 484
-    },
-    {
-      "address": "0x80101A80",
-      "name": "DrawHudSubweapon",
-      "size": 2652
-    },
-    {
-      "address": "0x801024DC",
-      "name": "InitFade",
-      "size": 280
-    },
-    {
-      "address": "0x801025F4",
-      "name": "func_801025F4",
-      "size": 52
-    },
-    {
-      "address": "0x80102628",
-      "name": "SetFadeWidth",
-      "size": 148
-    },
-    {
-      "address": "0x801026BC",
-      "name": "SetMapOpacity",
-      "size": 232
-    },
-    {
-      "address": "0x801027A4",
-      "name": "HideMap",
-      "size": 32
-    },
-    {
-      "address": "0x801027C4",
-      "name": "SetFadeMode",
-      "size": 232
-    },
-    {
-      "address": "0x801028AC",
-      "name": "UpdateFade",
-      "size": 1068
-    },
-    {
-      "address": "0x80102CD8",
-      "name": "func_80102CD8",
-      "size": 48
-    },
-    {
-      "address": "0x80102D08",
-      "name": "func_80102D08",
-      "size": 104
-    },
-    {
-      "address": "0x80102D70",
-      "name": "func_80102D70",
-      "size": 124
-    },
-    {
-      "address": "0x80102DEC",
-      "name": "MemCardSetPort",
-      "size": 24
-    },
-    {
-      "address": "0x80102E04",
-      "name": "MemCardInitAndFormat",
-      "size": 180
-    },
-    {
-      "address": "0x80102EB8",
-      "name": "func_80102EB8",
-      "size": 508
-    },
-    {
-      "address": "0x801030B4",
-      "name": "func_801030B4",
-      "size": 148
-    },
-    {
-      "address": "0x80103148",
-      "name": "func_80103148",
-      "size": 240
-    },
-    {
-      "address": "0x80103238",
-      "name": "HandleSaveMenu",
-      "size": 3188
-    },
-    {
-      "address": "0x80103EAC",
-      "name": "func_80103EAC",
-      "size": 40
-    },
-    {
-      "address": "0x80103ED4",
-      "name": "func_80103ED4",
-      "size": 936
-    },
-    {
-      "address": "0x8010427C",
-      "name": "func_8010427C",
-      "size": 72
-    },
-    {
-      "address": "0x801042C4",
-      "name": "func_801042C4",
-      "size": 1228
-    },
-    {
-      "address": "0x80104790",
-      "name": "func_80104790",
-      "size": 2280
-    },
-    {
-      "address": "0x80105078",
-      "name": "func_80105078",
-      "size": 912
-    },
-    {
-      "address": "0x80105408",
-      "name": "func_80105408",
-      "size": 32
-    },
-    {
-      "address": "0x80105428",
-      "name": "func_80105428",
-      "size": 4456
-    },
-    {
-      "address": "0x80106590",
-      "name": "DestroyEntity",
-      "size": 100
-    },
-    {
-      "address": "0x801065F4",
-      "name": "DestroyEntitiesFromIndex",
-      "size": 124
-    },
-    {
-      "address": "0x80106670",
-      "name": "DrawEntitiesHitbox",
-      "size": 952
-    },
-    {
-      "address": "0x80106A28",
-      "name": "func_80106A28",
-      "size": 1844
-    },
-    {
-      "address": "0x8010715C",
-      "name": "LoadMonsterLibrarianPreview",
-      "size": 112
-    },
-    {
-      "address": "0x801071CC",
-      "name": "DRA_SetPrimVertexGrey",
-      "size": 132
-    },
-    {
-      "address": "0x80107250",
-      "name": "DRA_SetPrimGrey",
-      "size": 108
-    },
-    {
-      "address": "0x801072BC",
-      "name": "func_801072BC",
-      "size": 32
-    },
-    {
-      "address": "0x801072DC",
-      "name": "func_801072DC",
-      "size": 32
-    },
-    {
-      "address": "0x801072FC",
-      "name": "func_801072FC",
-      "size": 52
-    },
-    {
-      "address": "0x80107330",
-      "name": "SetPrimRect",
-      "size": 48
-    },
-    {
-      "address": "0x80107360",
-      "name": "SetTexturedPrimRect",
-      "size": 96
-    },
-    {
-      "address": "0x801073C0",
-      "name": "func_801073C0",
-      "size": 40
-    },
-    {
-      "address": "0x801073E8",
-      "name": "DRA_StreamDiskIsReady",
-      "size": 120
-    },
-    {
-      "address": "0x80107460",
-      "name": "func_80107460",
-      "size": 92
-    },
-    {
-      "address": "0x801074BC",
-      "name": "CopyStageOvlCallback",
-      "size": 344
-    },
-    {
-      "address": "0x80107614",
-      "name": "CopyRicOvlCallback",
-      "size": 316
-    },
-    {
-      "address": "0x801078C4",
-      "name": "func_801078C4",
-      "size": 576
-    },
-    {
-      "address": "0x80107B04",
-      "name": "CopyMonsterPreviewCallback",
-      "size": 360
-    },
-    {
-      "address": "0x80107C6C",
-      "name": "func_80107C6C",
-      "size": 328
-    },
-    {
-      "address": "0x80107DB4",
-      "name": "func_80107DB4",
-      "size": 316
-    },
-    {
-      "address": "0x80107EF0",
-      "name": "func_80107EF0",
-      "size": 492
-    },
-    {
-      "address": "0x801080DC",
-      "name": "func_801080DC",
-      "size": 688
-    },
-    {
-      "address": "0x8010838C",
-      "name": "func_8010838C",
-      "size": 48
-    },
-    {
-      "address": "0x801083BC",
-      "name": "func_801083BC",
-      "size": 52
-    },
-    {
-      "address": "0x801083F0",
-      "name": "func_801083F0",
-      "size": 88
-    },
-    {
-      "address": "0x80108448",
-      "name": "UpdateCd",
-      "size": 3744
-    },
-    {
-      "address": "0x801092E8",
-      "name": "func_801092E8",
-      "size": 64
-    },
-    {
-      "address": "0x80109328",
-      "name": "func_80109328",
-      "size": 156
-    },
-    {
-      "address": "0x801093C4",
-      "name": "func_801093C4",
-      "size": 464
-    },
-    {
-      "address": "0x80109594",
-      "name": "AluInit",
-      "size": 1020
-    },
-    {
-      "address": "0x80109990",
-      "name": "func_80109990",
-      "size": 180
-    },
-    {
-      "address": "0x80109A44",
-      "name": "CheckStageCollision",
-      "size": 2032
-    },
-    {
-      "address": "0x8010A234",
-      "name": "func_8010A234",
-      "size": 444
-    },
-    {
-      "address": "0x8010A3F0",
-      "name": "func_8010A3F0",
-      "size": 180
-    },
-    {
-      "address": "0x8010A4A4",
-      "name": "GetTeleportToOtherCastle",
-      "size": 280
-    },
-    {
-      "address": "0x8010A5BC",
-      "name": "EntityAlucard",
-      "size": 6568
-    },
-    {
-      "address": "0x8010BF64",
-      "name": "GetPlayerSensor",
-      "size": 152
-    },
-    {
-      "address": "0x8010BFFC",
-      "name": "func_8010BFFC",
-      "size": 880
-    },
-    {
-      "address": "0x8010C36C",
-      "name": "CheckFloor",
-      "size": 1672
-    },
-    {
-      "address": "0x8010C9F4",
-      "name": "CheckCeiling",
-      "size": 1564
-    },
-    {
-      "address": "0x8010D010",
-      "name": "CheckWallRight",
-      "size": 696
-    },
-    {
-      "address": "0x8010D2C8",
-      "name": "CheckWallLeft",
-      "size": 700
-    },
-    {
-      "address": "0x8010D584",
-      "name": "SetPlayerStep",
-      "size": 24
-    },
-    {
-      "address": "0x8010D59C",
-      "name": "InitPlayerAfterImage",
-      "size": 612
-    },
-    {
-      "address": "0x8010D800",
-      "name": "DrawPlayerAfterImage",
-      "size": 556
-    },
-    {
-      "address": "0x8010DA2C",
-      "name": "func_8010DA2C",
-      "size": 28
-    },
-    {
-      "address": "0x8010DA48",
-      "name": "SetPlayerAnim",
-      "size": 40
-    },
-    {
-      "address": "0x8010DA70",
-      "name": "DRA_func",
-      "size": 200
-    },
-    {
-      "address": "0x8010DB38",
-      "name": "UpdateUnarmedAnim",
-      "size": 196
-    },
-    {
-      "address": "0x8010DBFC",
-      "name": "PlayAnimation",
-      "size": 420
-    },
-    {
-      "address": "0x8010DDA0",
-      "name": "UpdateAnim",
-      "size": 464
-    },
-    {
-      "address": "0x8010DF70",
-      "name": "func_8010DF70",
-      "size": 128
-    },
-    {
-      "address": "0x8010DFF0",
-      "name": "func_8010DFF0",
-      "size": 184
-    },
-    {
-      "address": "0x8010E0A8",
-      "name": "ForceAfterImageOn",
-      "size": 16
-    },
-    {
-      "address": "0x8010E0B8",
-      "name": "EnableAfterImage",
-      "size": 24
-    },
-    {
-      "address": "0x8010E0D0",
-      "name": "func_8010E0D0",
-      "size": 152
-    },
-    {
-      "address": "0x8010E168",
-      "name": "func_8010E168",
-      "size": 132
-    },
-    {
-      "address": "0x8010E1EC",
-      "name": "DecelerateX",
-      "size": 72
-    },
-    {
-      "address": "0x8010E234",
-      "name": "DecelerateY",
-      "size": 72
-    },
-    {
-      "address": "0x8010E27C",
-      "name": "CheckMoveDirection",
-      "size": 184
-    },
-    {
-      "address": "0x8010E334",
-      "name": "func_8010E334",
-      "size": 92
-    },
-    {
-      "address": "0x8010E390",
-      "name": "SetSpeedX",
-      "size": 40
-    },
-    {
-      "address": "0x8010E3B8",
-      "name": "func_8010E3B8",
-      "size": 40
-    },
-    {
-      "address": "0x8010E3E0",
-      "name": "func_8010E3E0",
-      "size": 76
-    },
-    {
-      "address": "0x8010E42C",
-      "name": "func_8010E42C",
-      "size": 68
-    },
-    {
-      "address": "0x8010E470",
-      "name": "func_8010E470",
-      "size": 96
-    },
-    {
-      "address": "0x8010E4D0",
-      "name": "CheckPlayerStuck",
-      "size": 160
-    },
-    {
-      "address": "0x8010E570",
-      "name": "func_8010E570",
-      "size": 316
-    },
-    {
-      "address": "0x8010E6AC",
-      "name": "func_8010E6AC",
-      "size": 256
-    },
-    {
-      "address": "0x8010E7AC",
-      "name": "func_8010E7AC",
-      "size": 144
-    },
-    {
-      "address": "0x8010E83C",
-      "name": "func_8010E83C",
-      "size": 260
-    },
-    {
-      "address": "0x8010E940",
-      "name": "func_8010E940",
-      "size": 100
-    },
-    {
-      "address": "0x8010E9A4",
-      "name": "DoGravityJump",
-      "size": 176
-    },
-    {
-      "address": "0x8010EA54",
-      "name": "func_8010EA54",
-      "size": 136
-    },
-    {
-      "address": "0x8010EADC",
-      "name": "CheckSubwpnChainLimit",
-      "size": 128
-    },
-    {
-      "address": "0x8010EB5C",
-      "name": "func_8010EB5C",
-      "size": 304
-    },
-    {
-      "address": "0x8010EC8C",
-      "name": "CheckChainLimit",
-      "size": 200
-    },
-    {
-      "address": "0x8010ED54",
-      "name": "func_8010ED54",
-      "size": 100
-    },
-    {
-      "address": "0x8010EDB8",
-      "name": "func_8010EDB8",
-      "size": 3388
-    },
-    {
-      "address": "0x8010FAF4",
-      "name": "func_8010FAF4",
-      "size": 48
-    },
-    {
-      "address": "0x8010FB24",
-      "name": "PerformHellfire",
-      "size": 68
-    },
-    {
-      "address": "0x8010FB68",
-      "name": "PerformDarkMetamorphosis",
-      "size": 140
-    },
-    {
-      "address": "0x8010FBF4",
-      "name": "PerformSoulSteal",
-      "size": 92
-    },
-    {
-      "address": "0x8010FC50",
-      "name": "PerformSummonSpirit",
-      "size": 104
-    },
-    {
-      "address": "0x8010FCB8",
-      "name": "PerformTetraSpirit",
-      "size": 108
-    },
-    {
-      "address": "0x8010FD24",
-      "name": "PerformSwordBrothers",
-      "size": 100
-    },
-    {
-      "address": "0x8010FD88",
-      "name": "func_8010FD88",
-      "size": 112
-    },
-    {
-      "address": "0x8010FDF8",
-      "name": "func_8010FDF8",
-      "size": 1436
-    },
-    {
-      "address": "0x80110394",
-      "name": "func_80110394",
-      "size": 316
-    },
-    {
-      "address": "0x801104D0",
-      "name": "CheckGravityBootsInput",
-      "size": 468
-    },
-    {
-      "address": "0x801106A4",
-      "name": "CheckQuarterCircleForwardInput",
-      "size": 376
-    },
-    {
-      "address": "0x8011081C",
-      "name": "CheckBackForwardInput",
-      "size": 332
-    },
-    {
-      "address": "0x80110968",
-      "name": "CheckDarkMetamorphosisInput",
-      "size": 608
-    },
-    {
-      "address": "0x80110BC8",
-      "name": "CheckSummonSpiritInput",
-      "size": 560
-    },
-    {
-      "address": "0x80110DF8",
-      "name": "CheckHellfireInput",
-      "size": 544
-    },
-    {
-      "address": "0x80111018",
-      "name": "CheckTetraSpiritInput",
-      "size": 660
-    },
-    {
-      "address": "0x801112AC",
-      "name": "CheckSoulStealInput",
-      "size": 624
-    },
-    {
-      "address": "0x8011151C",
-      "name": "CheckSwordBrothersInput",
-      "size": 788
-    },
-    {
-      "address": "0x80111830",
-      "name": "CheckSpecialMoveInputs",
-      "size": 248
-    },
-    {
-      "address": "0x80111928",
-      "name": "func_80111928",
-      "size": 16
-    },
-    {
-      "address": "0x80111938",
-      "name": "DRA_RicDebugEnter",
-      "size": 68
-    },
-    {
-      "address": "0x8011197C",
-      "name": "DRA_RicDebugExit",
-      "size": 72
-    },
-    {
-      "address": "0x801119C4",
-      "name": "func_801119C4",
-      "size": 764
-    },
-    {
-      "address": "0x80111CC0",
-      "name": "func_80111CC0",
-      "size": 100
-    },
-    {
-      "address": "0x80111D24",
-      "name": "func_80111D24",
-      "size": 196
-    },
-    {
-      "address": "0x80111DE8",
-      "name": "func_80111DE8",
-      "size": 596
-    },
-    {
-      "address": "0x8011203C",
-      "name": "func_8011203C",
-      "size": 120
-    },
-    {
-      "address": "0x801120B4",
-      "name": "PlayerStepStand",
-      "size": 2736
-    },
-    {
-      "address": "0x80112BB0",
-      "name": "PlayerStepJump",
-      "size": 1432
-    },
-    {
-      "address": "0x80113148",
-      "name": "PlayerStepFall",
-      "size": 124
-    },
-    {
-      "address": "0x801131C4",
-      "name": "PlayerStepCrouch",
-      "size": 2056
-    },
-    {
-      "address": "0x801139CC",
-      "name": "func_801139CC",
-      "size": 224
-    },
-    {
-      "address": "0x80113AAC",
-      "name": "PlayerStepHighJump",
-      "size": 720
-    },
-    {
-      "address": "0x80113D7C",
-      "name": "func_80113D7C",
-      "size": 236
-    },
-    {
-      "address": "0x80113E68",
-      "name": "func_80113E68",
-      "size": 120
-    },
-    {
-      "address": "0x80113EE0",
-      "name": "func_80113EE0",
-      "size": 156
-    },
-    {
-      "address": "0x80113F7C",
-      "name": "func_80113F7C",
-      "size": 224
-    },
-    {
-      "address": "0x8011405C",
-      "name": "AlucardHandleDamage",
-      "size": 3480
-    },
-    {
-      "address": "0x80114DF4",
-      "name": "PlayerStepStoned",
-      "size": 1440
-    },
-    {
-      "address": "0x80115394",
-      "name": "PlayerStepKill",
-      "size": 2076
-    },
-    {
-      "address": "0x80115BB0",
-      "name": "PlayerStepUnk17",
-      "size": 160
-    },
-    {
-      "address": "0x80115C50",
-      "name": "func_80115C50",
-      "size": 336
-    },
-    {
-      "address": "0x80115DA0",
-      "name": "PlayerStepTeleport",
-      "size": 436
-    },
-    {
-      "address": "0x80115F54",
-      "name": "PlayerStepKillWater",
-      "size": 692
-    },
-    {
-      "address": "0x80116208",
-      "name": "PlayerStepBossGrab",
-      "size": 512
-    },
-    {
-      "address": "0x80116408",
-      "name": "PlayerStepHellfire",
-      "size": 668
-    },
-    {
-      "address": "0x801166A4",
-      "name": "PlayerStepUnk48",
-      "size": 232
-    },
-    {
-      "address": "0x8011678C",
-      "name": "PlayerStepUnk49",
-      "size": 68
-    },
-    {
-      "address": "0x801167D0",
-      "name": "PlayerStepUnk50",
-      "size": 104
-    },
-    {
-      "address": "0x80116838",
-      "name": "BatFormFinished",
-      "size": 212
-    },
-    {
-      "address": "0x8011690C",
-      "name": "func_8011690C",
-      "size": 136
-    },
-    {
-      "address": "0x80116994",
-      "name": "CheckWingSmashInput",
-      "size": 376
-    },
-    {
-      "address": "0x80116B0C",
-      "name": "ControlBatForm",
-      "size": 3220
-    },
-    {
-      "address": "0x801177A0",
-      "name": "PlayerStepUnmorphBat",
-      "size": 800
-    },
-    {
-      "address": "0x80117AC0",
-      "name": "PlayerStepStuck",
-      "size": 636
-    },
-    {
-      "address": "0x80117D3C",
-      "name": "MistFormFinished",
-      "size": 176
-    },
-    {
-      "address": "0x80117DEC",
-      "name": "ControlMistForm",
-      "size": 1292
-    },
-    {
-      "address": "0x801182F8",
-      "name": "PlayerStepUnmorphMist",
-      "size": 796
-    },
-    {
-      "address": "0x80118614",
-      "name": "PlayerStepDarkMetamorphosis",
-      "size": 44
-    },
-    {
-      "address": "0x80118640",
-      "name": "PlayerStepSummonSpells",
-      "size": 48
-    },
-    {
-      "address": "0x80118670",
-      "name": "PlayerStepSoulSteal",
-      "size": 124
-    },
-    {
-      "address": "0x801186EC",
-      "name": "PlayerStepSwordWarp",
-      "size": 176
-    },
-    {
-      "address": "0x8011879C",
-      "name": "GetFreeEntity",
-      "size": 116
-    },
-    {
-      "address": "0x80118810",
-      "name": "GetFreeEntityReverse",
-      "size": 132
-    },
-    {
-      "address": "0x80118894",
-      "name": "func_80118894",
-      "size": 220
-    },
-    {
-      "address": "0x80118970",
-      "name": "func_80118970",
-      "size": 424
-    },
-    {
-      "address": "0x80118B18",
-      "name": "func_80118B18",
-      "size": 272
-    },
-    {
-      "address": "0x80118C28",
-      "name": "func_80118C28",
-      "size": 92
-    },
-    {
-      "address": "0x80118C84",
-      "name": "CreateHPNumMove",
-      "size": 136
-    },
-    {
-      "address": "0x80118D0C",
-      "name": "EntityNumberMovesToHpMeter",
-      "size": 2172
-    },
-    {
-      "address": "0x80119588",
-      "name": "EntityGuardText",
-      "size": 1972
-    },
-    {
-      "address": "0x80119D3C",
-      "name": "EntitySmallRisingHeart",
-      "size": 316
-    },
-    {
-      "address": "0x80119E78",
-      "name": "func_80119E78",
-      "size": 248
-    },
-    {
-      "address": "0x80119F70",
-      "name": "func_80119F70",
-      "size": 800
-    },
-    {
-      "address": "0x8011A290",
-      "name": "func_8011A290",
-      "size": 152
-    },
-    {
-      "address": "0x8011A328",
-      "name": "func_8011A328",
-      "size": 132
-    },
-    {
-      "address": "0x8011A3AC",
-      "name": "GetServantStats",
-      "size": 284
-    },
-    {
-      "address": "0x8011A4C8",
-      "name": "EntityNull",
-      "size": 8
-    },
-    {
-      "address": "0x8011A4D0",
-      "name": "UpdatePlayerEntities",
-      "size": 928
-    },
-    {
-      "address": "0x8011A870",
-      "name": "func_8011A870",
-      "size": 360
-    },
-    {
-      "address": "0x8011AAFC",
-      "name": "CreateEntFactoryFromEntity",
-      "size": 320
-    },
-    {
-      "address": "0x8011AC3C",
-      "name": "EntityFactory",
-      "size": 1364
-    },
-    {
-      "address": "0x8011B190",
-      "name": "EntityUnarmedAttack",
-      "size": 420
-    },
-    {
-      "address": "0x8011B334",
-      "name": "EntityDiveKickAttack",
-      "size": 332
-    },
-    {
-      "address": "0x8011B480",
-      "name": "func_8011B480",
-      "size": 176
-    },
-    {
-      "address": "0x8011B530",
-      "name": "func_8011B530",
-      "size": 116
-    },
-    {
-      "address": "0x8011B5A4",
-      "name": "EntitySmokePuff",
-      "size": 1596
-    },
-    {
-      "address": "0x8011BBE0",
-      "name": "EntityUnkId24",
-      "size": 360
-    },
-    {
-      "address": "0x8011BD48",
-      "name": "func_8011BD48",
-      "size": 92
-    },
-    {
-      "address": "0x8011BDA4",
-      "name": "EntityPlayerBlinkWhite",
-      "size": 7252
-    },
-    {
-      "address": "0x8011D9F8",
-      "name": "EntityPlayerOutline",
-      "size": 1772
-    },
-    {
-      "address": "0x8011E0E4",
-      "name": "func_8011E0E4",
-      "size": 8
-    },
-    {
-      "address": "0x8011E0EC",
-      "name": "EntityGravityBootBeam",
-      "size": 676
-    },
-    {
-      "address": "0x8011E390",
-      "name": "EntityWingSmashTrail",
-      "size": 300
-    },
-    {
-      "address": "0x8011E4BC",
-      "name": "func_8011E4BC",
-      "size": 2276
-    },
-    {
-      "address": "0x8011EDA0",
-      "name": "func_8011EDA0",
-      "size": 8
-    },
-    {
-      "address": "0x8011EDA8",
-      "name": "func_8011EDA8",
-      "size": 716
-    },
-    {
-      "address": "0x8011F074",
-      "name": "DRA_RicEntityHitByDark",
-      "size": 472
-    },
-    {
-      "address": "0x8011F24C",
-      "name": "EntityHitByLightning",
-      "size": 1768
-    },
-    {
-      "address": "0x8011F934",
-      "name": "EntityHitByIce",
-      "size": 1912
-    },
-    {
-      "address": "0x801200AC",
-      "name": "EntityTransparentWhiteCircle",
-      "size": 2636
-    },
-    {
-      "address": "0x80120AF8",
-      "name": "EntityPlayerPinkEffect",
-      "size": 728
-    },
-    {
-      "address": "0x80120DD0",
-      "name": "EntityPlayerDissolves",
-      "size": 2992
-    },
-    {
-      "address": "0x80121980",
-      "name": "EntityLevelUpAnimation",
-      "size": 1428
-    },
-    {
-      "address": "0x80121F14",
-      "name": "func_80121F14",
-      "size": 68
-    },
-    {
-      "address": "0x80121F58",
-      "name": "func_80121F58",
-      "size": 964
-    },
-    {
-      "address": "0x8012231C",
-      "name": "EntityMist",
-      "size": 5228
-    },
-    {
-      "address": "0x80123788",
-      "name": "UnknownEntId48",
-      "size": 324
-    },
-    {
-      "address": "0x801238CC",
-      "name": "UnknownEntId49",
-      "size": 404
-    },
-    {
-      "address": "0x80123A60",
-      "name": "func_80123A60",
-      "size": 224
-    },
-    {
-      "address": "0x80123B40",
-      "name": "func_80123B40",
-      "size": 1080
-    },
-    {
-      "address": "0x80123F78",
-      "name": "func_80123F78",
-      "size": 492
-    },
-    {
-      "address": "0x80124164",
-      "name": "func_80124164",
-      "size": 588
-    },
-    {
-      "address": "0x801243B0",
-      "name": "EntityTeleport",
-      "size": 1756
-    },
-    {
-      "address": "0x80124A8C",
-      "name": "EntityPlayerSleepZ",
-      "size": 252
-    },
-    {
-      "address": "0x80124B88",
-      "name": "EntitySubwpnKnife",
-      "size": 1960
-    },
-    {
-      "address": "0x80125330",
-      "name": "EntitySubwpnThrownAxe",
-      "size": 1792
-    },
-    {
-      "address": "0x80125A30",
-      "name": "CheckHolyWaterCollision",
-      "size": 316
-    },
-    {
-      "address": "0x80125B6C",
-      "name": "func_80125B6C",
-      "size": 192
-    },
-    {
-      "address": "0x80125C2C",
-      "name": "EntitySubwpnHolyWater",
-      "size": 572
-    },
-    {
-      "address": "0x80125E68",
-      "name": "EntitySubwpnHolyWaterBreakGlass",
-      "size": 1092
-    },
-    {
-      "address": "0x801262AC",
-      "name": "EntitySubwpnHolyWaterFlame",
-      "size": 1284
-    },
-    {
-      "address": "0x801267B0",
-      "name": "EntitySubwpnCrashCross",
-      "size": 1176
-    },
-    {
-      "address": "0x80126C48",
-      "name": "EntitySubwpnCrashCrossParticles",
-      "size": 644
-    },
-    {
-      "address": "0x80126ECC",
-      "name": "EntityHellfire",
-      "size": 1552
-    },
-    {
-      "address": "0x801274DC",
-      "name": "EntityHellfireNormalFireball",
-      "size": 432
-    },
-    {
-      "address": "0x8012768C",
-      "name": "EntityBatFireball",
-      "size": 436
-    },
-    {
-      "address": "0x80127840",
-      "name": "EntityHellfireBigFireball",
-      "size": 444
-    },
-    {
-      "address": "0x801279FC",
-      "name": "EntityExpandingCircle",
-      "size": 716
-    },
-    {
-      "address": "0x80127CC8",
-      "name": "func_80127CC8",
-      "size": 484
-    },
-    {
-      "address": "0x80127EAC",
-      "name": "ReboundStoneBounce1",
-      "size": 68
-    },
-    {
-      "address": "0x80127EF0",
-      "name": "ReboundStoneBounce2",
-      "size": 80
-    },
-    {
-      "address": "0x80127F40",
-      "name": "EntitySubwpnReboundStone",
-      "size": 2004
-    },
-    {
-      "address": "0x80128714",
-      "name": "EntitySubwpnThrownVibhuti",
-      "size": 1192
-    },
-    {
-      "address": "0x80128BBC",
-      "name": "PrimDecreaseBrightness",
-      "size": 112
-    },
-    {
-      "address": "0x80128C2C",
-      "name": "EntitySubwpnAgunea",
-      "size": 1432
-    },
-    {
-      "address": "0x801291C4",
-      "name": "EntityAguneaHitEnemy",
-      "size": 1696
-    },
-    {
-      "address": "0x80129864",
-      "name": "func_80129864",
-      "size": 2112
-    },
-    {
-      "address": "0x8012A0A4",
-      "name": "EntitySummonSpirit",
-      "size": 1156
-    },
-    {
-      "address": "0x8012A528",
-      "name": "EntityStopWatchExpandingCircle",
-      "size": 884
-    },
-    {
-      "address": "0x8012A89C",
-      "name": "EntityStopWatch",
-      "size": 3824
-    },
-    {
-      "address": "0x8012B78C",
-      "name": "EntitySubwpnBibleTrail",
-      "size": 516
-    },
-    {
-      "address": "0x8012B990",
-      "name": "EntitySubwpnBible",
-      "size": 1384
-    },
-    {
-      "address": "0x8012BEF8",
-      "name": "EntityBatEcho",
-      "size": 1800
-    },
-    {
-      "address": "0x8012C600",
-      "name": "func_8012C600",
-      "size": 652
-    },
-    {
-      "address": "0x8012C88C",
-      "name": "WolfFormFinished",
-      "size": 240
-    },
-    {
-      "address": "0x8012C97C",
-      "name": "func_8012C97C",
-      "size": 232
-    },
-    {
-      "address": "0x8012CA64",
-      "name": "func_8012CA64",
-      "size": 168
-    },
-    {
-      "address": "0x8012CB0C",
-      "name": "func_8012CB0C",
-      "size": 64
-    },
-    {
-      "address": "0x8012CB4C",
-      "name": "func_8012CB4C",
-      "size": 228
-    },
-    {
-      "address": "0x8012CC30",
-      "name": "func_8012CC30",
-      "size": 180
-    },
-    {
-      "address": "0x8012CCE4",
-      "name": "func_8012CCE4",
-      "size": 496
-    },
-    {
-      "address": "0x8012CED4",
-      "name": "func_8012CED4",
-      "size": 212
-    },
-    {
-      "address": "0x8012CFA8",
-      "name": "func_8012CFA8",
-      "size": 72
-    },
-    {
-      "address": "0x8012CFF0",
-      "name": "func_8012CFF0",
-      "size": 52
-    },
-    {
-      "address": "0x8012D024",
-      "name": "func_8012D024",
-      "size": 340
-    },
-    {
-      "address": "0x8012D178",
-      "name": "func_8012D178",
-      "size": 276
-    },
-    {
-      "address": "0x8012D28C",
-      "name": "func_8012D28C",
-      "size": 348
-    },
-    {
-      "address": "0x8012D3E8",
-      "name": "func_8012D3E8",
-      "size": 2004
-    },
-    {
-      "address": "0x8012DBBC",
-      "name": "func_8012DBBC",
-      "size": 840
-    },
-    {
-      "address": "0x8012DF04",
-      "name": "func_8012DF04",
-      "size": 316
-    },
-    {
-      "address": "0x8012E040",
-      "name": "func_8012E040",
-      "size": 1296
-    },
-    {
-      "address": "0x8012E550",
-      "name": "func_8012E550",
-      "size": 596
-    },
-    {
-      "address": "0x8012E7A4",
-      "name": "func_8012E7A4",
-      "size": 540
-    },
-    {
-      "address": "0x8012E9C0",
-      "name": "func_8012E9C0",
-      "size": 272
-    },
-    {
-      "address": "0x8012EAD0",
-      "name": "PlayerStepUnmorphWolf",
-      "size": 608
-    },
-    {
-      "address": "0x8012ED30",
-      "name": "func_8012ED30",
-      "size": 508
-    },
-    {
-      "address": "0x8012EF2C",
-      "name": "PlayerStepMorphWolf",
-      "size": 588
-    },
-    {
-      "address": "0x8012F178",
-      "name": "func_8012F178",
-      "size": 1732
-    },
-    {
-      "address": "0x8012F83C",
-      "name": "func_8012F83C",
-      "size": 88
-    },
-    {
-      "address": "0x8012F894",
-      "name": "func_8012F894",
-      "size": 2512
-    },
-    {
-      "address": "0x80130264",
-      "name": "func_80130264",
-      "size": 948
-    },
-    {
-      "address": "0x80130618",
-      "name": "func_80130618",
-      "size": 924
-    },
-    {
-      "address": "0x801309B4",
-      "name": "func_801309B4",
-      "size": 1248
-    },
-    {
-      "address": "0x80130E94",
-      "name": "func_80130E94",
-      "size": 1240
-    },
-    {
-      "address": "0x8013136C",
-      "name": "func_8013136C",
-      "size": 652
-    },
-    {
-      "address": "0x801315F8",
-      "name": "EntityGiantSpinningCross",
-      "size": 2244
-    },
-    {
-      "address": "0x80131EBC",
-      "name": "func_80131EBC",
-      "size": 28
-    },
-    {
-      "address": "0x80131ED8",
-      "name": "SetCdPos",
-      "size": 16
-    },
-    {
-      "address": "0x80131EE8",
-      "name": "MuteCd",
-      "size": 28
-    },
-    {
-      "address": "0x80131F04",
-      "name": "UnMuteCd",
-      "size": 36
-    },
-    {
-      "address": "0x80131F28",
-      "name": "func_80131F28",
-      "size": 16
-    },
-    {
-      "address": "0x80131F38",
-      "name": "func_80131F38",
-      "size": 48
-    },
-    {
-      "address": "0x80131F68",
-      "name": "func_80131F68",
-      "size": 44
-    },
-    {
-      "address": "0x80131F94",
-      "name": "GetCdVolume",
-      "size": 16
-    },
-    {
-      "address": "0x80131FA4",
-      "name": "SetReverbDepth",
-      "size": 40
-    },
-    {
-      "address": "0x80131FCC",
-      "name": "func_80131FCC",
-      "size": 92
-    },
-    {
-      "address": "0x80132028",
-      "name": "DoCdCommand",
-      "size": 268
-    },
-    {
-      "address": "0x80132134",
-      "name": "SetMaxVolume",
-      "size": 56
-    },
-    {
-      "address": "0x8013216C",
-      "name": "InitSoundVars3",
-      "size": 144
-    },
-    {
-      "address": "0x801321FC",
-      "name": "InitSoundVars2",
-      "size": 104
-    },
-    {
-      "address": "0x80132264",
-      "name": "InitSoundVars1",
-      "size": 592
-    },
-    {
-      "address": "0x801324B4",
-      "name": "SetCdVolume",
-      "size": 76
-    },
-    {
-      "address": "0x80132500",
-      "name": "SetMonoStereo",
-      "size": 216
-    },
-    {
-      "address": "0x801325D8",
-      "name": "SoundInit",
-      "size": 256
-    },
-    {
-      "address": "0x801326D8",
-      "name": "func_801326D8",
-      "size": 68
-    },
-    {
-      "address": "0x8013271C",
-      "name": "SoundWait",
-      "size": 68
-    },
-    {
-      "address": "0x80132760",
-      "name": "MuteSound",
-      "size": 84
-    },
-    {
-      "address": "0x801327B4",
-      "name": "KeyOnRange",
-      "size": 592
-    },
-    {
-      "address": "0x80132A04",
-      "name": "func_80132A04",
-      "size": 552
-    },
-    {
-      "address": "0x80132C2C",
-      "name": "AddCdSoundCommand",
-      "size": 524
-    },
-    {
-      "address": "0x80132E38",
-      "name": "AdvanceCdSoundCommandQueue",
-      "size": 88
-    },
-    {
-      "address": "0x80132E90",
-      "name": "MakeCdLoc",
-      "size": 208
-    },
-    {
-      "address": "0x80132F60",
-      "name": "CdSoundCommand4",
-      "size": 816
-    },
-    {
-      "address": "0x80133290",
-      "name": "CdSoundCommand6",
-      "size": 504
-    },
-    {
-      "address": "0x80133488",
-      "name": "CdFadeOut1",
-      "size": 380
-    },
-    {
-      "address": "0x80133604",
-      "name": "CdFadeOut2",
-      "size": 380
-    },
-    {
-      "address": "0x80133780",
-      "name": "EnableCdReverb",
-      "size": 52
-    },
-    {
-      "address": "0x801337B4",
-      "name": "StopSeq",
-      "size": 92
-    },
-    {
-      "address": "0x80133810",
-      "name": "PlaySeq",
-      "size": 304
-    },
-    {
-      "address": "0x80133940",
-      "name": "CdSoundCommandQueueEmpty",
-      "size": 16
-    },
-    {
-      "address": "0x80133BDC",
-      "name": "CdSoundCommand14",
-      "size": 1008
-    },
-    {
-      "address": "0x80133FCC",
-      "name": "func_80133FCC",
-      "size": 312
-    },
-    {
-      "address": "0x80134104",
-      "name": "SetReleaseRate1",
-      "size": 88
-    },
-    {
-      "address": "0x8013415C",
-      "name": "SetReleaseRate2",
-      "size": 88
-    },
-    {
-      "address": "0x801341B4",
-      "name": "CdSoundCommand10",
-      "size": 468
-    },
-    {
-      "address": "0x80134388",
-      "name": "CdSoundCommand8",
-      "size": 384
-    },
-    {
-      "address": "0x80134508",
-      "name": "SetReleaseRateHigh20_21",
-      "size": 92
-    },
-    {
-      "address": "0x80134564",
-      "name": "SetReleaseRateHigh22_23",
-      "size": 92
-    },
-    {
-      "address": "0x801345C0",
-      "name": "SetReleaseRateLow_20_21",
-      "size": 92
-    },
-    {
-      "address": "0x8013461C",
-      "name": "SetReleaseRateLow_22_23",
-      "size": 92
-    },
-    {
-      "address": "0x80134678",
-      "name": "SetVolumeCommand22_23",
-      "size": 156
-    },
-    {
-      "address": "0x80134714",
-      "name": "PlaySfxVolPan",
-      "size": 228
-    },
-    {
-      "address": "0x801347F8",
-      "name": "PlaySfx",
-      "size": 324
-    },
-    {
-      "address": "0x8013493C",
-      "name": "RestoreSfxScriptData",
-      "size": 184
-    },
-    {
-      "address": "0x801349F4",
-      "name": "PauseSfxScripts",
-      "size": 340
-    },
-    {
-      "address": "0x80134B48",
-      "name": "UnpauseSfxScripts",
-      "size": 280
     }
-  ],
-  "labels": []
+  ]
 }

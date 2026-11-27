@@ -1,746 +1,654 @@
 {
   "functions": [
     {
-      "address": "0x8018AC0C",
+      "address": "0x8018AFBC",
       "name": "MAR_EntityBackgroundBlock",
       "size": 200
     },
     {
-      "address": "0x8018ACD4",
+      "address": "0x8018B084",
       "name": "MAR_EntityLockCamera",
       "size": 444
     },
     {
-      "address": "0x8018AE90",
+      "address": "0x8018B240",
       "name": "EntityBreakable",
       "size": 308
     },
     {
-      "address": "0x8018AFC4",
+      "address": "0x8018B374",
+      "name": "func_8018B374",
+      "size": 176
+    },
+    {
+      "address": "0x8018B424",
       "name": "CutsceneUnk1",
       "size": 84
     },
     {
-      "address": "0x8018B018",
+      "address": "0x8018B478",
       "name": "SetCutsceneScript",
-      "size": 452
+      "size": 468
     },
     {
-      "address": "0x8018B1DC",
+      "address": "0x8018B64C",
       "name": "CutsceneUnk3",
       "size": 92
     },
     {
-      "address": "0x8018B238",
+      "address": "0x8018B6A8",
       "name": "CutsceneUnk4",
       "size": 184
     },
     {
-      "address": "0x8018B2F0",
+      "address": "0x8018B760",
       "name": "DrawCutsceneActorName",
       "size": 388
     },
     {
-      "address": "0x8018B474",
+      "address": "0x8018B8E4",
       "name": "SetCutsceneEnd",
       "size": 44
     },
     {
-      "address": "0x8018B4A0",
+      "address": "0x8018B910",
       "name": "CutsceneRun",
       "size": 684
     },
     {
-      "address": "0x8018B74C",
+      "address": "0x8018BBBC",
       "name": "ScaleCutsceneAvatar",
       "size": 260
     },
     {
-      "address": "0x8018B850",
+      "address": "0x8018BCC0",
       "name": "MAR_EntityCutscene",
       "size": 4284
     },
     {
-      "address": "0x8018C90C",
-      "name": "func_us_8018C90C",
+      "address": "0x8018CD7C",
+      "name": "func_8018CD7C",
       "size": 392
     },
     {
-      "address": "0x8018CA94",
-      "name": "func_us_8018CA94",
+      "address": "0x8018CF04",
+      "name": "func_8018CF04",
       "size": 1244
     },
     {
-      "address": "0x8018CF70",
+      "address": "0x8018D3E0",
       "name": "Random",
       "size": 48
     },
     {
-      "address": "0x8018CFA0",
+      "address": "0x8018D410",
       "name": "Update",
       "size": 764
     },
     {
-      "address": "0x8018D29C",
+      "address": "0x8018D70C",
       "name": "UpdateStageEntities",
       "size": 264
     },
     {
-      "address": "0x8018D3A4",
+      "address": "0x8018D814",
       "name": "HitDetection",
-      "size": 4376
+      "size": 4476
     },
     {
-      "address": "0x8018E4BC",
+      "address": "0x8018E990",
       "name": "EntityDamageDisplay",
       "size": 1700
     },
     {
-      "address": "0x8018EB60",
+      "address": "0x8018F034",
       "name": "CreateEntityFromLayout",
       "size": 196
     },
     {
-      "address": "0x8018EC24",
+      "address": "0x8018F0F8",
       "name": "CreateEntityWhenInVerticalRange",
       "size": 280
     },
     {
-      "address": "0x8018ED3C",
+      "address": "0x8018F210",
       "name": "CreateEntityWhenInHorizontalRange",
       "size": 280
     },
     {
-      "address": "0x8018EE54",
+      "address": "0x8018F328",
       "name": "FindFirstEntityToTheRight",
       "size": 76
     },
     {
-      "address": "0x8018EEA0",
+      "address": "0x8018F374",
       "name": "FindFirstEntityToTheLeft",
       "size": 88
     },
     {
-      "address": "0x8018EEF8",
+      "address": "0x8018F3CC",
       "name": "CreateEntitiesToTheRight",
       "size": 252
     },
     {
-      "address": "0x8018EFF4",
+      "address": "0x8018F4C8",
       "name": "CreateEntitiesToTheLeft",
       "size": 276
     },
     {
-      "address": "0x8018F108",
+      "address": "0x8018F5DC",
       "name": "FindFirstEntityAbove",
       "size": 76
     },
     {
-      "address": "0x8018F154",
+      "address": "0x8018F628",
       "name": "FindFirstEntityBelow",
       "size": 88
     },
     {
-      "address": "0x8018F1AC",
+      "address": "0x8018F680",
       "name": "CreateEntitiesAbove",
       "size": 252
     },
     {
-      "address": "0x8018F2A8",
+      "address": "0x8018F77C",
       "name": "CreateEntitiesBelow",
       "size": 276
     },
     {
-      "address": "0x8018F3BC",
+      "address": "0x8018F890",
       "name": "InitRoomEntities",
       "size": 376
     },
     {
-      "address": "0x8018F534",
+      "address": "0x8018FA08",
       "name": "UpdateRoomPosition",
       "size": 180
     },
     {
-      "address": "0x8018F5E8",
+      "address": "0x8018FABC",
       "name": "CreateEntityFromCurrentEntity",
       "size": 116
     },
     {
-      "address": "0x8018F65C",
+      "address": "0x8018FB30",
       "name": "CreateEntityFromEntity",
       "size": 124
     },
     {
-      "address": "0x8018F6D8",
+      "address": "0x8018FBAC",
       "name": "EntityIsNearPlayer",
       "size": 120
     },
     {
-      "address": "0x8018F750",
+      "address": "0x8018FC24",
       "name": "MAR_EntityRedDoor",
-      "size": 3128
+      "size": 3156
     },
     {
-      "address": "0x80190388",
+      "address": "0x80190878",
       "name": "DestroyEntity",
       "size": 108
     },
     {
-      "address": "0x801903F4",
+      "address": "0x801908E4",
       "name": "DestroyEntitiesFromIndex",
       "size": 124
     },
     {
-      "address": "0x80190470",
+      "address": "0x80190960",
       "name": "PreventEntityFromRespawning",
       "size": 72
     },
     {
-      "address": "0x801904B8",
+      "address": "0x801909A8",
       "name": "AnimateEntity",
       "size": 184
     },
     {
-      "address": "0x80190570",
+      "address": "0x80190A60",
       "name": "UnkAnimFunc",
       "size": 280
     },
     {
-      "address": "0x80190688",
+      "address": "0x80190B78",
       "name": "GetDistanceToPlayerX",
       "size": 60
     },
     {
-      "address": "0x801906C4",
+      "address": "0x80190BB4",
       "name": "GetDistanceToPlayerY",
       "size": 52
     },
     {
-      "address": "0x801906F8",
+      "address": "0x80190BE8",
       "name": "GetSideToPlayer",
       "size": 68
     },
     {
-      "address": "0x8019073C",
+      "address": "0x80190C2C",
       "name": "MoveEntity",
       "size": 48
     },
     {
-      "address": "0x8019076C",
+      "address": "0x80190C5C",
       "name": "FallEntity",
       "size": 44
     },
     {
-      "address": "0x80190798",
+      "address": "0x80190C88",
       "name": "UnkCollisionFunc3",
       "size": 632
     },
     {
-      "address": "0x80190A10",
+      "address": "0x80190F00",
       "name": "UnkCollisionFunc2",
       "size": 488
     },
     {
-      "address": "0x80190BF8",
+      "address": "0x801910E8",
       "name": "AllocEntity",
       "size": 96
     },
     {
-      "address": "0x80190C58",
+      "address": "0x80191148",
       "name": "GetSineScaled",
       "size": 44
     },
     {
-      "address": "0x80190C84",
+      "address": "0x80191174",
       "name": "GetSine",
       "size": 28
     },
     {
-      "address": "0x80190CA0",
+      "address": "0x80191190",
       "name": "SetEntityVelocityFromAngle",
       "size": 108
     },
     {
-      "address": "0x80190D0C",
+      "address": "0x801911FC",
       "name": "Ratan2Shifted",
       "size": 56
     },
     {
-      "address": "0x80190D44",
+      "address": "0x80191234",
       "name": "GetAngleBetweenEntitiesShifted",
       "size": 72
     },
     {
-      "address": "0x80190D8C",
+      "address": "0x8019127C",
       "name": "GetAnglePointToEntityShifted",
       "size": 72
     },
     {
-      "address": "0x80190DD4",
+      "address": "0x801912C4",
       "name": "AdjustValueWithinThreshold",
       "size": 88
     },
     {
-      "address": "0x80190E2C",
+      "address": "0x8019131C",
       "name": "UnkEntityFunc0",
       "size": 140
     },
     {
-      "address": "0x80190EB8",
+      "address": "0x801913A8",
       "name": "Ratan2",
       "size": 48
     },
     {
-      "address": "0x80190EE8",
+      "address": "0x801913D8",
       "name": "GetAngleBetweenEntities",
       "size": 56
     },
     {
-      "address": "0x80190F20",
+      "address": "0x80191410",
       "name": "GetAnglePointToEntity",
       "size": 72
     },
     {
-      "address": "0x80190F68",
+      "address": "0x80191458",
       "name": "GetNormalizedAngle",
       "size": 96
     },
     {
-      "address": "0x80190FC8",
+      "address": "0x801914B8",
       "name": "SetStep",
       "size": 32
     },
     {
-      "address": "0x80190FE8",
+      "address": "0x801914D8",
       "name": "SetSubStep",
       "size": 28
     },
     {
-      "address": "0x80191004",
+      "address": "0x801914F4",
       "name": "EntityExplosionSpawn",
       "size": 148
     },
     {
-      "address": "0x80191098",
+      "address": "0x80191588",
       "name": "InitializeEntity",
       "size": 252
     },
     {
-      "address": "0x80191194",
+      "address": "0x80191684",
       "name": "EntityDummy",
       "size": 40
     },
     {
-      "address": "0x801911BC",
+      "address": "0x801916AC",
       "name": "UnkCollisionFunc",
       "size": 296
     },
     {
-      "address": "0x801912E4",
+      "address": "0x801917D4",
       "name": "CheckFieldCollision",
       "size": 344
     },
     {
-      "address": "0x8019143C",
+      "address": "0x8019192C",
       "name": "GetPlayerCollisionWith",
       "size": 836
     },
     {
-      "address": "0x80191780",
+      "address": "0x80191C70",
       "name": "ReplaceBreakableWithItemDrop",
       "size": 184
     },
     {
-      "address": "0x80191838",
+      "address": "0x80191D28",
       "name": "PrizeDropFall",
       "size": 132
     },
     {
-      "address": "0x801918BC",
+      "address": "0x80191DAC",
       "name": "PrizeDropFall2",
       "size": 348
     },
     {
-      "address": "0x80191A18",
+      "address": "0x80191F08",
       "name": "CollectHeart",
       "size": 128
     },
     {
-      "address": "0x80191A98",
+      "address": "0x80191F88",
       "name": "CollectGold",
       "size": 220
     },
     {
-      "address": "0x80191B74",
+      "address": "0x80192064",
       "name": "CollectSubweapon",
       "size": 280
     },
     {
-      "address": "0x80191C8C",
+      "address": "0x8019217C",
       "name": "CollectHeartVessel",
       "size": 164
     },
     {
-      "address": "0x80191D30",
+      "address": "0x80192220",
       "name": "CollectLifeVessel",
       "size": 80
     },
     {
-      "address": "0x80191D80",
+      "address": "0x80192270",
       "name": "CollectDummy",
       "size": 40
     },
     {
-      "address": "0x80191DA8",
+      "address": "0x80192298",
       "name": "EntityPrizeDrop",
-      "size": 2164
+      "size": 2224
     },
     {
-      "address": "0x8019261C",
+      "address": "0x80192B48",
       "name": "EntityExplosion",
       "size": 252
     },
     {
-      "address": "0x80192718",
+      "address": "0x80192C44",
       "name": "BlinkItem",
       "size": 164
     },
     {
-      "address": "0x801927BC",
+      "address": "0x80192CE8",
       "name": "EntityEquipItemDrop",
       "size": 1512
     },
     {
-      "address": "0x80192DA4",
+      "address": "0x801932D0",
       "name": "BlitChar",
       "size": 688
     },
     {
-      "address": "0x80193054",
+      "address": "0x80193580",
       "name": "EntityRelicOrb",
       "size": 2768
     },
     {
-      "address": "0x80193B24",
+      "address": "0x80194050",
       "name": "EntityHeartDrop",
       "size": 284
     },
     {
-      "address": "0x80193C40",
+      "address": "0x8019416C",
       "name": "EntityMessageBox",
       "size": 1372
     },
     {
-      "address": "0x8019419C",
+      "address": "0x801946C8",
       "name": "CheckColliderOffsets",
       "size": 240
     },
     {
-      "address": "0x8019428C",
+      "address": "0x801947B8",
       "name": "EntityUnkId13",
       "size": 272
     },
     {
-      "address": "0x8019439C",
+      "address": "0x801948C8",
       "name": "EntityExplosionVariantsSpawner",
       "size": 304
     },
     {
-      "address": "0x801944CC",
+      "address": "0x801949F8",
       "name": "EntityGreyPuffSpawner",
       "size": 232
     },
     {
-      "address": "0x801945B4",
+      "address": "0x80194AE0",
       "name": "EntityExplosionVariants",
       "size": 240
     },
     {
-      "address": "0x801946A4",
+      "address": "0x80194BD0",
       "name": "EntityGreyPuff",
       "size": 244
     },
     {
-      "address": "0x80194798",
+      "address": "0x80194CC4",
       "name": "EntityOlroxDrool",
       "size": 560
     },
     {
-      "address": "0x801949C8",
+      "address": "0x80194EF4",
       "name": "UnkCollisionFunc5",
       "size": 252
     },
     {
-      "address": "0x80194AC4",
+      "address": "0x80194FF0",
       "name": "UnkCollisionFunc4",
       "size": 1408
     },
     {
-      "address": "0x80195044",
+      "address": "0x80195570",
       "name": "EntityIntenseExplosion",
       "size": 256
     },
     {
-      "address": "0x80195144",
+      "address": "0x80195670",
       "name": "InitializeUnkEntity",
       "size": 204
     },
     {
-      "address": "0x80195210",
+      "address": "0x8019573C",
       "name": "MakeEntityFromId",
       "size": 200
     },
     {
-      "address": "0x801952D8",
+      "address": "0x80195804",
       "name": "MakeExplosions",
       "size": 184
     },
     {
-      "address": "0x80195390",
+      "address": "0x801958BC",
       "name": "EntityBigRedFireball",
       "size": 472
     },
     {
-      "address": "0x80195568",
+      "address": "0x80195A94",
       "name": "UnkRecursivePrimFunc1",
       "size": 1504
     },
     {
-      "address": "0x80195B48",
+      "address": "0x80196074",
       "name": "UnkRecursivePrimFunc2",
       "size": 1792
     },
     {
-      "address": "0x80196248",
+      "address": "0x80196774",
       "name": "ClutLerp",
       "size": 504
     },
     {
-      "address": "0x80196440",
+      "address": "0x8019696C",
       "name": "PlaySfxPositional",
       "size": 248
     },
     {
-      "address": "0x80196538",
+      "address": "0x80196A64",
       "name": "StageNamePopupDissolver",
       "size": 464
     },
     {
-      "address": "0x80196708",
+      "address": "0x80196C34",
       "name": "EntityStageNamePopup",
       "size": 3204
     },
     {
-      "address": "0x8019738C",
+      "address": "0x801978B8",
       "name": "EntitySoulStealOrb",
       "size": 916
     },
     {
-      "address": "0x80197720",
+      "address": "0x80197C4C",
       "name": "EntityEnemyBlood",
       "size": 1200
     },
     {
-      "address": "0x80197BD0",
+      "address": "0x801980FC",
       "name": "EntityRoomForeground",
       "size": 236
     },
     {
-      "address": "0x80197CBC",
+      "address": "0x801981E8",
       "name": "BottomCornerText",
       "size": 816
     },
     {
-      "address": "0x80197FEC",
+      "address": "0x80198518",
       "name": "EntityClockRoomController",
       "size": 1416
     },
     {
-      "address": "0x80198574",
+      "address": "0x80198AA0",
       "name": "EntityClockHands",
       "size": 276
     },
     {
-      "address": "0x80198688",
+      "address": "0x80198BB4",
       "name": "EntityBirdcageDoor",
       "size": 624
     },
     {
-      "address": "0x801988F8",
+      "address": "0x80198E24",
       "name": "UpdateStatueTiles",
       "size": 76
     },
     {
-      "address": "0x80198944",
+      "address": "0x80198E70",
       "name": "EntityStatue",
       "size": 816
     },
     {
-      "address": "0x80198C74",
+      "address": "0x801991A0",
       "name": "EntityStatueGear",
       "size": 528
     },
     {
-      "address": "0x80198E84",
+      "address": "0x801993B0",
       "name": "UpdateStoneDoorTiles",
       "size": 160
     },
     {
-      "address": "0x80198F24",
+      "address": "0x80199450",
       "name": "EntityStoneDoor",
       "size": 496
     },
     {
-      "address": "0x80199114",
+      "address": "0x80199640",
       "name": "EntityClockRoomUnused",
       "size": 8
     },
     {
-      "address": "0x8019911C",
+      "address": "0x80199648",
       "name": "UnkPrimHelper",
       "size": 1000
     },
     {
-      "address": "0x80199504",
+      "address": "0x80199A30",
       "name": "UpdateAnimation",
       "size": 336
     },
     {
-      "address": "0x80199654",
+      "address": "0x80199B80",
       "name": "FindFirstUnkPrim",
       "size": 48
     },
     {
-      "address": "0x80199684",
+      "address": "0x80199BB0",
       "name": "FindFirstUnkPrim2",
       "size": 124
     },
     {
-      "address": "0x80199700",
+      "address": "0x80199C2C",
       "name": "PrimToggleVisibility",
       "size": 136
     },
     {
-      "address": "0x80199788",
+      "address": "0x80199CB4",
       "name": "PrimResetNext",
       "size": 224
     },
     {
-      "address": "0x80199868",
+      "address": "0x80199D94",
       "name": "UnkPolyFunc2",
       "size": 84
     },
     {
-      "address": "0x801998BC",
+      "address": "0x80199DE8",
       "name": "UnkPolyFunc0",
       "size": 44
     },
     {
-      "address": "0x801998E8",
+      "address": "0x80199E14",
       "name": "PrimDecreaseBrightness",
       "size": 100
     },
     {
-      "address": "0x8019994C",
+      "address": "0x80199E78",
       "name": "EntityLifeUpSpawn",
       "size": 2228
-    }
-  ],
-  "labels": [
-    {
-      "address": "0x801805D4",
-      "name": "D_us_801805D4",
-      "size": 4
-    },
-    {
-      "address": "0x801805D8",
-      "name": "D_us_801805D8",
-      "size": 4
-    },
-    {
-      "address": "0x801805DC",
-      "name": "D_us_801805DC",
-      "size": 8
-    },
-    {
-      "address": "0x801805E4",
-      "name": "D_us_801805E4",
-      "size": 4
-    },
-    {
-      "address": "0x801805E8",
-      "name": "D_us_801805E8",
-      "size": 8
-    },
-    {
-      "address": "0x801805F0",
-      "name": "D_us_801805F0",
-      "size": 144
-    },
-    {
-      "address": "0x80180688",
-      "name": "D_us_80180688",
-      "size": 8
-    },
-    {
-      "address": "0x80180690",
-      "name": "D_us_80180690",
-      "size": 20
-    },
-    {
-      "address": "0x801806A4",
-      "name": "D_us_801806A4",
-      "size": 20
-    },
-    {
-      "address": "0x801806B8",
-      "name": "D_us_801806B8",
-      "size": 20
-    },
-    {
-      "address": "0x801806CC",
-      "name": "D_us_801806CC",
-      "size": 24
-    },
-    {
-      "address": "0x801806E4",
-      "name": "D_us_801806E4",
-      "size": 8
-    },
-    {
-      "address": "0x801806EC",
-      "name": "D_us_801806EC",
-      "size": 20
-    },
-    {
-      "address": "0x80180700",
-      "name": "D_us_80180700",
-      "size": 24
-    },
-    {
-      "address": "0x80180718",
-      "name": "D_us_80180718",
-      "size": 12
-    },
-    {
-      "address": "0x80180724",
-      "name": "D_us_80180724",
-      "size": 20
-    },
-    {
-      "address": "0x80180738",
-      "name": "D_us_80180738",
-      "size": 12
-    },
-    {
-      "address": "0x801815DC",
-      "name": "D_us_801815DC",
-      "size": 20
-    },
-    {
-      "address": "0x8019A270",
-      "name": "D_us_8019A270",
-      "size": 3072
     }
   ]
 }

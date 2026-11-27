@@ -64,11 +64,11 @@ public static class DiscCheck
                     if (sector.Length >= 4)
                     {
                         uint entry = System.Buffers.Binary.BinaryPrimitives.ReadUInt32LittleEndian(sector.AsSpan(0, 4));
-                        if (entry != 0x800E2E04u)
+                        if (entry != 0x800E3008u)
                         {
                             return entry == 0x800E3988u
-                                ? "Unpatched vanilla USA disc detected. This build requires Castlevania: Symphony of the Night (Ultimate v1.4) (.bin/.cue)."
-                                : $"Incompatible DRA.BIN entry (0x{entry:X8}). This build requires Castlevania: Symphony of the Night (Ultimate v1.4) (.bin/.cue).";
+                                ? "Unpatched vanilla USA disc detected. This build requires Castlevania: Symphony of the Night (Ultimate v1.5) (.bin/.cue)."
+                                : $"Incompatible DRA.BIN entry (0x{entry:X8}). This build requires Castlevania: Symphony of the Night (Ultimate v1.5) (.bin/.cue).";
                         }
                     }
                 }

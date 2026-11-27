@@ -256,7 +256,7 @@ public static partial class WidescreenPatch
         _fadeWidth = 256;
         c.A0 = 1;
         c.A1 = 4;
-        SoTN_dra.func_800EBB04(c, m);
+        SoTN_dra.AllocPrimitives(c, m);
         uint fadePrim = c.V0;
         m.WriteU32(FadeAddr + 0x0, fadePrim);
         LayoutFadePrims(m, fadePrim, 256);
@@ -265,7 +265,7 @@ public static partial class WidescreenPatch
 
         c.A0 = 4;
         c.A1 = 1;
-        SoTN_dra.func_800EBB04(c, m);
+        SoTN_dra.AllocPrimitives(c, m);
         uint mapPrim = c.V0;
         m.WriteU32(FadeAddr + 0x4, mapPrim);
         uint prim = PrimBufAddr + mapPrim * PrimStride;

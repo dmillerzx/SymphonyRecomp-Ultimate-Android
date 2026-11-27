@@ -28,7 +28,7 @@
     {
       "address": "0x801A6568",
       "name": "func_801A6568",
-      "size": 3308
+      "size": 1192
     },
     {
       "address": "0x801A6A10",
@@ -83,1473 +83,832 @@
     {
       "address": "0x801A8380",
       "name": "func_801A8380",
-      "size": 744
+      "size": 756
     },
     {
-      "address": "0x801A8668",
-      "name": "func_801A8668",
+      "address": "0x801A8674",
+      "name": "func_801A8674",
       "size": 904
     },
     {
-      "address": "0x801A89F0",
-      "name": "func_801A89F0",
+      "address": "0x801A89FC",
+      "name": "func_801A89FC",
       "size": 752
     },
     {
-      "address": "0x801A8CE0",
-      "name": "func_801A8CE0",
+      "address": "0x801A8CEC",
+      "name": "func_801A8CEC",
       "size": 668
     },
     {
-      "address": "0x801A8F7C",
-      "name": "func_801A8F7C",
+      "address": "0x801A8F88",
+      "name": "func_801A8F88",
       "size": 248
     },
     {
-      "address": "0x801A9074",
+      "address": "0x801A9080",
       "name": "RNZ1_EntityWaterForeground",
       "size": 300
     },
     {
-      "address": "0x801A91A0",
+      "address": "0x801A91AC",
       "name": "RNZ1_EntitySpikesDust",
       "size": 180
     },
     {
-      "address": "0x801A9254",
+      "address": "0x801A9260",
       "name": "RNZ1_EntitySpikesParts",
       "size": 704
     },
     {
-      "address": "0x801A9514",
-      "name": "func_801A9514",
+      "address": "0x801A9520",
+      "name": "func_801A9520",
       "size": 440
     },
     {
-      "address": "0x801A96CC",
+      "address": "0x801A96D8",
       "name": "RNZ1_SpikesApplyDamage",
       "size": 68
     },
     {
-      "address": "0x801A9710",
+      "address": "0x801A971C",
       "name": "RNZ1_EntitySpikes",
-      "size": 404
+      "size": 444
     },
     {
-      "address": "0x801A98A4",
+      "address": "0x801A98D8",
       "name": "RNZ1_EntitySpikesDamage",
       "size": 112
     },
     {
-      "address": "0x801A9914",
-      "name": "func_801A9914",
+      "address": "0x801A9948",
+      "name": "func_801A9948",
       "size": 128
     },
     {
-      "address": "0x801A9994",
-      "name": "func_801A9994",
+      "address": "0x801A99C8",
+      "name": "func_801A99C8",
       "size": 1060
     },
     {
-      "address": "0x801A9DB8",
-      "name": "func_801A9DB8",
+      "address": "0x801A9DEC",
+      "name": "func_801A9DEC",
       "size": 4348
     },
     {
-      "address": "0x801AAEB4",
-      "name": "func_801AAEB4",
+      "address": "0x801AAEE8",
+      "name": "func_801AAEE8",
       "size": 76
     },
     {
-      "address": "0x801AAF00",
-      "name": "func_801AAF00",
+      "address": "0x801AAF34",
+      "name": "func_801AAF34",
       "size": 332
     },
     {
-      "address": "0x801AB04C",
-      "name": "func_801AB04C",
+      "address": "0x801AB080",
+      "name": "func_801AB080",
       "size": 252
     },
     {
-      "address": "0x801AB148",
-      "name": "func_801AB148",
+      "address": "0x801AB17C",
+      "name": "func_801AB17C",
       "size": 36
     },
     {
-      "address": "0x801AB16C",
-      "name": "func_801AB16C",
+      "address": "0x801AB1A0",
+      "name": "func_801AB1A0",
       "size": 44
     },
     {
-      "address": "0x801AB198",
-      "name": "func_801AB198",
+      "address": "0x801AB1CC",
+      "name": "func_801AB1CC",
       "size": 488
     },
     {
-      "address": "0x801AB380",
-      "name": "func_801AB380",
+      "address": "0x801AB3B4",
+      "name": "func_801AB3B4",
       "size": 1000
     },
     {
-      "address": "0x801AB768",
-      "name": "func_801AB768",
+      "address": "0x801AB79C",
+      "name": "func_801AB79C",
       "size": 720
     },
     {
-      "address": "0x801ABA38",
-      "name": "func_801ABA38",
+      "address": "0x801ABA6C",
+      "name": "func_801ABA6C",
       "size": 288
     },
     {
-      "address": "0x801ABB58",
-      "name": "func_801ABB58",
+      "address": "0x801ABB8C",
+      "name": "func_801ABB8C",
       "size": 616
     },
     {
-      "address": "0x801ABDC0",
-      "name": "func_801ABDC0",
+      "address": "0x801ABDF4",
+      "name": "func_801ABDF4",
       "size": 8
     },
     {
-      "address": "0x801ABDC8",
-      "name": "func_801ABDC8",
+      "address": "0x801ABDFC",
+      "name": "func_801ABDFC",
       "size": 28
     },
     {
-      "address": "0x801ABDE4",
-      "name": "func_801ABDE4",
-      "size": 4284
+      "address": "0x801ABE18",
+      "name": "func_801ABE18",
+      "size": 2536
     },
     {
-      "address": "0x801AC7CC",
-      "name": "func_801AC7CC",
-      "size": 1748
+      "address": "0x801AC800",
+      "name": "func_801AC800",
+      "size": 992
     },
     {
-      "address": "0x801ACBAC",
-      "name": "func_801ACBAC",
+      "address": "0x801ACBE0",
+      "name": "func_801ACBE0",
       "size": 756
     },
     {
-      "address": "0x801ACEA0",
+      "address": "0x801ACED4",
       "name": "Random",
       "size": 48
     },
     {
-      "address": "0x801ACED0",
+      "address": "0x801ACF04",
       "name": "RNZ1_Update",
       "size": 764
     },
     {
-      "address": "0x801AD1CC",
+      "address": "0x801AD200",
       "name": "RNZ1_UpdateStageEntities",
       "size": 264
     },
     {
-      "address": "0x801AD2D4",
+      "address": "0x801AD308",
       "name": "RNZ1_HitDetection",
       "size": 4476
     },
     {
-      "address": "0x801AE450",
-      "name": "func_801AE450",
-      "size": 1700
-    },
-    {
-      "address": "0x801AEAF4",
-      "name": "func_801AEAF4",
-      "size": 196
-    },
-    {
-      "address": "0x801AEBB8",
-      "name": "func_801AEBB8",
-      "size": 280
-    },
-    {
-      "address": "0x801AECD0",
-      "name": "func_801AECD0",
-      "size": 280
-    },
-    {
-      "address": "0x801AEDE8",
-      "name": "func_801AEDE8",
-      "size": 76
-    },
-    {
-      "address": "0x801AEE34",
-      "name": "func_801AEE34",
-      "size": 88
-    },
-    {
-      "address": "0x801AEE8C",
-      "name": "func_801AEE8C",
-      "size": 252
-    },
-    {
-      "address": "0x801AEF88",
-      "name": "func_801AEF88",
-      "size": 276
-    },
-    {
-      "address": "0x801AF09C",
-      "name": "func_801AF09C",
-      "size": 76
-    },
-    {
-      "address": "0x801AF0E8",
-      "name": "func_801AF0E8",
-      "size": 88
-    },
-    {
-      "address": "0x801AF140",
-      "name": "func_801AF140",
-      "size": 252
-    },
-    {
-      "address": "0x801AF23C",
-      "name": "func_801AF23C",
-      "size": 276
-    },
-    {
-      "address": "0x801AF350",
-      "name": "func_801AF350",
-      "size": 376
-    },
-    {
-      "address": "0x801AF4C8",
-      "name": "func_801AF4C8",
-      "size": 180
-    },
-    {
-      "address": "0x801AF57C",
-      "name": "func_801AF57C",
-      "size": 116
-    },
-    {
-      "address": "0x801AF5F0",
-      "name": "func_801AF5F0",
-      "size": 124
-    },
-    {
-      "address": "0x801AF66C",
-      "name": "func_801AF66C",
-      "size": 120
-    },
-    {
-      "address": "0x801AF6E4",
-      "name": "func_801AF6E4",
-      "size": 3156
-    },
-    {
-      "address": "0x801B0338",
-      "name": "func_801B0338",
-      "size": 108
-    },
-    {
-      "address": "0x801B03A4",
-      "name": "func_801B03A4",
-      "size": 124
-    },
-    {
-      "address": "0x801B0420",
-      "name": "func_801B0420",
-      "size": 72
-    },
-    {
-      "address": "0x801B0468",
-      "name": "func_801B0468",
-      "size": 184
-    },
-    {
-      "address": "0x801B0520",
-      "name": "func_801B0520",
-      "size": 280
-    },
-    {
-      "address": "0x801B0638",
-      "name": "func_801B0638",
-      "size": 60
-    },
-    {
-      "address": "0x801B0674",
-      "name": "func_801B0674",
-      "size": 52
-    },
-    {
-      "address": "0x801B06A8",
-      "name": "func_801B06A8",
-      "size": 68
-    },
-    {
-      "address": "0x801B06EC",
-      "name": "func_801B06EC",
-      "size": 48
-    },
-    {
-      "address": "0x801B071C",
-      "name": "func_801B071C",
-      "size": 44
-    },
-    {
-      "address": "0x801B0748",
-      "name": "func_801B0748",
-      "size": 632
-    },
-    {
-      "address": "0x801B09C0",
-      "name": "func_801B09C0",
-      "size": 488
-    },
-    {
-      "address": "0x801B0BA8",
-      "name": "func_801B0BA8",
-      "size": 96
-    },
-    {
-      "address": "0x801B0C08",
-      "name": "func_801B0C08",
-      "size": 44
-    },
-    {
-      "address": "0x801B0C34",
-      "name": "func_801B0C34",
-      "size": 28
-    },
-    {
-      "address": "0x801B0C50",
-      "name": "func_801B0C50",
-      "size": 108
-    },
-    {
-      "address": "0x801B0CBC",
-      "name": "RNZ1_GetAnglePointToEntityShifted",
-      "size": 56
-    },
-    {
-      "address": "0x801B0CF4",
-      "name": "func_801B0CF4",
-      "size": 72
-    },
-    {
-      "address": "0x801B0D3C",
-      "name": "func_801B0D3C",
-      "size": 72
-    },
-    {
-      "address": "0x801B0D84",
-      "name": "func_801B0D84",
-      "size": 88
-    },
-    {
-      "address": "0x801B0DDC",
-      "name": "func_801B0DDC",
-      "size": 140
-    },
-    {
-      "address": "0x801B0E68",
-      "name": "func_801B0E68",
-      "size": 48
-    },
-    {
-      "address": "0x801B0E98",
-      "name": "RNZ1_GetNormalizedAngle",
-      "size": 56
-    },
-    {
-      "address": "0x801B0ED0",
-      "name": "func_801B0ED0",
-      "size": 72
-    },
-    {
-      "address": "0x801B0F18",
-      "name": "func_801B0F18",
-      "size": 96
-    },
-    {
-      "address": "0x801B0F78",
-      "name": "func_801B0F78",
-      "size": 32
-    },
-    {
-      "address": "0x801B0F98",
-      "name": "func_801B0F98",
-      "size": 28
-    },
-    {
-      "address": "0x801B0FB4",
-      "name": "func_801B0FB4",
-      "size": 148
-    },
-    {
-      "address": "0x801B1048",
-      "name": "func_801B1048",
-      "size": 252
-    },
-    {
-      "address": "0x801B1144",
-      "name": "func_801B1144",
-      "size": 40
-    },
-    {
-      "address": "0x801B116C",
-      "name": "func_801B116C",
-      "size": 296
-    },
-    {
-      "address": "0x801B1294",
-      "name": "func_801B1294",
-      "size": 344
-    },
-    {
-      "address": "0x801B13EC",
-      "name": "func_801B13EC",
-      "size": 836
-    },
-    {
-      "address": "0x801B1730",
-      "name": "func_801B1730",
-      "size": 184
-    },
-    {
-      "address": "0x801B17E8",
-      "name": "func_801B17E8",
-      "size": 132
-    },
-    {
-      "address": "0x801B186C",
-      "name": "func_801B186C",
-      "size": 348
-    },
-    {
-      "address": "0x801B19C8",
-      "name": "RNZ1_CollectGold",
-      "size": 128
-    },
-    {
-      "address": "0x801B1A48",
-      "name": "func_801B1A48",
-      "size": 220
-    },
-    {
-      "address": "0x801B1B24",
-      "name": "func_801B1B24",
-      "size": 280
-    },
-    {
-      "address": "0x801B1C3C",
-      "name": "func_801B1C3C",
-      "size": 164
-    },
-    {
-      "address": "0x801B1CE0",
-      "name": "func_801B1CE0",
-      "size": 80
-    },
-    {
-      "address": "0x801B1D30",
-      "name": "func_801B1D30",
-      "size": 40
-    },
-    {
-      "address": "0x801B1D58",
-      "name": "func_801B1D58",
-      "size": 4152
-    },
-    {
-      "address": "0x801B2608",
-      "name": "func_801B2608",
-      "size": 252
-    },
-    {
-      "address": "0x801B2704",
-      "name": "func_801B2704",
-      "size": 164
-    },
-    {
-      "address": "0x801B27A8",
-      "name": "func_801B27A8",
-      "size": 1512
-    },
-    {
-      "address": "0x801B2D90",
-      "name": "func_801B2D90",
-      "size": 688
-    },
-    {
-      "address": "0x801B3040",
-      "name": "func_801B3040",
-      "size": 4436
-    },
-    {
-      "address": "0x801B3B10",
-      "name": "func_801B3B10",
-      "size": 296
-    },
-    {
-      "address": "0x801B3C38",
-      "name": "func_801B3C38",
-      "size": 1372
-    },
-    {
-      "address": "0x801B4194",
-      "name": "func_801B4194",
-      "size": 240
-    },
-    {
-      "address": "0x801B4284",
-      "name": "func_801B4284",
-      "size": 272
-    },
-    {
-      "address": "0x801B4394",
-      "name": "func_801B4394",
-      "size": 304
-    },
-    {
-      "address": "0x801B44C4",
-      "name": "func_801B44C4",
-      "size": 232
-    },
-    {
-      "address": "0x801B45AC",
-      "name": "func_801B45AC",
-      "size": 240
-    },
-    {
-      "address": "0x801B469C",
-      "name": "func_801B469C",
-      "size": 244
-    },
-    {
-      "address": "0x801B4790",
-      "name": "func_801B4790",
-      "size": 560
-    },
-    {
-      "address": "0x801B49C0",
-      "name": "func_801B49C0",
-      "size": 252
-    },
-    {
-      "address": "0x801B4ABC",
-      "name": "func_801B4ABC",
-      "size": 1408
-    },
-    {
-      "address": "0x801B503C",
-      "name": "func_801B503C",
-      "size": 256
-    },
-    {
-      "address": "0x801B513C",
-      "name": "func_801B513C",
-      "size": 204
-    },
-    {
-      "address": "0x801B5208",
-      "name": "func_801B5208",
-      "size": 200
-    },
-    {
-      "address": "0x801B52D0",
-      "name": "func_801B52D0",
-      "size": 184
-    },
-    {
-      "address": "0x801B5388",
-      "name": "func_801B5388",
-      "size": 472
-    },
-    {
-      "address": "0x801B5560",
-      "name": "func_801B5560",
-      "size": 1504
-    },
-    {
-      "address": "0x801B5B40",
-      "name": "func_801B5B40",
-      "size": 1792
-    },
-    {
-      "address": "0x801B6240",
-      "name": "func_801B6240",
-      "size": 504
-    },
-    {
-      "address": "0x801B6438",
-      "name": "func_801B6438",
-      "size": 248
-    },
-    {
-      "address": "0x801B6530",
-      "name": "func_801B6530",
-      "size": 464
-    },
-    {
-      "address": "0x801B6700",
-      "name": "func_801B6700",
-      "size": 3204
-    },
-    {
-      "address": "0x801B7384",
-      "name": "func_801B7384",
-      "size": 916
-    },
-    {
-      "address": "0x801B7718",
-      "name": "func_801B7718",
-      "size": 1200
-    },
-    {
-      "address": "0x801B7BC8",
-      "name": "func_801B7BC8",
-      "size": 236
-    },
-    {
-      "address": "0x801B7CB4",
-      "name": "func_801B7CB4",
-      "size": 304
-    },
-    {
-      "address": "0x801B7DE4",
-      "name": "func_801B7DE4",
-      "size": 2668
-    },
-    {
-      "address": "0x801B8850",
-      "name": "func_801B8850",
-      "size": 2324
-    },
-    {
-      "address": "0x801B9164",
-      "name": "func_801B9164",
-      "size": 1280
-    },
-    {
-      "address": "0x801B9664",
-      "name": "func_801B9664",
-      "size": 924
-    },
-    {
-      "address": "0x801B9A00",
-      "name": "func_801B9A00",
-      "size": 604
-    },
-    {
-      "address": "0x801B9C5C",
-      "name": "func_801B9C5C",
-      "size": 676
-    },
-    {
-      "address": "0x801B9F00",
-      "name": "func_801B9F00",
-      "size": 816
-    },
-    {
-      "address": "0x801BA230",
-      "name": "func_801BA230",
-      "size": 108
-    },
-    {
-      "address": "0x801BA29C",
-      "name": "func_801BA29C",
-      "size": 2236
-    },
-    {
-      "address": "0x801BAB58",
-      "name": "func_801BAB58",
-      "size": 304
-    },
-    {
-      "address": "0x801BAC88",
-      "name": "func_801BAC88",
-      "size": 292
-    },
-    {
-      "address": "0x801BADAC",
-      "name": "func_801BADAC",
-      "size": 672
-    },
-    {
-      "address": "0x801BB04C",
-      "name": "func_801BB04C",
-      "size": 460
-    },
-    {
-      "address": "0x801BB218",
-      "name": "func_801BB218",
-      "size": 36
-    },
-    {
-      "address": "0x801BB23C",
-      "name": "func_801BB23C",
-      "size": 456
-    },
-    {
-      "address": "0x801BB404",
-      "name": "func_801BB404",
-      "size": 2028
-    },
-    {
-      "address": "0x801BBBF0",
-      "name": "func_801BBBF0",
-      "size": 344
-    },
-    {
-      "address": "0x801BBD48",
-      "name": "func_801BBD48",
-      "size": 460
-    },
-    {
-      "address": "0x801BBF14",
-      "name": "func_801BBF14",
-      "size": 2040
-    },
-    {
-      "address": "0x801BC70C",
-      "name": "func_801BC70C",
-      "size": 1036
-    },
-    {
-      "address": "0x801BCB18",
-      "name": "func_801BCB18",
-      "size": 320
-    },
-    {
-      "address": "0x801BCC58",
-      "name": "func_801BCC58",
-      "size": 484
-    },
-    {
-      "address": "0x801BCE3C",
-      "name": "func_801BCE3C",
-      "size": 204
-    },
-    {
-      "address": "0x801BCF08",
-      "name": "func_801BCF08",
-      "size": 380
-    },
-    {
-      "address": "0x801BD084",
-      "name": "func_801BD084",
-      "size": 292
-    },
-    {
-      "address": "0x801BD1A8",
-      "name": "func_801BD1A8",
-      "size": 152
-    },
-    {
-      "address": "0x801BD240",
-      "name": "func_801BD240",
-      "size": 416
-    },
-    {
-      "address": "0x801BD3E0",
-      "name": "func_801BD3E0",
-      "size": 116
-    },
-    {
-      "address": "0x801BD454",
-      "name": "func_801BD454",
-      "size": 1676
-    },
-    {
-      "address": "0x801BDAE0",
-      "name": "func_801BDAE0",
-      "size": 804
-    },
-    {
-      "address": "0x801BDE04",
-      "name": "func_801BDE04",
-      "size": 1000
-    },
-    {
-      "address": "0x801BE1EC",
-      "name": "func_801BE1EC",
-      "size": 336
-    },
-    {
-      "address": "0x801BE33C",
-      "name": "func_801BE33C",
-      "size": 48
-    },
-    {
-      "address": "0x801BE36C",
-      "name": "func_801BE36C",
-      "size": 124
-    },
-    {
-      "address": "0x801BE3E8",
-      "name": "func_801BE3E8",
-      "size": 136
-    },
-    {
-      "address": "0x801BE470",
-      "name": "func_801BE470",
-      "size": 224
-    },
-    {
-      "address": "0x801BE550",
-      "name": "func_801BE550",
-      "size": 84
-    },
-    {
-      "address": "0x801BE5A4",
-      "name": "func_801BE5A4",
-      "size": 44
-    },
-    {
-      "address": "0x801BE5D0",
-      "name": "func_801BE5D0",
-      "size": 100
-    },
-    {
-      "address": "0x801BE634",
-      "name": "func_801BE634",
-      "size": 2228
-    },
-    {
-      "address": "0x801AE3EC",
+      "address": "0x801AE484",
       "name": "RNZ1_EntityDamageDisplay",
       "size": 1700
     },
     {
-      "address": "0x801AEA90",
+      "address": "0x801AEB28",
       "name": "RNZ1_CreateEntityFromLayout",
       "size": 196
     },
     {
-      "address": "0x801AEB54",
+      "address": "0x801AEBEC",
       "name": "RNZ1_CreateEntityWhenInVerticalRange",
       "size": 280
     },
     {
-      "address": "0x801AEC6C",
+      "address": "0x801AED04",
       "name": "RNZ1_CreateEntityWhenInHorizontalRange",
       "size": 280
     },
     {
-      "address": "0x801AED84",
+      "address": "0x801AEE1C",
       "name": "RNZ1_FindFirstEntityToTheRight",
       "size": 76
     },
     {
-      "address": "0x801AEDD0",
+      "address": "0x801AEE68",
       "name": "RNZ1_FindFirstEntityToTheLeft",
       "size": 88
     },
     {
-      "address": "0x801AEE28",
+      "address": "0x801AEEC0",
       "name": "RNZ1_CreateEntitiesToTheRight",
       "size": 252
     },
     {
-      "address": "0x801AEF24",
+      "address": "0x801AEFBC",
       "name": "RNZ1_CreateEntitiesToTheLeft",
       "size": 276
     },
     {
-      "address": "0x801AF038",
+      "address": "0x801AF0D0",
       "name": "RNZ1_FindFirstEntityAbove",
       "size": 76
     },
     {
-      "address": "0x801AF084",
+      "address": "0x801AF11C",
       "name": "RNZ1_FindFirstEntityBelow",
       "size": 88
     },
     {
-      "address": "0x801AF0DC",
+      "address": "0x801AF174",
       "name": "RNZ1_CreateEntitiesAbove",
       "size": 252
     },
     {
-      "address": "0x801AF1D8",
+      "address": "0x801AF270",
       "name": "RNZ1_CreateEntitiesBelow",
       "size": 276
     },
     {
-      "address": "0x801AF2EC",
+      "address": "0x801AF384",
       "name": "RNZ1_InitRoomEntities",
       "size": 376
     },
     {
-      "address": "0x801AF464",
+      "address": "0x801AF4FC",
       "name": "RNZ1_UpdateRoomPosition",
       "size": 180
     },
     {
-      "address": "0x801AF518",
+      "address": "0x801AF5B0",
       "name": "RNZ1_CreateEntityFromCurrentEntity",
       "size": 116
     },
     {
-      "address": "0x801AF58C",
+      "address": "0x801AF624",
       "name": "RNZ1_CreateEntityFromEntity",
       "size": 124
     },
     {
-      "address": "0x801AF608",
-      "name": "func_801AF608",
+      "address": "0x801AF6A0",
+      "name": "func_801AF6A0",
       "size": 120
     },
     {
-      "address": "0x801AF680",
+      "address": "0x801AF718",
       "name": "RNZ1_EntityRedDoor",
-      "size": 3128
+      "size": 3156
     },
     {
-      "address": "0x801B02B8",
+      "address": "0x801B036C",
       "name": "DestroyEntity",
       "size": 108
     },
     {
-      "address": "0x801B0324",
+      "address": "0x801B03D8",
       "name": "RNZ1_DestroyEntitiesFromIndex",
       "size": 124
     },
     {
-      "address": "0x801B03A0",
+      "address": "0x801B0454",
       "name": "RNZ1_PreventEntityFromRespawning",
       "size": 72
     },
     {
-      "address": "0x801B03E8",
+      "address": "0x801B049C",
       "name": "RNZ1_AnimateEntity",
       "size": 184
     },
     {
-      "address": "0x801B04A0",
+      "address": "0x801B0554",
       "name": "RNZ1_UnkAnimFunc",
       "size": 280
     },
     {
-      "address": "0x801B05B8",
+      "address": "0x801B066C",
       "name": "RNZ1_GetDistanceToPlayerX",
       "size": 60
     },
     {
-      "address": "0x801B05F4",
-      "name": "func_801B05F4",
+      "address": "0x801B06A8",
+      "name": "func_801B06A8",
       "size": 52
     },
     {
-      "address": "0x801B0628",
+      "address": "0x801B06DC",
       "name": "RNZ1_GetSideToPlayer",
       "size": 68
     },
     {
-      "address": "0x801B066C",
-      "name": "func_801B066C",
+      "address": "0x801B0720",
+      "name": "func_801B0720",
       "size": 48
     },
     {
-      "address": "0x801B069C",
+      "address": "0x801B0750",
       "name": "RNZ1_FallEntity",
       "size": 44
     },
     {
-      "address": "0x801B06C8",
-      "name": "func_801B06C8",
+      "address": "0x801B077C",
+      "name": "func_801B077C",
       "size": 632
     },
     {
-      "address": "0x801B0940",
+      "address": "0x801B09F4",
       "name": "RNZ1_UnkCollisionFunc2",
       "size": 488
     },
     {
-      "address": "0x801B0B28",
+      "address": "0x801B0BDC",
       "name": "RNZ1_AllocEntity",
       "size": 96
     },
     {
-      "address": "0x801B0B88",
-      "name": "func_801B0B88",
+      "address": "0x801B0C3C",
+      "name": "func_801B0C3C",
       "size": 44
     },
     {
-      "address": "0x801B0BB4",
-      "name": "func_801B0BB4",
+      "address": "0x801B0C68",
+      "name": "func_801B0C68",
       "size": 28
     },
     {
-      "address": "0x801B0BD0",
+      "address": "0x801B0C84",
       "name": "RNZ1_SetEntityVelocityFromAngle",
       "size": 108
     },
     {
-      "address": "0x801B0C3C",
+      "address": "0x801B0CF0",
       "name": "RNZ1_Ratan2Shifted",
       "size": 56
     },
     {
-      "address": "0x801B0C74",
+      "address": "0x801B0D28",
       "name": "RNZ1_GetAngleBetweenEntitiesShifted",
       "size": 72
     },
     {
-      "address": "0x801B0D04",
-      "name": "func_801B0D04",
+      "address": "0x801B0D70",
+      "name": "RNZ1_GetAnglePointToEntityShifted",
+      "size": 72
+    },
+    {
+      "address": "0x801B0DB8",
+      "name": "func_801B0DB8",
       "size": 88
     },
     {
-      "address": "0x801B0D5C",
+      "address": "0x801B0E10",
       "name": "RNZ1_UnkEntityFunc0",
       "size": 140
     },
     {
-      "address": "0x801B0DE8",
-      "name": "func_801B0DE8",
+      "address": "0x801B0E9C",
+      "name": "func_801B0E9C",
       "size": 48
     },
     {
-      "address": "0x801B0E18",
+      "address": "0x801B0ECC",
       "name": "RNZ1_GetAngleBetweenEntities",
       "size": 56
     },
     {
-      "address": "0x801B0E50",
+      "address": "0x801B0F04",
       "name": "RNZ1_GetAnglePointToEntity",
       "size": 72
     },
     {
-      "address": "0x801B0EF8",
-      "name": "func_801B0EF8",
+      "address": "0x801B0F4C",
+      "name": "RNZ1_GetNormalizedAngle",
+      "size": 96
+    },
+    {
+      "address": "0x801B0FAC",
+      "name": "func_801B0FAC",
       "size": 32
     },
     {
-      "address": "0x801B0F34",
+      "address": "0x801B0FCC",
+      "name": "func_801B0FCC",
+      "size": 28
+    },
+    {
+      "address": "0x801B0FE8",
       "name": "RNZ1_EntityExplosionSpawn",
       "size": 148
     },
     {
-      "address": "0x801B0FC8",
+      "address": "0x801B107C",
       "name": "RNZ1_InitializeEntity",
       "size": 252
     },
     {
-      "address": "0x801B10C4",
-      "name": "func_801B10C4",
+      "address": "0x801B1178",
+      "name": "func_801B1178",
       "size": 40
     },
     {
-      "address": "0x801B10EC",
+      "address": "0x801B11A0",
       "name": "RNZ1_UnkCollisionFunc",
       "size": 296
     },
     {
-      "address": "0x801B1214",
+      "address": "0x801B12C8",
       "name": "RNZ1_CheckFieldCollision",
       "size": 344
     },
     {
-      "address": "0x801B136C",
+      "address": "0x801B1420",
       "name": "RNZ1_GetPlayerCollisionWith",
       "size": 836
     },
     {
-      "address": "0x801B16B0",
+      "address": "0x801B1764",
       "name": "RNZ1_ReplaceBreakableWithItemDrop",
       "size": 184
     },
     {
-      "address": "0x801B1768",
+      "address": "0x801B181C",
       "name": "RNZ1_PrizeDropFall",
       "size": 132
     },
     {
-      "address": "0x801B17EC",
+      "address": "0x801B18A0",
       "name": "RNZ1_PrizeDropFall2",
       "size": 348
     },
     {
-      "address": "0x801B1948",
+      "address": "0x801B19FC",
       "name": "RNZ1_CollectHeart",
       "size": 128
     },
     {
-      "address": "0x801B1AA4",
+      "address": "0x801B1A7C",
+      "name": "RNZ1_CollectGold",
+      "size": 220
+    },
+    {
+      "address": "0x801B1B58",
       "name": "RNZ1_CollectSubweapon",
       "size": 280
     },
     {
-      "address": "0x801B1BBC",
+      "address": "0x801B1C70",
       "name": "RNZ1_CollectHeartVessel",
       "size": 164
     },
     {
-      "address": "0x801B1C60",
-      "name": "func_801B1C60",
+      "address": "0x801B1D14",
+      "name": "func_801B1D14",
       "size": 80
     },
     {
-      "address": "0x801B1CB0",
-      "name": "func_801B1CB0",
+      "address": "0x801B1D64",
+      "name": "func_801B1D64",
       "size": 40
     },
     {
-      "address": "0x801B1CD8",
+      "address": "0x801B1D8C",
       "name": "RNZ1_EntityPrizeDrop",
-      "size": 2164
+      "size": 2224
     },
     {
-      "address": "0x801B254C",
+      "address": "0x801B263C",
       "name": "RNZ1_EntityExplosion",
       "size": 252
     },
     {
-      "address": "0x801B2648",
+      "address": "0x801B2738",
       "name": "RNZ1_BlinkItem",
       "size": 164
     },
     {
-      "address": "0x801B26EC",
-      "name": "func_801B26EC",
+      "address": "0x801B27DC",
+      "name": "func_801B27DC",
       "size": 1512
     },
     {
-      "address": "0x801B2CD4",
+      "address": "0x801B2DC4",
       "name": "RNZ1_BlitChar",
       "size": 688
     },
     {
-      "address": "0x801B2F84",
+      "address": "0x801B3074",
       "name": "RNZ1_EntityRelicOrb",
       "size": 2768
     },
     {
-      "address": "0x801B3A54",
-      "name": "func_801B3A54",
+      "address": "0x801B3B44",
+      "name": "func_801B3B44",
       "size": 296
     },
     {
-      "address": "0x801B3B7C",
+      "address": "0x801B3C6C",
       "name": "RNZ1_EntityMessageBox",
       "size": 1372
     },
     {
-      "address": "0x801B40D8",
+      "address": "0x801B41C8",
       "name": "RNZ1_CheckColliderOffsets",
       "size": 240
     },
     {
-      "address": "0x801B41C8",
+      "address": "0x801B42B8",
       "name": "RNZ1_EntityUnkId13",
       "size": 272
     },
     {
-      "address": "0x801B42D8",
+      "address": "0x801B43C8",
       "name": "RNZ1_EntityExplosionVariantsSpawner",
       "size": 304
     },
     {
-      "address": "0x801B4408",
+      "address": "0x801B44F8",
       "name": "RNZ1_EntityGreyPuffSpawner",
       "size": 232
     },
     {
-      "address": "0x801B44F0",
+      "address": "0x801B45E0",
       "name": "RNZ1_EntityExplosionVariants",
       "size": 240
     },
     {
-      "address": "0x801B45E0",
+      "address": "0x801B46D0",
       "name": "RNZ1_EntityGreyPuff",
       "size": 244
     },
     {
-      "address": "0x801B46D4",
+      "address": "0x801B47C4",
       "name": "RNZ1_EntityOlroxDrool",
       "size": 560
     },
     {
-      "address": "0x801B4904",
+      "address": "0x801B49F4",
       "name": "RNZ1_UnkCollisionFunc5",
       "size": 252
     },
     {
-      "address": "0x801B4A00",
+      "address": "0x801B4AF0",
       "name": "RNZ1_UnkCollisionFunc4",
       "size": 1408
     },
     {
-      "address": "0x801B4F80",
+      "address": "0x801B5070",
       "name": "RNZ1_EntityIntenseExplosion",
       "size": 256
     },
     {
-      "address": "0x801B5080",
+      "address": "0x801B5170",
       "name": "RNZ1_InitializeUnkEntity",
       "size": 204
     },
     {
-      "address": "0x801B514C",
+      "address": "0x801B523C",
       "name": "RNZ1_MakeEntityFromId",
       "size": 200
     },
     {
-      "address": "0x801B5214",
+      "address": "0x801B5304",
       "name": "RNZ1_MakeExplosions",
       "size": 184
     },
     {
-      "address": "0x801B52CC",
+      "address": "0x801B53BC",
       "name": "RNZ1_EntityBigRedFireball",
       "size": 472
     },
     {
-      "address": "0x801B54A4",
+      "address": "0x801B5594",
       "name": "RNZ1_UnkRecursivePrimFunc1",
       "size": 1504
     },
     {
-      "address": "0x801B5A84",
+      "address": "0x801B5B74",
       "name": "RNZ1_UnkRecursivePrimFunc2",
       "size": 1792
     },
     {
-      "address": "0x801B6184",
+      "address": "0x801B6274",
       "name": "RNZ1_ClutLerp",
       "size": 504
     },
     {
-      "address": "0x801B637C",
+      "address": "0x801B646C",
       "name": "RNZ1_PlaySfxPositional",
       "size": 248
     },
     {
-      "address": "0x801B6474",
-      "name": "func_801B6474",
+      "address": "0x801B6564",
+      "name": "func_801B6564",
       "size": 464
     },
     {
-      "address": "0x801B6644",
+      "address": "0x801B6734",
       "name": "RNZ1_EntityStageNamePopup",
       "size": 3204
     },
     {
-      "address": "0x801B72C8",
-      "name": "func_801B72C8",
+      "address": "0x801B73B8",
+      "name": "func_801B73B8",
       "size": 916
     },
     {
-      "address": "0x801B765C",
+      "address": "0x801B774C",
       "name": "RNZ1_EntityEnemyBlood",
       "size": 1200
     },
     {
-      "address": "0x801B7B0C",
+      "address": "0x801B7BFC",
       "name": "RNZ1_EntityRoomForeground",
       "size": 236
     },
     {
-      "address": "0x801B7BF8",
-      "name": "func_801B7BF8",
+      "address": "0x801B7CE8",
+      "name": "func_801B7CE8",
       "size": 304
     },
     {
-      "address": "0x801B7D28",
-      "name": "func_801B7D28",
+      "address": "0x801B7E18",
+      "name": "func_801B7E18",
       "size": 2668
     },
     {
-      "address": "0x801B8794",
-      "name": "func_801B8794",
+      "address": "0x801B8884",
+      "name": "func_801B8884",
       "size": 2324
     },
     {
-      "address": "0x801B90A8",
-      "name": "func_801B90A8",
+      "address": "0x801B9198",
+      "name": "func_801B9198",
       "size": 1280
     },
     {
-      "address": "0x801B95A8",
-      "name": "func_801B95A8",
+      "address": "0x801B9698",
+      "name": "func_801B9698",
       "size": 924
     },
     {
-      "address": "0x801B9944",
-      "name": "func_801B9944",
+      "address": "0x801B9A34",
+      "name": "func_801B9A34",
       "size": 604
     },
     {
-      "address": "0x801B9BA0",
-      "name": "func_801B9BA0",
+      "address": "0x801B9C90",
+      "name": "func_801B9C90",
       "size": 676
     },
     {
-      "address": "0x801B9E44",
+      "address": "0x801B9F34",
       "name": "RNZ1_BottomCornerText",
       "size": 816
     },
     {
-      "address": "0x801BA174",
-      "name": "func_801BA174",
+      "address": "0x801BA264",
+      "name": "func_801BA264",
       "size": 108
     },
     {
-      "address": "0x801BA1E0",
+      "address": "0x801BA2D0",
       "name": "RNZ1_EntityCloakedKnight",
       "size": 2236
     },
     {
-      "address": "0x801BAA9C",
+      "address": "0x801BAB8C",
       "name": "RNZ1_EntityCloakedKnightCloak",
       "size": 304
     },
     {
-      "address": "0x801BABCC",
+      "address": "0x801BACBC",
       "name": "RNZ1_EntityCloakedKnightAura",
       "size": 292
     },
     {
-      "address": "0x801BACF0",
+      "address": "0x801BADE0",
       "name": "RNZ1_EntityCloakedKnightSword",
       "size": 672
     },
     {
-      "address": "0x801BAF90",
+      "address": "0x801BB080",
       "name": "RNZ1_EntityMedusaHeadSpawner",
       "size": 460
     },
     {
-      "address": "0x801BB15C",
-      "name": "func_801BB15C",
+      "address": "0x801BB24C",
+      "name": "func_801BB24C",
       "size": 36
     },
     {
-      "address": "0x801BB180",
-      "name": "func_801BB180",
+      "address": "0x801BB270",
+      "name": "func_801BB270",
       "size": 456
     },
     {
-      "address": "0x801BB348",
+      "address": "0x801BB438",
       "name": "RNZ1_EntityValhallaKnight",
       "size": 2028
     },
     {
-      "address": "0x801BBB34",
-      "name": "func_801BBB34",
+      "address": "0x801BBC24",
+      "name": "func_801BBC24",
       "size": 344
     },
     {
-      "address": "0x801BBC8C",
-      "name": "func_801BBC8C",
+      "address": "0x801BBD7C",
+      "name": "func_801BBD7C",
       "size": 460
     },
     {
-      "address": "0x801BBE58",
-      "name": "func_801BBE58",
+      "address": "0x801BBF48",
+      "name": "func_801BBF48",
       "size": 2040
     },
     {
-      "address": "0x801BC650",
-      "name": "func_801BC650",
+      "address": "0x801BC740",
+      "name": "func_801BC740",
       "size": 1036
     },
     {
-      "address": "0x801BCA5C",
-      "name": "func_801BCA5C",
+      "address": "0x801BCB4C",
+      "name": "func_801BCB4C",
       "size": 320
     },
     {
-      "address": "0x801BCB9C",
-      "name": "func_801BCB9C",
+      "address": "0x801BCC8C",
+      "name": "func_801BCC8C",
       "size": 484
     },
     {
-      "address": "0x801BCD80",
-      "name": "func_801BCD80",
+      "address": "0x801BCE70",
+      "name": "func_801BCE70",
       "size": 204
     },
     {
-      "address": "0x801BCE4C",
-      "name": "func_801BCE4C",
+      "address": "0x801BCF3C",
+      "name": "func_801BCF3C",
       "size": 380
     },
     {
-      "address": "0x801BCFC8",
-      "name": "func_801BCFC8",
+      "address": "0x801BD0B8",
+      "name": "func_801BD0B8",
       "size": 292
     },
     {
-      "address": "0x801BD0EC",
-      "name": "func_801BD0EC",
+      "address": "0x801BD1DC",
+      "name": "func_801BD1DC",
       "size": 152
     },
     {
-      "address": "0x801BD184",
-      "name": "func_801BD184",
+      "address": "0x801BD274",
+      "name": "func_801BD274",
       "size": 416
     },
     {
-      "address": "0x801BD324",
-      "name": "func_801BD324",
+      "address": "0x801BD414",
+      "name": "func_801BD414",
       "size": 116
     },
     {
-      "address": "0x801BD398",
-      "name": "func_801BD398",
+      "address": "0x801BD488",
+      "name": "func_801BD488",
       "size": 1676
     },
     {
-      "address": "0x801BDA24",
-      "name": "func_801BDA24",
+      "address": "0x801BDB14",
+      "name": "func_801BDB14",
       "size": 804
     },
     {
-      "address": "0x801BDD48",
+      "address": "0x801BDE38",
       "name": "RNZ1_UnkPrimHelper",
       "size": 1000
     },
     {
-      "address": "0x801BE130",
+      "address": "0x801BE220",
       "name": "RNZ1_UpdateAnimation",
       "size": 336
     },
     {
-      "address": "0x801BE280",
+      "address": "0x801BE370",
       "name": "RNZ1_FindFirstUnkPrim",
       "size": 48
     },
     {
-      "address": "0x801BE2B0",
+      "address": "0x801BE3A0",
       "name": "RNZ1_FindFirstUnkPrim2",
       "size": 124
     },
     {
-      "address": "0x801BE32C",
+      "address": "0x801BE41C",
       "name": "RNZ1_PrimToggleVisibility",
       "size": 136
     },
     {
-      "address": "0x801BE3B4",
+      "address": "0x801BE4A4",
       "name": "RNZ1_PrimResetNext",
       "size": 224
     },
     {
-      "address": "0x801BE494",
+      "address": "0x801BE584",
       "name": "RNZ1_UnkPolyFunc2",
       "size": 84
     },
     {
-      "address": "0x801BE4E8",
-      "name": "func_801BE4E8",
+      "address": "0x801BE5D8",
+      "name": "func_801BE5D8",
       "size": 44
     },
     {
-      "address": "0x801BE514",
+      "address": "0x801BE604",
       "name": "RNZ1_PrimDecreaseBrightness",
       "size": 100
     },
     {
-      "address": "0x801BE578",
-      "name": "func_801BE578",
+      "address": "0x801BE668",
+      "name": "func_801BE668",
       "size": 2228
     }
-  ],
-  "labels": []
+  ]
 }

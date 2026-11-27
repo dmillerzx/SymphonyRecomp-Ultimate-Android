@@ -58,7 +58,7 @@ public static partial class RandoPatch
 
         // Console.WriteLine("Comparing Preset Name to: " + CheckString);
 
-        if (m.ReadU32(0x801A78B4) == 0x75706E49)     // Detect Original game via the String ( Input "RICHTER" to play )
+        if (m.ReadU32(0x801A78B4) == 0x75706E49 || m.ReadU32(0x801B0214) == 0x75706E49)     // Detect unrandomized disc via ( Input "RICHTER" to play ) string (Vanilla 0x801A78B4 / Ultimate v1.5 0x801B0214)
         {
             m.WriteU8(PresetMemoryOffset, (byte)PresetId.None);
             return false;
@@ -327,8 +327,8 @@ public static partial class RandoPatch
             m.WriteU8(PresetMemoryOffset, (byte)PresetId.Recycler);
         }
 
-        // If no Preset matched yet and we don't see vanilla ( Input "RICHTER" to play ) string
-        if (m.ReadU8(PresetMemoryOffset) == 0 && m.ReadU32(0x801A78B4) != 0x75706E49)
+        // If no Preset matched yet and we don't see unrandomized ( Input "RICHTER" to play ) string
+        if (m.ReadU8(PresetMemoryOffset) == 0 && m.ReadU32(0x801A78B4) != 0x75706E49 && m.ReadU32(0x801B0214) != 0x75706E49)
         {
             m.WriteU8(PresetMemoryOffset, (byte)PresetId.Unknown);      // We do this so we know some unsupported preset is being used. 
         }
@@ -12662,10 +12662,10 @@ public static partial class RandoPatch
 
         if (m.ReadU32(0x800974a0) == 0x1F)
         {
-            if (CUR_PRESET != (byte)PresetId.None && CUR_PRESET != (byte)PresetId.Integrated)
+            if (CUR_PRESET != (byte)PresetId.None && CUR_PRESET != (byte)PresetId.Integrated && m.ReadU32(0x801B0214) != 0x75706E49)
             {
                 StartingStageIdInMemory = m.ReadU16(0x801AF594);
-                if (StartingStageIdInMemory != 0x1F)
+                if (StartingStageIdInMemory != 0x1F && StartingStageIdInMemory < 0x80)
                 {
                     m.WriteU16(0x800974a0, StartingStageIdInMemory);
                 }
