@@ -1547,6 +1547,7 @@ namespace RecompOne.SoTN.Android
         // dump, which is copied into app storage once and found automatically from then on.
 
         private const int PickDiscRequest = 0x50C7;
+        private const int PickDiscFolderRequest = 0x50C8;
 
         // Raised when the disc question is settled - imported, or given up on. The game thread
         // parks on this because there is nothing it can usefully do until then.
@@ -1674,6 +1675,13 @@ namespace RecompOne.SoTN.Android
             });
             panel.AddView(choose);
 
+            var chooseFolder = Action("Choose disc folder", MenuSheet.Gold, () =>
+            {
+                if (_discImportRunning) return;
+                StartDiscFolderPicker();
+            });
+            panel.AddView(chooseFolder);
+
             var quit = Action("Exit", MenuSheet.Mist, () =>
             {
                 if (_discImportRunning) return;
@@ -1690,6 +1698,7 @@ namespace RecompOne.SoTN.Android
                 status.Visibility = ViewStates.Visible;
                 bar.Visibility = ViewStates.Visible;
                 choose.Visibility = ViewStates.Gone;
+                chooseFolder.Visibility = ViewStates.Gone;
                 quit.Visibility = ViewStates.Gone;
                 body.Text = "Copying your disc into the app. This takes a minute or two and only happens once.";
                 body.SetTextColor(MenuSheet.Parchment);
@@ -1752,6 +1761,23 @@ namespace RecompOne.SoTN.Android
             }
         }
 
+        private void StartDiscFolderPicker()
+        {
+            try
+            {
+                var intent = new Intent(Intent.ActionOpenDocumentTree);
+                intent.AddFlags(ActivityFlags.GrantReadUriPermission | ActivityFlags.GrantPersistableUriPermission);
+                StartActivityForResult(intent, PickDiscFolderRequest);
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"[Android] Could not open the folder picker: {ex.Message}");
+                RestartDiscSetup($"This device could not open a folder picker ({ex.Message}). "
+                               + "Try 'Choose disc files' or copy your .cue and .bin files into:\n\n"
+                               + DiscImporter.TargetDir(this));
+            }
+        }
+
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent? data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
@@ -1767,6 +1793,25 @@ namespace RecompOne.SoTN.Android
             {
                 if (resultCode == Result.Ok && data?.Data is { } inUri)
                     ImportCardFrom(requestCode - ImportCardRequest, inUri);
+                return;
+            }
+
+            if (requestCode == PickDiscFolderRequest)
+            {
+                if (resultCode != Result.Ok || data?.Data is not { } treeUri)
+                {
+                    Console.WriteLine("[Android] Disc folder selection cancelled.");
+                    return;
+                }
+
+                var folderPicked = CollectPickedFromTree(treeUri);
+                if (folderPicked.Count == 0)
+                {
+                    RestartDiscSetup("No .cue or .bin files were found in that folder. Pick the folder containing your Ultimate v1.5 .cue and .bin files.");
+                    return;
+                }
+
+                RunImport(folderPicked);
                 return;
             }
 
@@ -1835,6 +1880,59 @@ namespace RecompOne.SoTN.Android
                     Size = size,
                     Open = () => ContentResolver?.OpenInputStream(captured),
                 });
+            }
+            return result;
+        }
+
+        /// <summary>Enumerates .cue and .bin files inside a folder picked via ACTION_OPEN_DOCUMENT_TREE.</summary>
+        private List<DiscImporter.Picked> CollectPickedFromTree(global::Android.Net.Uri treeUri)
+        {
+            var result = new List<DiscImporter.Picked>();
+            try
+            {
+                string? treeDocId = global::Android.Provider.DocumentsContract.GetTreeDocumentId(treeUri);
+                if (string.IsNullOrEmpty(treeDocId)) return result;
+
+                var childrenUri = global::Android.Provider.DocumentsContract.BuildChildDocumentsUriUsingTree(treeUri, treeDocId);
+                if (childrenUri == null) return result;
+
+                string[] projection = { "document_id", "_display_name", "_size" };
+                using var c = ContentResolver?.Query(childrenUri, projection, null, null, null);
+                if (c == null) return result;
+
+                int di = c.GetColumnIndex("document_id");
+                int ni = c.GetColumnIndex("_display_name");
+                int si = c.GetColumnIndex("_size");
+
+                while (c.MoveToNext())
+                {
+                    string docId = (di >= 0 && !c.IsNull(di)) ? (c.GetString(di) ?? "") : "";
+                    string name = (ni >= 0 && !c.IsNull(ni)) ? (c.GetString(ni) ?? "") : "";
+                    long size = (si >= 0 && !c.IsNull(si)) ? c.GetLong(si) : 0;
+
+                    if (string.IsNullOrEmpty(docId) || string.IsNullOrEmpty(name)) continue;
+                    string ext = System.IO.Path.GetExtension(name);
+                    if (!ext.Equals(".cue", StringComparison.OrdinalIgnoreCase) &&
+                        !ext.Equals(".bin", StringComparison.OrdinalIgnoreCase))
+                    {
+                        continue;
+                    }
+
+                    var docUri = global::Android.Provider.DocumentsContract.BuildDocumentUriUsingTree(treeUri, docId);
+                    if (docUri == null) continue;
+
+                    var captured = docUri;
+                    result.Add(new DiscImporter.Picked
+                    {
+                        Name = name,
+                        Size = size,
+                        Open = () => ContentResolver?.OpenInputStream(captured),
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"[Android] Could not read folder contents: {ex.Message}");
             }
             return result;
         }

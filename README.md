@@ -51,11 +51,11 @@
 ### 🎮 Android Quick Start & Hardware Compatibility
 
 1. **Download**: Grab `com.blacklabelhq.sotn-Signed.apk` from [GitHub Releases](https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android/releases/latest).
-2. **Disc Import (In-App Picker)**: On first launch, use the in-app Android file picker to select your **pre-patched Castlevania: Symphony of the Night (Ultimate v1.5)** `.cue` and `.bin` files (built from your legal dumps using the [Ultimate v1.5](https://github.com/renanbianchi/sotn-ultimate) patch builder — unpatched vanilla USA ISOs are not supported) from anywhere on internal storage or MicroSD. The app copies and indexes them into app-private storage once and never asks again.
+2. **Disc Import (In-App Picker)**: On first launch, use **Choose disc folder** (recommended on Android 13+ if `Downloads` hides `.bin`/`.cue` files) or **Choose disc files** to select your **pre-patched Castlevania: Symphony of the Night (Ultimate v1.5)** `.cue` and `.bin` files (built from your legal dumps using the [Ultimate v1.5](https://github.com/renanbianchi/sotn-ultimate) patch builder — unpatched vanilla USA ISOs are not supported) from anywhere on internal storage or MicroSD. The app copies and indexes them into app-private storage once and never asks again.
 3. **Recommended Handheld Settings**:
    - **Render scale**: `2x` (default for locked 60 FPS on Snapdragon 865 / Adreno 650; adjustable up to `4x` in the in-game Display menu).
-   - **Aspect ratio**: `Auto (Device)` for full-screen `16:9` widescreen.
-4. **Obtainium Auto-Updates**: Add `https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android` in Obtainium with APK filter `com\.blacklabelhq\.sotn-Signed\.apk$` to receive automatic updates.
+   - **Aspect ratio**: `Fitting the device` (`AutoDevice`, default) for automatic `16:9` widescreen on RP5 or `4:3` on 4:3 handhelds (Retroid Nova), with manual `4:3 original` / `16:9 widescreen` overrides in the Android menu.
+4. **Obtainium Auto-Updates**: Add `https://github.com/dmillerzx/SymphonyRecomp-Ultimate-Android` in Obtainium with APK filter `\.apk$` to receive automatic updates.
 
 ---
 
